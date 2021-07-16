@@ -15,37 +15,37 @@ public class UserController {
 
 
     //add user using userService
-    @PostMapping("/student")
+    @PostMapping("/user")
     public User addUser(@RequestBody User user) {
         return userService.saveUser(user);
     }
 
     //view all user using userService
-    @GetMapping("/students")
+    @GetMapping("/users")
     public List<User> viewAllUser() {
         return userService.getUsers();
     }
 
     //search user by id using userService
-    @GetMapping("/student/{userId}")
+    @GetMapping("/users/{userId}")
     public User searchUserById(@PathVariable int userId) {
         return userService.getUserById(userId);
     }
 
     //search user by userName using userService
-    @GetMapping("/student/{userName}")
+    @GetMapping("/usern/{userName}")
     public User searchUserByName(@PathVariable String userName) {
         return userService.getUserByName(userName);
     }
 
     //edit user by id using userService
-    @PutMapping("/student/{userId}")
+    @PutMapping("/user/{userId}")
     public User editUser(@RequestBody User user) {
         return userService.updateUser(user);
     }
 
     //delete user by id using userService
-    @DeleteMapping("/student/{userId}")
+    @DeleteMapping("/user/{userId}")
     public String removeUser(@PathVariable int userId) {
         return userService.deleteUser(userId);
     }
