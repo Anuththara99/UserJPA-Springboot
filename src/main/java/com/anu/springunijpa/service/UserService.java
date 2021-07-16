@@ -35,7 +35,7 @@ public class UserService {
 
     //to search user by name
     public User getUserByName(String userName) {
-        return userRepository.findByName(userName);
+        return userRepository.findByUserName(userName);
     }
 
     //to delete user by id
