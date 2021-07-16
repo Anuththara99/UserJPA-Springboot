@@ -5,6 +5,7 @@ import com.anu.springunijpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -36,6 +37,12 @@ public class UserController {
     @GetMapping("/usern/{userName}")
     public User searchUserByName(@PathVariable String userName) {
         return userService.getUserByName(userName);
+    }
+
+    //search user by user telephone number using userService
+    @GetMapping("usert/{userTel}")
+    public User searchUserByTel(@PathVariable String userTel){
+        return userService.getUserByTel(userTel);
     }
 
     //edit user by id using userService

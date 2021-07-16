@@ -5,6 +5,7 @@ import com.anu.springunijpa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -36,6 +37,11 @@ public class UserService {
     //to search user by name
     public User getUserByName(String userName) {
         return userRepository.findByUserName(userName);
+    }
+
+    //to search user by telephone number
+    public User getUserByTel(String userTel){
+        return userRepository.findByUserTel(userTel);
     }
 
     //to delete user by id
