@@ -66,4 +66,9 @@ public class UserServiceImpl implements UserService {
         exUser.setUserTel(user.getUserTel());
         return userRepository.save(exUser);
     }
+
+    @Override
+    public List<User> searchByIdOrName(int userId, String userName) {
+        return userRepository.findByUserIdOrUserName(userId,userName);
+    }
 }

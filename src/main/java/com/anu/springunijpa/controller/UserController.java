@@ -3,6 +3,8 @@ package com.anu.springunijpa.controller;
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
@@ -55,5 +57,11 @@ public class UserController {
     @DeleteMapping("/user/{userId}")
     public String removeUser(@PathVariable int userId) {
         return userService.deleteUser(userId);
+    }
+
+    //to search user by id or user name
+    @GetMapping("/userm/idandname")
+    public ResponseEntity<List<User>> searchUserByIdOrName(@RequestParam int userId, @RequestParam String userName){
+        return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
     }
 }

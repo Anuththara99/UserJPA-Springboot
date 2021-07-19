@@ -35,5 +35,8 @@ public interface UserService {
     //to update user
     User updateUser(User user);
 
+    //to search using id or name
+    List<User> searchByIdOrName(int userId, String userName);
+
 
 }
