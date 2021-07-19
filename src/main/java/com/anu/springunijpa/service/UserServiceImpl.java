@@ -3,6 +3,9 @@ package com.anu.springunijpa.service;
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -28,8 +31,10 @@ public class UserServiceImpl implements UserService {
 
     //to view all the users
     @Override
-    public List<User> getUsers() {
-        return userRepository.findAll();
+    public Page<User> getUsers(Pageable page) {
+//        Pageable page = PageRequest.of(pageNumber,pageSize);
+        return userRepository.findAll(page);
+//        return userRepository.findAll();
     }
 
     //to search user by id

@@ -3,6 +3,8 @@ package com.anu.springunijpa.controller;
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -23,10 +25,10 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    //view all user using userService
+    //view all user using userService with pagination
     @GetMapping("/users")
-    public List<User> viewAllUser() {
-        return userService.getUsers();
+    public Page<User> viewAllUser(Pageable page) {
+        return userService.getUsers(page);
     }
 
     //search user by id using userService

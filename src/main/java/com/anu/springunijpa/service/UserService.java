@@ -3,6 +3,8 @@ package com.anu.springunijpa.service;
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -18,7 +20,7 @@ public interface UserService {
     List<User> saveUsers(List<User> users);
 
     //to view all the users
-    List<User> getUsers();
+    Page<User> getUsers(Pageable page);
 
     //to search user by id
     User getUserById(int userId);
