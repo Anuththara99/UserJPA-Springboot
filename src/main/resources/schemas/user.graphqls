@@ -4,14 +4,14 @@ schema {
 type Query{
     allUsers :[User]
     allCourses : [Course]
-    findUser(userId:String) : User
+    findUser(userId:ID) : User
     findCourse(courseId:String) : Course
 
 }
 type User{
     userId : ID
     userName : String
-    dOB : String
+    dOB: String
     userTel : String
 }
 type Course{

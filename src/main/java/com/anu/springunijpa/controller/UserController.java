@@ -63,7 +63,7 @@ public class UserController {
     }
 
     //to search user by id or user name
-    @GetMapping("/users/idorname/{userId}/{userName}")
+    @GetMapping("/users/idorname/{userId},{userName}")
     public ResponseEntity<List<User>> searchUserByIdOrName(@PathVariable("userId") int userId, @PathVariable("userName") String userName){
         return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
     }
