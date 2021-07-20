@@ -18,36 +18,40 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public Course saveCourse(Course course) {
-        return null;
+        return courseRepository.save(course);
     }
 
     @Override
-    public Page<User> getCourse(Pageable page) {
-        return null;
+    public Page<Course> getCourse(Pageable page) {
+        return courseRepository.findAll(page);
     }
 
     @Override
     public Course getCourseById(int courseId) {
-        return null;
+        return courseRepository.findById(courseId).orElse(null);
     }
 
     @Override
     public Course getCourseByName(String courseName) {
-        return null;
+        return courseRepository.findByCourseName(courseName);
     }
 
     @Override
     public Course getUserByLeader(String courseLeader) {
-        return null;
+        return courseRepository.findByCourseLeader(courseLeader);
     }
 
     @Override
     public String deleteCourse(int courseId) {
-        return null;
+        courseRepository.deleteById(courseId);
+        return "Successfully Removed User " + courseId + "!!";
     }
 
     @Override
     public Course updateCourse(Course course) {
-        return null;
+        Course exCourse =courseRepository.findById(course.getCourseId()).orElse(null);
+        exCourse.setCourseName(course.getCourseName());
+        exCourse.setCourseLeader(course.getCourseLeader());
+        return courseRepository.save(exCourse);
     }
 }

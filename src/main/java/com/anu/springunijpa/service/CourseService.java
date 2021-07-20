@@ -13,7 +13,7 @@ public interface CourseService {
     Course saveCourse(Course course);
 
     //to view all the coursers
-    Page<User> getCourse(Pageable page);
+    Page<Course> getCourse(Pageable page);
 
     //to search Course by id
     Course getCourseById(int courseId);
