@@ -1,7 +1,8 @@
-package com.anu.springunijpa.service;
+package com.anu.springunijpa.service.impl;
 
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.repository.UserRepository;
+import com.anu.springunijpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
