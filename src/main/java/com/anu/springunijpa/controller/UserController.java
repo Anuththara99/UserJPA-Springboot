@@ -7,6 +7,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
@@ -20,7 +21,7 @@ public class UserController {
 
 
     //add user using userService
-    @PostMapping("/user")
+    @PostMapping("/users")
     public User addUser(@RequestBody User user) {
         return userService.saveUser(user);
     }
@@ -50,20 +51,21 @@ public class UserController {
     }
 
     //edit user by id using userService
-    @PutMapping("/user/{userId}")
+    @PutMapping("/users/{userId}")
     public User editUser(@RequestBody User user) {
         return userService.updateUser(user);
     }
 
     //delete user by id using userService
-    @DeleteMapping("/user/{userId}")
+    @DeleteMapping("/users/{userId}")
     public String removeUser(@PathVariable int userId) {
         return userService.deleteUser(userId);
     }
 
     //to search user by id or user name
-    @GetMapping("/userm/idandname")
-    public ResponseEntity<List<User>> searchUserByIdOrName(@RequestParam int userId, @RequestParam String userName){
+    @GetMapping("/users/idorname/{userId}/{userName}")
+    public ResponseEntity<List<User>> searchUserByIdOrName(@PathVariable("userId") int userId, @PathVariable("userName") String userName){
         return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
     }
+
 }
