@@ -9,6 +9,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CourseServiceImpl implements CourseService {
 
@@ -22,12 +24,12 @@ public class CourseServiceImpl implements CourseService {
     }
 
     @Override
-    public Page<Course> getCourse(Pageable page) {
-        return courseRepository.findAll(page);
+    public List<Course> getCourse() {
+        return courseRepository.findAll();
     }
 
     @Override
-    public Course getCourseById(int courseId) {
+    public Course getCourseById(String courseId) {
         return courseRepository.findById(courseId).orElse(null);
     }
 
@@ -37,12 +39,12 @@ public class CourseServiceImpl implements CourseService {
     }
 
     @Override
-    public Course getUserByLeader(String courseLeader) {
+    public Course getCourseByLeader(String courseLeader) {
         return courseRepository.findByCourseLeader(courseLeader);
     }
 
     @Override
-    public String deleteCourse(int courseId) {
+    public String deleteCourse(String courseId) {
         courseRepository.deleteById(courseId);
         return "Successfully Removed User " + courseId + "!!";
     }
