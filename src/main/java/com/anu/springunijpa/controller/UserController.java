@@ -39,13 +39,13 @@ public class UserController {
     }
 
     //search user by userName using userService
-    @GetMapping("/usern/{userName}")
+    @GetMapping("/users/name/{userName}")
     public User searchUserByName(@PathVariable String userName) {
         return userService.getUserByName(userName);
     }
 
     //search user by user telephone number using userService
-    @GetMapping("usert/{userTel}")
+    @GetMapping("users/tel/{userTel}")
     public User searchUserByTel(@PathVariable String userTel){
         return userService.getUserByTel(userTel);
     }
