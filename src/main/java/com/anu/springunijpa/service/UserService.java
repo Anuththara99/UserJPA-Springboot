@@ -13,34 +13,87 @@ import java.util.List;
 
 public interface UserService {
 
-    //to add new user
+
+    /**
+     * to add new user
+     *
+     * @param user the user
+     * @return new user details
+     */
     User saveUser(User user);
 
-    //to add list of new users
+
+    /**
+     * to add list of new users
+     *
+     * @param users new users
+     * @return list of new users
+     */
     List<User> saveUsers(List<User> users);
 
-    //to view all the users
+
+    /**
+     * to view all the users
+     *
+     * @param page the page size and number of pages
+     * @return all the users
+     */
     Page<User> getUsers(Pageable page);
 
-    //to search user by id
+
+    /**
+     * to view user by id
+     *
+     * @param userId the id of the user
+     * @return the user details belongs to the id
+     */
     User getUserById(int userId);
 
-    //to search user by name
+
+    /**
+     * to view user by name
+     *
+     * @param userName the name of the user
+     * @return the user details belongs to the name
+     */
     User getUserByName(String userName);
 
-    //to search user by telephone number
+
+    /**
+     * to view user by telephone number
+     *
+     * @param userTel the telephone number of the user
+     * @return the user details belongs to the telephone number
+     */
     User getUserByTel(String userTel);
 
-    //to delete user
+
+    /**
+     * to delete user by user id
+     *
+     * @param userId the id of the user
+     * @return display a message if successfully deleted
+     */
     String deleteUser(int userId);
 
-    //to update user
+
+    /**
+     * to update the user by id
+     *
+     * @param user the updated user
+     * @return updated details of the existing user
+     */
     User updateUser(User user);
 
-    //to search using id or name
+
+    /**
+     * to search user using id or name
+     *
+     * @param userId   the id of the user
+     * @param userName the name of the user
+     * @return list of users
+     */
     List<User> searchByIdOrName(int userId, String userName);
-
-
 
 
 }
