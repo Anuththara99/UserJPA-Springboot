@@ -10,24 +10,58 @@ import java.util.List;
 
 public interface CourseService {
 
-    //to add coursers
+
+    /**
+     * to add courses
+     * @param course the new course
+     * @return new course details
+     */
     Course saveCourse(Course course);
 
-    //to view all the coursers
+
+    /**
+     * to view all the courses
+     * @return all the courses
+     */
     List<Course> getCourse();
 
-    //to search Course by id
+
+    /**
+     * to view course by id
+     * @param courseId the id of the course
+     * @return the details of course that belongs to the course id
+     */
     Course getCourseById(String courseId);
 
-    //to search Course by name
+
+    /**
+     * to view course by course name
+     * @param courseName name of the course
+     * @return the details of the course that belongs to the course name
+     */
     Course getCourseByName(String courseName);
 
-    //to search Course by course leader
+
+    /**
+     * to view course by course leader
+     * @param courseLeader name of the course leader
+     * @return the details of the course that belongs to the course leader
+     */
     Course getCourseByLeader(String courseLeader);
 
-    //to delete Course
+
+    /**
+     * to delete course by it's course id
+     * @param courseId id of the course
+     * @return  a message if successfully deleted
+     */
     String deleteCourse(String courseId);
 
-    //to update Course
+
+    /**
+     * to update course using course id
+     * @param course updated course
+     * @return the updated course
+     */
     Course updateCourse(Course course);
 }
