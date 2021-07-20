@@ -1,3 +1,23 @@
+schema {
+    query: Query
+}
 type Query{
+    allUsers :[User]
+    allCourses : [Course]
+    findUser(userId:String) : User
+    findCourse(courseId:String) : Course
 
 }
+type User{
+    userId : ID
+    userName : String
+    dOB : String
+    userTel : String
+}
+type Course{
+    courseId :ID
+    courseName : String
+    courseLeader: String
+
+}
+
