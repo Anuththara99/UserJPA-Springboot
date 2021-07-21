@@ -2,10 +2,13 @@ package com.anu.springunijpa.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.io.Serializable;
+import java.util.*;
+
 
 @Data
 @NoArgsConstructor
@@ -23,6 +26,17 @@ public class User {
     private Date dOB;
     @Column(name = "user_tel")
     private String userTel;
+
+//    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
+//    @JoinTable(name = "user_course",
+//            joinColumns = {
+//            @JoinColumn(name = "user_id",referencedColumnName = "user_id", nullable = false,updatable = false)
+//            },
+//            inverseJoinColumns = {
+//            @JoinColumn(name = "course_id",referencedColumnName = "course_id",nullable = false,updatable = false)
+//            }
+//    )
+//    private List<Course> courses=new ArrayList<>();
 
     public int getUserId() {
         return userId;
@@ -65,4 +79,6 @@ public class User {
                 ", userTel='" + userTel + '\'' +
                 '}';
     }
+
+
 }

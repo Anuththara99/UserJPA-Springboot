@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.*;
 
 @Data
 @Entity
@@ -20,6 +22,9 @@ public class Course {
     private String courseName;
     @Column(name = "course_leader")
     private String courseLeader;
+
+//    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY)
+//    private List<User> user= new ArrayList<>();
 
     public String getCourseId() {
         return courseId;
@@ -53,4 +58,5 @@ public class Course {
                 ", courseLeader='" + courseLeader + '\'' +
                 '}';
     }
+
 }

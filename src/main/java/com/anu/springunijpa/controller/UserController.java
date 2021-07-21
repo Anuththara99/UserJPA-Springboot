@@ -2,6 +2,8 @@ package com.anu.springunijpa.controller;
 
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,16 +21,32 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     //add user using userService
     @PostMapping("/users")
     public User addUser(@RequestBody User user) {
+
         return userService.saveUser(user);
+    }
+
+    @GetMapping("/")
+    public void logLevelDisplay(){
+        logger.error("Error message");
+        logger.warn("Warning message");
+        logger.info("Info message");
+        logger.debug("Debug message");
+        logger.trace("Trace message");
     }
 
     //view all user using userService with pagination
     @GetMapping("/users")
     public Page<User> viewAllUser(Pageable page) {
+        logger.trace("Trace: View user method");
+        logger.debug("debug: View user method");
+        logger.info("info: View user method");
+        logger.error("error: View user method");
+        logger.warn("warn : View user method");
         return userService.getUsers(page);
     }
 
