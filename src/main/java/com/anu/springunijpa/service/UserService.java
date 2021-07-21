@@ -86,5 +86,7 @@ public interface UserService {
      */
     List<User> searchByIdOrName(int userId, String userName);
 
+    List<User> searchByIdOrNameOrTel(int userId,String userName,String userTel);
+
 
 }

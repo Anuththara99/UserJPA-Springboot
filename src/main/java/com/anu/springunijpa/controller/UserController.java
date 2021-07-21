@@ -67,5 +67,33 @@ public class UserController {
     public ResponseEntity<List<User>> searchUserByIdOrName(@PathVariable("userId") int userId, @PathVariable("userName") String userName){
         return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
     }
+    @GetMapping("/users/search")
+    public ResponseEntity<List<User>> searchByAny(@RequestParam String searchtype,@RequestParam String search){
+        int userId =0;
+        String userName=null;
+        if (searchtype.equals("id")){
+            int id = Integer.parseInt(search);
+            userId=id;
+        }else if(searchtype.equals("name")){
+            userName=search;
+        }
+        return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
+    }
+    @GetMapping("/users/searchany")
+    public ResponseEntity<List<User>> searchByAnyVal(@RequestParam String searchtype,@RequestParam String search){
+        int userId =0;
+        String userName=null;
+        String userTel=null;
+        if (searchtype.equals("id")){
+            int id = Integer.parseInt(search);
+            userId=id;
+        }else if(searchtype.equals("name")){
+            userName=search;
+        }else if(searchtype.equals("tel")){
+            userTel=search;
+        }
+        return new ResponseEntity<List<User>>(userService.searchByIdOrNameOrTel(userId,userName,userTel), HttpStatus.OK);
+    }
+
 
 }
