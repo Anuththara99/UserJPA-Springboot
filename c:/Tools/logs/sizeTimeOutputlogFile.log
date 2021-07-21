@@ -1,0 +1,8 @@
+[2021-07-21 17:03:57] - Warning message
+[2021-07-21 17:03:57] - Info message
+[2021-07-21 17:04:31] - info: View user method
+[2021-07-21 17:04:31] - error: View user method
+[2021-07-21 17:04:31] - warn : View user method
+[2021-07-21 17:04:57] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-21 17:04:57] - HikariPool-1 - Shutdown initiated...
+[2021-07-21 17:04:57] - HikariPool-1 - Shutdown completed.
