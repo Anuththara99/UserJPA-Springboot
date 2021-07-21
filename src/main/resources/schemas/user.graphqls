@@ -1,22 +1,34 @@
 schema {
     query: Query
 }
+""" schema for User entity and Course entity"""
 type Query{
+    #display all the users
     allUsers :[User]
+    #display all the courses
     allCourses : [Course]
+    #display user that belongs to given userId
     findUser(userId:ID) : User
+    #display course that belongs to given courseId
     findCourse(courseId:String) : Course
 
 }
 type User{
+    #id of the user
     userId : ID
+    #name of the user
     userName : String
+    #date of birth
     dOB: String
+    #telephone number of the user
     userTel : String
 }
 type Course{
+    #id of the course
     courseId :ID
+    #course name of the course
     courseName : String
+    #leader name of the course
     courseLeader: String
 
 }
