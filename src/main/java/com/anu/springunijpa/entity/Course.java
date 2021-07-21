@@ -14,12 +14,11 @@ import javax.persistence.*;
 public class Course {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "course_id")
     private String courseId;
     @Column(name = "course_name")
     private String courseName;
-    @Column(name = "course_ledear")
+    @Column(name = "course_leader")
     private String courseLeader;
 
     public String getCourseId() {
