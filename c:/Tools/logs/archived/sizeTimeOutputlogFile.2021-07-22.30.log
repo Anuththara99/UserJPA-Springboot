@@ -1,0 +1,121 @@
+[2021-07-22 11:56:09] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 11:56:09] - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+[2021-07-22 11:56:10] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 11:56:10] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 11:56:10] - Starting service [Tomcat]
+[2021-07-22 11:56:10] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 11:56:10] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 11:56:10] - Root WebApplicationContext: initialization completed in 1530 ms
+[2021-07-22 11:56:10] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 11:56:10] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 11:56:10] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 11:56:10] - HikariPool-1 - Starting...
+[2021-07-22 11:56:10] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 11:56:11] - HikariPool-1 - Start completed.
+[2021-07-22 11:56:11] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 11:56:11] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 11:56:11] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 11:56:12] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 11:56:12] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 11:56:12] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 11:56:12] - Started SpringUniJpaApplication in 4.501 seconds (JVM running for 5.902)
+[2021-07-22 11:56:39] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 11:56:39] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 11:56:39] - Completed initialization in 1 ms
+[2021-07-22 11:56:53] - info: View user method
+[2021-07-22 11:56:53] - error: View user method
+[2021-07-22 11:56:53] - warn : View user method
+[2021-07-22 11:58:20] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 11:58:20] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 11:58:20] - HikariPool-1 - Shutdown completed.
+[2021-07-22 11:58:25] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 14745 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 11:58:25] - No active profile set, falling back to default profiles: default
+[2021-07-22 11:58:25] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 11:58:25] - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+[2021-07-22 11:58:26] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 11:58:26] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 11:58:26] - Starting service [Tomcat]
+[2021-07-22 11:58:26] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 11:58:26] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 11:58:26] - Root WebApplicationContext: initialization completed in 1243 ms
+[2021-07-22 11:58:26] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 11:58:26] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 11:58:26] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 11:58:26] - HikariPool-1 - Starting...
+[2021-07-22 11:58:26] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 11:58:27] - HikariPool-1 - Start completed.
+[2021-07-22 11:58:27] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 11:58:27] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 11:58:27] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 11:58:28] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 11:58:28] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 11:58:28] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 11:58:28] - Started SpringUniJpaApplication in 3.721 seconds (JVM running for 4.637)
+[2021-07-22 11:58:35] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 11:58:35] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 11:58:35] - Completed initialization in 1 ms
+[2021-07-22 12:00:47] - info: View user method
+[2021-07-22 12:00:47] - error: View user method
+[2021-07-22 12:00:47] - warn : View user method
+[2021-07-22 12:01:21] - info: View user method
+[2021-07-22 12:01:21] - error: View user method
+[2021-07-22 12:01:21] - warn : View user method
+[2021-07-22 12:02:54] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:02:54] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 12:02:54] - HikariPool-1 - Shutdown completed.
+[2021-07-22 12:02:59] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 15049 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 12:02:59] - No active profile set, falling back to default profiles: default
+[2021-07-22 12:03:00] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 12:03:00] - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+[2021-07-22 12:03:00] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 12:03:00] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:03:00] - Starting service [Tomcat]
+[2021-07-22 12:03:00] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 12:03:01] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 12:03:01] - Root WebApplicationContext: initialization completed in 1283 ms
+[2021-07-22 12:03:01] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 12:03:01] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 12:03:01] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 12:03:01] - HikariPool-1 - Starting...
+[2021-07-22 12:03:01] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:03:01] - HikariPool-1 - Start completed.
+[2021-07-22 12:03:01] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 12:03:01] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 12:03:01] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:03:02] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:03:02] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:03:02] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 12:03:02] - Started SpringUniJpaApplication in 3.6 seconds (JVM running for 4.556)
+[2021-07-22 12:03:07] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 12:03:07] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 12:03:07] - Completed initialization in 1 ms
+[2021-07-22 12:04:40] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:04:40] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 12:04:40] - HikariPool-1 - Shutdown completed.
+[2021-07-22 12:04:43] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 15220 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 12:04:43] - No active profile set, falling back to default profiles: default
+[2021-07-22 12:04:44] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 12:04:44] - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+[2021-07-22 12:04:44] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 12:04:44] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:04:44] - Starting service [Tomcat]
+[2021-07-22 12:04:44] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 12:04:44] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 12:04:44] - Root WebApplicationContext: initialization completed in 837 ms
+[2021-07-22 12:04:44] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 12:04:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 12:04:44] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 12:04:45] - HikariPool-1 - Starting...
+[2021-07-22 12:04:45] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:04:45] - HikariPool-1 - Start completed.
+[2021-07-22 12:04:45] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 12:04:45] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 12:04:45] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:04:46] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:04:46] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:04:46] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 12:04:46] - Started SpringUniJpaApplication in 2.502 seconds (JVM running for 3.098)
+[2021-07-22 12:04:57] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 12:04:57] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 12:04:57] - Completed initialization in 0 ms
+[2021-07-22 12:04:57] - info: View user method

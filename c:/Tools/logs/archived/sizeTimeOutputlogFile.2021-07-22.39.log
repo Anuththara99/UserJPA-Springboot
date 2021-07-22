@@ -1,0 +1,113 @@
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 726098756
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#6]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#7]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 2000-12-15 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = Tom
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 0717879325
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#7]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#8]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 2001-01-26 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = Loid
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 777893143
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#8]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#9]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 1999-05-23 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = Sana
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 786753452
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#9]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#10]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 1999-08-02 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = gold
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 0709736456
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#10]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#11]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 1999-08-02 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = paul
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 0709736232
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#11]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#12]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 2002-08-29 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = silva
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 0707836110
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#12]
+[2021-07-22 12:08:36] - Resolving attributes for [com.anu.springunijpa.entity.User#13]
+[2021-07-22 12:08:36] - Processing attribute `dOB` : value = 2004-07-27 00:00:00.0
+[2021-07-22 12:08:36] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userName` : value = Sam
+[2021-07-22 12:08:36] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Processing attribute `userTel` : value = 0767002345
+[2021-07-22 12:08:36] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-22 12:08:36] - Done materializing entity [com.anu.springunijpa.entity.User#13]
+[2021-07-22 12:08:36] - Initiating transaction commit
+[2021-07-22 12:08:36] - Committing JPA transaction on EntityManager [SessionImpl(1272112884<open>)]
+[2021-07-22 12:08:36] - committing
+[2021-07-22 12:08:36] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@936555944 wrapping com.mysql.cj.jdbc.ConnectionImpl@3855d9b2]
+[2021-07-22 12:08:36] - Not closing pre-bound JPA EntityManager after transaction
+[2021-07-22 12:08:36] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-22 12:08:36] - Writing [Page 1 of 1 containing com.anu.springunijpa.entity.User instances]
+[2021-07-22 12:08:36] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-22 12:08:36] - Completed 200 OK
+[2021-07-22 12:08:49] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-22 12:08:49] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-22 12:08:57] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-22 12:08:57] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@604f2bd2, started on Thu Jul 22 12:08:18 IST 2021
+[2021-07-22 12:08:57] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-22 12:08:57] - Stopping beans in phase 2147483647
+[2021-07-22 12:08:57] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-22 12:08:57] - Stopping beans in phase 2147483646
+[2021-07-22 12:08:57] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-22 12:08:57] - Stopping beans in phase 0
+[2021-07-22 12:08:57] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-22 12:08:57] - Unregistering JMX-exposed beans on shutdown
+[2021-07-22 12:08:57] - Unregistering JMX-exposed beans
+[2021-07-22 12:08:57] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-22 12:08:57] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:08:57] - HHH000031: Closing
+[2021-07-22 12:08:57] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@26ab1d37] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@8ac512e]
+[2021-07-22 12:08:57] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-22 12:08:57] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-22 12:08:57] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 12:08:57] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3855d9b2: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@209a3575: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@188c001: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@75fa6ef7: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c6bd20: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60c82283: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21b62446: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3042afed: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c5ad947: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56730d36: (connection evicted)
+[2021-07-22 12:08:57] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-22 12:08:57] - HikariPool-1 - Shutdown completed.
+[2021-07-22 12:09:00] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:09:01] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:09:07] - error: View user method
+[2021-07-22 12:09:07] - warn : View user method
+[2021-07-22 12:12:32] - error: View user method
+[2021-07-22 12:12:32] - warn : View user method
+[2021-07-22 12:15:12] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:15:13] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:17:06] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:17:07] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:18:09] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

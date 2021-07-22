@@ -1,0 +1,559 @@
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcValidator'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcValidator'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcValidator'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcValidator'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'messageConverters'
+[2021-07-22 09:32:29] - Creating instance of bean 'messageConverters'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+[2021-07-22 09:32:29] - Creating instance of bean 'stringHttpMessageConverter'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'environment'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+[2021-07-22 09:32:29] - Eagerly caching bean 'stringHttpMessageConverter' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'stringHttpMessageConverter'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[2021-07-22 09:32:29] - Creating instance of bean 'mappingJackson2HttpMessageConverter'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[2021-07-22 09:32:29] - Creating instance of bean 'jacksonObjectMapper'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'jacksonObjectMapperBuilder'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-07-22 09:32:29] - Creating instance of bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-07-22 09:32:29] - Creating instance of bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d9b7a8a'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2021-07-22 09:32:29] - Eagerly caching bean 'standardJacksonObjectMapperBuilderCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d9b7a8a'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'parameterNamesModule'
+[2021-07-22 09:32:29] - Creating instance of bean 'parameterNamesModule'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'parameterNamesModule' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'parameterNamesModule'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'jsonComponentModule'
+[2021-07-22 09:32:29] - Creating instance of bean 'jsonComponentModule'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'jsonComponentModule' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Invoking afterPropertiesSet() on bean with name 'jsonComponentModule'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'jsonComponentModule'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'jacksonGeoModule'
+[2021-07-22 09:32:29] - Creating instance of bean 'jacksonGeoModule'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2021-07-22 09:32:29] - Creating instance of bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Eagerly caching bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'jacksonGeoModule' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'jacksonGeoModule'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'jacksonObjectMapperBuilder'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[2021-07-22 09:32:29] - Eagerly caching bean 'jacksonObjectMapper' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'jacksonObjectMapper'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mappingJackson2HttpMessageConverter' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mappingJackson2HttpMessageConverter'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'stringHttpMessageConverter'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[2021-07-22 09:32:29] - Eagerly caching bean 'messageConverters' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'messageConverters'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'sortResolver'
+[2021-07-22 09:32:29] - Creating instance of bean 'sortResolver'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'sortResolver' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'sortResolver'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'pageableResolver'
+[2021-07-22 09:32:29] - Creating instance of bean 'pageableResolver'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'pageableResolver' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'pageableResolver'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: accepted socket from [127.0.0.1:34976]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) suggesting 127.0.0.1:34976
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) client using 127.0.0.1:40407
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'applicationTaskExecutor'
+[2021-07-22 09:32:29] - Creating instance of bean 'applicationTaskExecutor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "[B" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: id = [6a4cb55a:17acc60f395:-7fff, -5071547165399993357], vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff, duration = 600000
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: add to dirty set: 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'taskExecutorBuilder'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIJRMPServerImpl[6a4cb55a:17acc60f395:-7fff, -5071547165399993357]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2021-07-22 09:32:29] - making new client
+[2021-07-22 09:32:29] - no subject
+[2021-07-22 09:32:29] - connectionId=rmi://127.0.0.1  10
+[2021-07-22 09:32:29] - making new connection: rmi://127.0.0.1  10
+[2021-07-22 09:32:29] - Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2021-07-22 09:32:29] - Admin: timeout=120000
+[2021-07-22 09:32:29] - Admin: Timestamp=1626926549224
+[2021-07-22 09:32:29] - Admin: remaining timeout=120000
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@6734de35: connectionId=rmi://127.0.0.1  10
+[2021-07-22 09:32:29] - Waiting with timeout: 120000 ms remaining
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: add object [6a4cb55a:17acc60f395:-7fc5, -7777412202841710926]
+[2021-07-22 09:32:29] - new connection done: rmi://127.0.0.1  10
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "[B" found via defaultLoader, defined by null
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: id = [6a4cb55a:17acc60f395:-7fc5, -7777412202841710926], vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff, duration = 600000
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: add to dirty set: 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - Eagerly caching bean 'applicationTaskExecutor' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Invoking afterPropertiesSet() on bean with name 'applicationTaskExecutor'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 84
+[2021-07-22 09:32:29] - Initializing ExecutorService 'applicationTaskExecutor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fc5, -7777412202841710926]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fc5, -7777412202841710926]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+[2021-07-22 09:32:29] - Finished creating instance of bean 'applicationTaskExecutor'
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7)
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2021-07-22 09:32:29] - connectionId=rmi://127.0.0.1  10, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+[2021-07-22 09:32:29] - Receive a new request.
+[2021-07-22 09:32:29] - Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:29] - name = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:29] - org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+[2021-07-22 09:32:29] - Finish a request.
+[2021-07-22 09:32:29] - Admin: Timestamp=1626926549229
+[2021-07-22 09:32:29] - Admin: elapsed=0
+[2021-07-22 09:32:29] - Admin: remaining timeout=120000
+[2021-07-22 09:32:29] - Waiting with timeout: 120000 ms remaining
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting input stream
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fc5, -7777412202841710926]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+[2021-07-22 09:32:29] - [javax.management.remote.rmi.RMIConnectionImpl@6734de35: connectionId=rmi://127.0.0.1  10] closing.
+[2021-07-22 09:32:29] - terminate the ServerCommunicatorAdmin object.
+[2021-07-22 09:32:29] - client=javax.management.remote.rmi.RMIConnectionImpl@6734de35: connectionId=rmi://127.0.0.1  10
+[2021-07-22 09:32:29] - Admin: elapsed=2
+[2021-07-22 09:32:29] - closing client.
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: remove object [6a4cb55a:17acc60f395:-7fc5, -7777412202841710926]
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: server socket: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=33381], exportCount: 1
+[2021-07-22 09:32:29] - sending notif
+[2021-07-22 09:32:29] - done
+[2021-07-22 09:32:29] - [javax.management.remote.rmi.RMIConnectionImpl@6734de35: connectionId=rmi://127.0.0.1  10] closed.
+[2021-07-22 09:32:29] - RMI TCP Connection(3)-127.0.0.1: getting output stream
+[2021-07-22 09:32:29] - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+[2021-07-22 09:32:29] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'requestMappingHandlerAdapter'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'requestMappingHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'graphQLServletRegistrationBean'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'graphQLServletRegistrationBean'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+[2021-07-22 09:32:29] - 
+	c.a.s.c.CourseController:
+	{POST [/courses]}: addCourse(Course)
+	{GET [/courses]}: viewAllCourse()
+	{GET [/courses/{courseId}]}: searchCourseById(String)
+	{GET [/courses/name/{courseName}]}: searchCourseByName(String)
+	{GET [/courses/leader/{courseLeader}]}: searchCourseByLeader(String)
+	{PUT [/courses/{courseId}]}: editCourse(Course)
+	{DELETE [/courses/{courseId}]}: removeCourse(String)
+[2021-07-22 09:32:29] - 
+	c.a.s.c.UserController:
+	{POST [/users]}: addUser(User)
+	{GET [/]}: logLevelDisplay()
+	{GET [/users]}: viewAllUser(Pageable)
+	{GET [/users/{userId}]}: searchUserById(int)
+	{GET [/users/name/{userName}]}: searchUserByName(String)
+	{GET [/users/tel/{userTel}]}: searchUserByTel(String)
+	{PUT [/users/{userId}]}: editUser(User)
+	{DELETE [/users/{userId}]}: removeUser(int)
+	{GET [/users/idorname/{userId},{userName}]}: searchUserByIdOrName(int,String)
+	{GET [/users/search]}: searchByAny(String,String)
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'systemProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'random'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:29] - Could not find key 'error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'error.path' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'error.path' in any property source
+[2021-07-22 09:32:29] - Resolved placeholder 'error.path:/error'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'systemProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'random'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:29] - Could not find key 'server.error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'server.error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'server.error.path' in any property source
+[2021-07-22 09:32:29] - Resolved placeholder 'server.error.path:/error'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'systemProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'random'
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:29] - Could not find key 'error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'error.path' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'error.path' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'error.path' in any property source
+[2021-07-22 09:32:29] - Resolved placeholder 'error.path:/error'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'systemProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'random'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:29] - Could not find key 'server.error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'server.error.path:/error' in any property source
+[2021-07-22 09:32:29] - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:29] - Searching for key 'server.error.path' in PropertySource 'localProperties'
+[2021-07-22 09:32:29] - Could not find key 'server.error.path' in any property source
+[2021-07-22 09:32:29] - Resolved placeholder 'server.error.path:/error'
+[2021-07-22 09:32:29] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[2021-07-22 09:32:29] - 19 mappings in 'requestMappingHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'requestMappingHandlerMapping'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'welcomePageHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d9b7a8a'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Loaded [org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider] names: [org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider]
+[2021-07-22 09:32:29] - Eagerly caching bean 'welcomePageHandlerMapping' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'welcomePageHandlerMapping'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'localeResolver'
+[2021-07-22 09:32:29] - Creating instance of bean 'localeResolver'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'localeResolver' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'localeResolver'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'themeResolver'
+[2021-07-22 09:32:29] - Creating instance of bean 'themeResolver'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'themeResolver' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'themeResolver'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'flashMapManager'
+[2021-07-22 09:32:29] - Creating instance of bean 'flashMapManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'flashMapManager' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'flashMapManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcValidator'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcPatternParser'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcPatternParser'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcPatternParser' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcPatternParser'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcUrlPathHelper'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcUrlPathHelper'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'mvcPathMatcher'
+[2021-07-22 09:32:29] - Creating instance of bean 'mvcPathMatcher'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'mvcPathMatcher'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'viewControllerHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'viewControllerHandlerMapping'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'beanNameHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - 'beanNameHandlerMapping' {}
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'beanNameHandlerMapping'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'routerFunctionMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'routerFunctionMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Eagerly caching bean 'routerFunctionMapping' to allow for resolving potential circular references
+[2021-07-22 09:32:29] - Invoking afterPropertiesSet() on bean with name 'routerFunctionMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Finished creating instance of bean 'routerFunctionMapping'
+[2021-07-22 09:32:29] - Creating shared instance of singleton bean 'resourceHandlerMapping'
+[2021-07-22 09:32:29] - Creating instance of bean 'resourceHandlerMapping'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcConversionService'
+[2021-07-22 09:32:29] - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-22 09:32:29] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'

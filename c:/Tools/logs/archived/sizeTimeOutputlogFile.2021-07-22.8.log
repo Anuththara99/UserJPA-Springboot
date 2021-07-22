@@ -1,0 +1,537 @@
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration matched due to @ConditionalOnWebApplication (required) found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$NettyWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$UndertowWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$JettyWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnProperty (server.servlet.encoding.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnProperty (spring.servlet.multipart.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration matched due to @ConditionalOnClass found required classes 'com.fasterxml.jackson.databind.ObjectMapper', 'org.springframework.messaging.simp.config.AbstractMessageBrokerConfiguration'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched due to @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched due to @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.websocketServletWebServerCustomizer()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRequest'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.servletWebServerFactoryCustomizer()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched due to @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.tomcatServletWebServerFactoryCustomizer()
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration#forwardedHeaderFilter did not match due to @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRegistration'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration matched due to DispatcherServlet Registration did not find servlet registration bean
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRegistration'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration matched due to Default DispatcherServlet did not find dispatcher servlet beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration.dispatcherServlet()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration#multipartResolver did not match due to @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched due to @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.dispatcherServletRegistration()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration#taskExecutorBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration.taskExecutorBuilder()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration#applicationTaskExecutor matched due to @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Alias definition 'taskExecutor' registered for name 'applicationTaskExecutor'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration.applicationTaskExecutor()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration matched due to @ConditionalOnProperty (server.error.whitelabel.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Loaded [org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider] names: [org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider]
+[2021-07-22 09:32:25] - Condition ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration matched due to ErrorTemplate Missing did not find error template view
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#defaultErrorView matched due to @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.error()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#beanNameViewResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.beanNameViewResolver()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration.conventionErrorViewResolver()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#errorAttributes matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.errorAttributes()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#basicErrorController matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.basicErrorController()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.errorPageCustomizer()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.preserveErrorControllerTargetClassPostProcessor()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.welcomePageHandlerMapping()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#localeResolver matched due to @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.localeResolver()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#themeResolver matched due to @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.themeResolver()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#flashMapManager matched due to @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.flashMapManager()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcValidator()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcContentNegotiationManager()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcPatternParser()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcUrlPathHelper()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcPathMatcher()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.viewControllerHandlerMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.beanNameHandlerMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.routerFunctionMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.resourceHandlerMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcResourceUrlProvider()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.defaultServletHandlerMapping()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.handlerFunctionAdapter()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcUriComponentsContributor()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.httpRequestHandlerAdapter()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.simpleControllerHandlerAdapter()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.handlerExceptionResolver()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcViewResolver()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcHandlerMappingIntrospector()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.viewNameTranslator()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#defaultViewResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.defaultViewResolver()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#beanNameViewResolver did not match due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#viewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#viewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.viewResolver()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#requestContextFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#requestContextFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.requestContextFilter()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#hiddenHttpMethodFilter did not match due to @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#formContentFilter matched due to @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#formContentFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.formContentFilter()
+[2021-07-22 09:32:25] - Condition OnClassCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration matched due to @ConditionalOnClass found required class 'com.coxautodev.graphql.tools.SchemaParser'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration#schemaStringProvider matched due to @ConditionalOnMissingBean (types: com.oembedler.moon.graphql.boot.SchemaStringProvider; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration.schemaStringProvider()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration#schemaParser matched due to @ConditionalOnBean (types: com.coxautodev.graphql.tools.GraphQLResolver; SearchStrategy: all) found beans 'userResolver', 'courseResolver'; @ConditionalOnMissingBean (types: com.coxautodev.graphql.tools.SchemaParser; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration#schemaParser matched due to @ConditionalOnBean (types: com.coxautodev.graphql.tools.GraphQLResolver; SearchStrategy: all) found beans 'userResolver', 'courseResolver'; @ConditionalOnMissingBean (types: com.coxautodev.graphql.tools.SchemaParser; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration.schemaParser()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration#graphQLSchema matched due to @ConditionalOnBean (types: com.coxautodev.graphql.tools.SchemaParser; SearchStrategy: all) found bean 'schemaParser'; @ConditionalOnMissingBean (types: graphql.schema.GraphQLSchema,graphql.servlet.GraphQLSchemaProvider; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration#graphQLSchema matched due to @ConditionalOnBean (types: com.coxautodev.graphql.tools.SchemaParser; SearchStrategy: all) found bean 'schemaParser'; @ConditionalOnMissingBean (types: graphql.schema.GraphQLSchema,graphql.servlet.GraphQLSchemaProvider; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration.graphQLSchema()
+[2021-07-22 09:32:25] - Condition OnClassCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration matched due to @ConditionalOnWebApplication (required) found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration matched due to @ConditionalOnProperty (graphql.servlet.enabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration matched due to @ConditionalOnBean (types: graphql.schema.GraphQLSchema; SearchStrategy: all) found bean 'graphQLSchema'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#corsConfigurer matched due to @ConditionalOnClass found required class 'org.springframework.web.filter.CorsFilter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#corsConfigurer matched due to @ConditionalOnProperty (graphql.servlet.corsEnabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.corsConfigurer()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#graphQLSchemaProvider matched due to @ConditionalOnMissingBean (types: graphql.servlet.GraphQLSchemaProvider; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.graphQLSchemaProvider()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#executionStrategyProvider matched due to @ConditionalOnMissingBean (types: graphql.servlet.ExecutionStrategyProvider; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.executionStrategyProvider()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#invocationInputFactory matched due to @ConditionalOnMissingBean (types: graphql.servlet.GraphQLInvocationInputFactory; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.invocationInputFactory()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#queryInvoker matched due to @ConditionalOnMissingBean (types: graphql.servlet.GraphQLQueryInvoker; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.queryInvoker()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#graphQLObjectMapper matched due to @ConditionalOnMissingBean (types: graphql.servlet.GraphQLObjectMapper; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.graphQLObjectMapper()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#graphQLHttpServlet matched due to @ConditionalOnMissingBean (types: graphql.servlet.SimpleGraphQLHttpServlet; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.graphQLHttpServlet()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.graphQLServletRegistrationBean()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#graphQLWebsocketServlet matched due to @ConditionalOnMissingBean (types: graphql.servlet.GraphQLWebsocketServlet; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.graphQLWebsocketServlet()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.serverEndpointRegistration()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration#serverEndpointExporter matched due to @ConditionalOnMissingBean (types: org.springframework.web.socket.server.standard.ServerEndpointExporter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration.serverEndpointExporter()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration matched due to @ConditionalOnProperty (spring.jmx.enabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanExporter matched due to @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.mbeanExporter()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#objectNamingStrategy matched due to @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.objectNamingStrategy()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanServer matched due to @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.mbeanServer()
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration matched due to @ConditionalOnProperty (spring.application.admin.enabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched due to @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration.springApplicationAdminRegistrar()
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration matched due to @ConditionalOnProperty (spring.aop.auto=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration matched due to @ConditionalOnClass found required class 'org.aspectj.weaver.Advice'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration matched due to @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration.applicationAvailability()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration.standardJacksonObjectMapperBuilderCustomizer()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration.jacksonObjectMapperBuilder()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration#parameterNamesModule matched due to @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration.parameterNamesModule()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration#jacksonObjectMapper matched due to @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration.jacksonObjectMapper()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.jsonComponentModule()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration matched due to @ConditionalOnClass found required class 'javax.transaction.Transaction'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration matched due to @ConditionalOnProperty (spring.jta.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'javax.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIJRMPServerImpl[6a4cb55a:17acc60f395:-7fff, -5071547165399993357]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2021-07-22 09:32:25] - making new client
+[2021-07-22 09:32:25] - no subject
+[2021-07-22 09:32:25] - connectionId=rmi://127.0.0.1  3
+[2021-07-22 09:32:25] - making new connection: rmi://127.0.0.1  3
+[2021-07-22 09:32:25] - Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2021-07-22 09:32:25] - Admin: timeout=120000
+[2021-07-22 09:32:25] - Admin: Timestamp=1626926545610
+[2021-07-22 09:32:25] - Admin: remaining timeout=120000
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@6845d1a8: connectionId=rmi://127.0.0.1  3
+[2021-07-22 09:32:25] - Waiting with timeout: 120000 ms remaining
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: add object [6a4cb55a:17acc60f395:-7ff1, 6371596030331127077]
+[2021-07-22 09:32:25] - new connection done: rmi://127.0.0.1  3
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration did not match due to @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration matched due to @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration matched due to @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "[B" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: id = [6a4cb55a:17acc60f395:-7ff1, 6371596030331127077], vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff, duration = 600000
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource()
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: add to dirty set: 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration matched due to @ConditionalOnProperty (spring.jmx.enabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 84
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7ff1, 6371596030331127077]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7ff1, 6371596030331127077]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7)
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2021-07-22 09:32:25] - connectionId=rmi://127.0.0.1  3, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+[2021-07-22 09:32:25] - Receive a new request.
+[2021-07-22 09:32:25] - Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - name = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:25] - org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+[2021-07-22 09:32:25] - Finish a request.
+[2021-07-22 09:32:25] - Admin: Timestamp=1626926545619
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration'
+[2021-07-22 09:32:25] - Admin: elapsed=0
+[2021-07-22 09:32:25] - Admin: remaining timeout=120000
+[2021-07-22 09:32:25] - Waiting with timeout: 120000 ms remaining
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration.hikariPoolDataSourceMetadataProvider()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7ff1, 6371596030331127077]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+[2021-07-22 09:32:25] - [javax.management.remote.rmi.RMIConnectionImpl@6845d1a8: connectionId=rmi://127.0.0.1  3] closing.
+[2021-07-22 09:32:25] - terminate the ServerCommunicatorAdmin object.
+[2021-07-22 09:32:25] - client=javax.management.remote.rmi.RMIConnectionImpl@6845d1a8: connectionId=rmi://127.0.0.1  3
+[2021-07-22 09:32:25] - closing client.
+[2021-07-22 09:32:25] - Admin: elapsed=3
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: remove object [6a4cb55a:17acc60f395:-7ff1, 6371596030331127077]
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: server socket: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=33381], exportCount: 1
+[2021-07-22 09:32:25] - sending notif
+[2021-07-22 09:32:25] - done
+[2021-07-22 09:32:25] - [javax.management.remote.rmi.RMIConnectionImpl@6845d1a8: connectionId=rmi://127.0.0.1  3] closed.
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnProperty (spring.jpa.open-in-view=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptorConfigurer()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#transactionManager matched due to @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.transactionManager()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#jpaVendorAdapter matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.jpaVendorAdapter()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#entityManagerFactoryBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.entityManagerFactoryBuilder()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#entityManagerFactory matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.entityManagerFactory()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.cache.CacheManager'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match due to @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration#defaultLifecycleProcessor matched due to @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration.lifecycleProcessor()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'

@@ -1,0 +1,256 @@
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@24842b8e
+[2021-07-22 09:32:28] -  TLSHandshake: localhost:3306, TLSv1.2, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, -1826445814
+[2021-07-22 09:32:28] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ac76195
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [405e6a20-3236-467f-9676-7d01f2557163] at timestamp: 1626926548220
+[2021-07-22 09:32:28] - Closing session [405e6a20-3236-467f-9676-7d01f2557163]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@61bf405d]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@19f1be04
+[2021-07-22 09:32:28] - Looking up query for method findByCourseLeader
+[2021-07-22 09:32:28] - Looking up named query Course.findByCourseLeader
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [5903c374-b504-4317-b484-bb64696bef88] at timestamp: 1626926548302
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query Course.findByCourseLeader
+[2021-07-22 09:32:28] - Closing session [5903c374-b504-4317-b484-bb64696bef88]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@2524d07a]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [bcfb953e-d58a-4303-93f6-911bfdb0b697] at timestamp: 1626926548308
+[2021-07-22 09:32:28] - Closing session [bcfb953e-d58a-4303-93f6-911bfdb0b697]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@663622b1]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] -  TLSHandshake: localhost:3306, TLSv1.2, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, -1826445814
+[2021-07-22 09:32:28] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718d2d43
+[2021-07-22 09:32:28] - Looking up query for method findByCourseName
+[2021-07-22 09:32:28] - Looking up named query Course.findByCourseName
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [1c504af9-a04a-4676-b711-88920a495203] at timestamp: 1626926548351
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query Course.findByCourseName
+[2021-07-22 09:32:28] - Closing session [1c504af9-a04a-4676-b711-88920a495203]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@5030997b]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [6338bde9-7a99-4ffc-8009-0a914decda85] at timestamp: 1626926548352
+[2021-07-22 09:32:28] - Closing session [6338bde9-7a99-4ffc-8009-0a914decda85]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@62c47480]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@3c6b300a]
+[2021-07-22 09:32:28] - Finished creation of repository instance for {}.
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'courseRepository'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Autowiring by type from bean name 'courseResolver' to bean named 'courseRepository'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'courseResolver'
+[2021-07-22 09:32:28] - Creating shared instance of singleton bean 'userResolver'
+[2021-07-22 09:32:28] - Creating instance of bean 'userResolver'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Eagerly caching bean 'userResolver' to allow for resolving potential circular references
+[2021-07-22 09:32:28] - Creating shared instance of singleton bean 'userRepository'
+[2021-07-22 09:32:28] - Creating instance of bean 'userRepository'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Eagerly caching bean 'userRepository' to allow for resolving potential circular references
+[2021-07-22 09:32:28] - Creating instance of bean '(inner bean)#3cc2e3e'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Creating instance of bean '(inner bean)#4e14d520'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Converting String to [class [Lorg.springframework.core.io.Resource;] using property editor [org.springframework.core.io.support.ResourceArrayPropertyEditor@4189e668]
+[2021-07-22 09:32:28] - Resolved classpath location [META-INF/jpa-named-queries.properties] to resources []
+[2021-07-22 09:32:28] - Invoking afterPropertiesSet() on bean with name '(inner bean)#4e14d520'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean '(inner bean)#4e14d520'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean '(inner bean)#3cc2e3e'
+[2021-07-22 09:32:28] - Creating instance of bean '(inner bean)#3ee68377'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Invoking afterPropertiesSet() on bean with name '(inner bean)#3ee68377'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean '(inner bean)#3ee68377'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Creating instance of bean '(inner bean)#33e4068'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'entityManagerFactory'
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,boolean,java.lang.Class[])] of bean '(inner bean)#33e4068': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#33e4068': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,java.lang.Class[])] of bean '(inner bean)#33e4068': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#33e4068': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,boolean)] of bean '(inner bean)#33e4068': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#33e4068': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map)] of bean '(inner bean)#33e4068': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#33e4068': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean '(inner bean)#33e4068'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'jpaMappingContext'
+[2021-07-22 09:32:28] - Invoking afterPropertiesSet() on bean with name 'userRepository'
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [f95102d6-029c-42b9-95b0-ca5fd1fbdae3] at timestamp: 1626926548371
+[2021-07-22 09:32:28] - Closing session [f95102d6-029c-42b9-95b0-ca5fd1fbdae3]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7a34505a]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Getting BeanInfo for class [com.anu.springunijpa.entity.User]
+[2021-07-22 09:32:28] -     findClass(java.lang.ObjectCustomizer)
+[2021-07-22 09:32:28] -       findClassInternal(java.lang.ObjectCustomizer)
+[2021-07-22 09:32:28] -     --> Returning ClassNotFoundException
+[2021-07-22 09:32:28] -     --> Passing on ClassNotFoundException
+[2021-07-22 09:32:28] -     findClass(com.anu.springunijpa.entity.UserCustomizer)
+[2021-07-22 09:32:28] -       findClassInternal(com.anu.springunijpa.entity.UserCustomizer)
+[2021-07-22 09:32:28] -     --> Returning ClassNotFoundException
+[2021-07-22 09:32:28] -     --> Passing on ClassNotFoundException
+[2021-07-22 09:32:28] - Caching PropertyDescriptors for class [com.anu.springunijpa.entity.User]
+[2021-07-22 09:32:28] - Found bean property 'class' of type [java.lang.Class]
+[2021-07-22 09:32:28] - Found bean property 'dOB' of type [java.util.Date]
+[2021-07-22 09:32:28] - Found bean property 'userId' of type [int]
+[2021-07-22 09:32:28] - Found bean property 'userName' of type [java.lang.String]
+[2021-07-22 09:32:28] - Found bean property 'userTel' of type [java.lang.String]
+[2021-07-22 09:32:28] - Initializing repository instance for com.anu.springunijpa.repository.UserRepository…
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'applicationStartup'
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@54970127
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [26513f8e-2327-4b09-8565-1988d2ed7a63] at timestamp: 1626926548385
+[2021-07-22 09:32:28] - Closing session [26513f8e-2327-4b09-8565-1988d2ed7a63]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@3c4c7e51]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@749ee0e3
+[2021-07-22 09:32:28] - Looking up query for method findByUserName
+[2021-07-22 09:32:28] - Looking up named query User.findByUserName
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [b6998ad2-8760-46e3-aa1f-e6410176df10] at timestamp: 1626926548417
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query User.findByUserName
+[2021-07-22 09:32:28] - Closing session [b6998ad2-8760-46e3-aa1f-e6410176df10]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@6bfbab1c]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [0503e79f-4d6f-4060-8358-ab596544d8f6] at timestamp: 1626926548418
+[2021-07-22 09:32:28] - Closing session [0503e79f-4d6f-4060-8358-ab596544d8f6]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@78a165db]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Looking up query for method findByUserTel
+[2021-07-22 09:32:28] - Looking up named query User.findByUserTel
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [409487d9-594b-451a-80ab-3aef258581a1] at timestamp: 1626926548420
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query User.findByUserTel
+[2021-07-22 09:32:28] - Closing session [409487d9-594b-451a-80ab-3aef258581a1]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@1e429f56]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [c5c56346-08e9-4876-851d-3922e080f893] at timestamp: 1626926548421
+[2021-07-22 09:32:28] - Closing session [c5c56346-08e9-4876-851d-3922e080f893]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@6dbeaef8]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Looking up query for method findByUserIdOrUserName
+[2021-07-22 09:32:28] - Looking up named query User.findByUserIdOrUserName
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [be12842b-f764-4acc-a63e-8146fc8d01d9] at timestamp: 1626926548424
+[2021-07-22 09:32:28] -  TLSHandshake: localhost:3306, TLSv1.2, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, -1826445814
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query User.findByUserIdOrUserName
+[2021-07-22 09:32:28] - Closing session [be12842b-f764-4acc-a63e-8146fc8d01d9]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@ba87c11]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [cb857b4c-bb14-4357-8b51-3dc2f3887944] at timestamp: 1626926548425
+[2021-07-22 09:32:28] - Closing session [cb857b4c-bb14-4357-8b51-3dc2f3887944]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@17d19538]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11847732
+[2021-07-22 09:32:28] - Looking up query for method findByUserIdOrUserNameOrUserTel
+[2021-07-22 09:32:28] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-22 09:32:28] - Looking up named query User.findByUserIdOrUserNameOrUserTel
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [1ec8e720-aec2-412b-908d-a5790e4e21fc] at timestamp: 1626926548430
+[2021-07-22 09:32:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-22 09:32:28] - Did not find named query User.findByUserIdOrUserNameOrUserTel
+[2021-07-22 09:32:28] - Closing session [1ec8e720-aec2-412b-908d-a5790e4e21fc]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@113c4ad6]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [1802865b-2582-4623-b871-9f9091420c07] at timestamp: 1626926548431
+[2021-07-22 09:32:28] - Closing session [1802865b-2582-4623-b871-9f9091420c07]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7be859de]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating JDK dynamic proxy: SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@cb1c58c]
+[2021-07-22 09:32:28] - Finished creation of repository instance for {}.
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'userRepository'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Autowiring by type from bean name 'userResolver' to bean named 'userRepository'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'userResolver'
+[2021-07-22 09:32:28] - Creating shared instance of singleton bean 'schemaStringProvider'
+[2021-07-22 09:32:28] - Creating instance of bean 'schemaStringProvider'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration'
+[2021-07-22 09:32:28] - Eagerly caching bean 'schemaStringProvider' to allow for resolving potential circular references
+[2021-07-22 09:32:28] - Autowiring by type from bean name 'schemaStringProvider' to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d9b7a8a'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'systemProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'random'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:28] - Could not find key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in any property source
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in PropertySource 'localProperties'
+[2021-07-22 09:32:28] - Could not find key 'graphql.tools.schemaLocationPattern:**/*.graphqls' in any property source
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'environmentProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'systemProperties'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:28] - Searching for key 'graphql.tools.schemaLocationPattern' in PropertySource 'random'

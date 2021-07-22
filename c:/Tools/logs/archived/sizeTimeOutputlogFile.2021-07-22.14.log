@@ -1,0 +1,297 @@
+[2021-07-22 09:32:27] - >> Starting attribute Attribute(name=courseName, type=string [non-identifier])
+[2021-07-22 09:32:27] - << Finishing up attribute : Attribute(name=courseName, type=string [non-identifier])
+[2021-07-22 09:32:27] - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3534651a
+[2021-07-22 09:32:27] -  Finished root entity : com.anu.springunijpa.entity.Course
+[2021-07-22 09:32:27] - Building LoadPlan...
+[2021-07-22 09:32:27] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ee5911f
+[2021-07-22 09:32:27] - processing queryspace <gen:0>
+[2021-07-22 09:32:27] - LoadPlan(entity=com.anu.springunijpa.entity.Course)
+    - Returns
+       - EntityReturnImpl(entity=com.anu.springunijpa.entity.Course, querySpaceUid=<gen:0>, path=com.anu.springunijpa.entity.Course)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.anu.springunijpa.entity.Course)
+          - SQL table alias mapping - course0_
+          - alias suffix - 0_
+          - suffixed key columns - {course_i1_0_0_}
+
+[2021-07-22 09:32:27] - Static select for entity com.anu.springunijpa.entity.Course [NONE]: select course0_.course_id as course_i1_0_0_, course0_.course_leader as course_l2_0_0_, course0_.course_name as course_n3_0_0_ from course course0_ where course0_.course_id=?
+[2021-07-22 09:32:27] - Static SQL for entity: com.anu.springunijpa.entity.User
+[2021-07-22 09:32:27] -  Version select: select user_id from user where user_id =?
+[2021-07-22 09:32:27] -  Snapshot select: select user_.user_id, user_.date_of_birth as date_of_2_1_, user_.user_name as user_nam3_1_, user_.user_tel as user_tel4_1_ from user user_ where user_.user_id=?
+[2021-07-22 09:32:27] -  Insert 0: insert into user (date_of_birth, user_name, user_tel, user_id) values (?, ?, ?, ?)
+[2021-07-22 09:32:27] -  Update 0: update user set date_of_birth=?, user_name=?, user_tel=? where user_id=?
+[2021-07-22 09:32:27] -  Delete 0: delete from user where user_id=?
+[2021-07-22 09:32:27] -  Identity insert: insert into user (date_of_birth, user_name, user_tel) values (?, ?, ?)
+[2021-07-22 09:32:27] -  Starting root entity : com.anu.springunijpa.entity.User
+[2021-07-22 09:32:27] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6fbc7853]
+[2021-07-22 09:32:27] - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@733fa95c
+[2021-07-22 09:32:27] - .. Registering AssociationKey : AssociationKey(table=user, columns={user_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@733fa95c
+[2021-07-22 09:32:27] - >> Starting entity identifier : com.anu.springunijpa.entity.User
+[2021-07-22 09:32:27] - Visiting attribute path : dOB
+[2021-07-22 09:32:27] - >> Starting attribute Attribute(name=dOB, type=timestamp [non-identifier])
+[2021-07-22 09:32:27] - << Finishing up attribute : Attribute(name=dOB, type=timestamp [non-identifier])
+[2021-07-22 09:32:27] - Visiting attribute path : userName
+[2021-07-22 09:32:27] - >> Starting attribute Attribute(name=userName, type=string [non-identifier])
+[2021-07-22 09:32:27] - << Finishing up attribute : Attribute(name=userName, type=string [non-identifier])
+[2021-07-22 09:32:27] - Visiting attribute path : userTel
+[2021-07-22 09:32:27] - >> Starting attribute Attribute(name=userTel, type=string [non-identifier])
+[2021-07-22 09:32:27] - << Finishing up attribute : Attribute(name=userTel, type=string [non-identifier])
+[2021-07-22 09:32:27] - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@733fa95c
+[2021-07-22 09:32:27] -  Finished root entity : com.anu.springunijpa.entity.User
+[2021-07-22 09:32:27] - Building LoadPlan...
+[2021-07-22 09:32:27] - processing queryspace <gen:0>
+[2021-07-22 09:32:27] - LoadPlan(entity=com.anu.springunijpa.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.anu.springunijpa.entity.User, querySpaceUid=<gen:0>, path=com.anu.springunijpa.entity.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.anu.springunijpa.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_1_0_}
+
+[2021-07-22 09:32:27] - Static select for entity com.anu.springunijpa.entity.User [NONE]: select user0_.user_id as user_id1_1_0_, user0_.date_of_birth as date_of_2_1_0_, user0_.user_name as user_nam3_1_0_, user0_.user_tel as user_tel4_1_0_ from user user0_ where user0_.user_id=?
+[2021-07-22 09:32:27] - Wrapping up metadata context...
+[2021-07-22 09:32:27] - Starting entity [com.anu.springunijpa.entity.Course]
+[2021-07-22 09:32:27] - Building identifier attribute [Course.courseId]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [courseId]
+[2021-07-22 09:32:27] -     Determined member [private java.lang.String com.anu.springunijpa.entity.Course.courseId]
+[2021-07-22 09:32:27] -     Determined type [name=string, class=org.hibernate.type.StringType]
+[2021-07-22 09:32:27] - Building attribute [Course.courseLeader]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [courseLeader]
+[2021-07-22 09:32:27] -     Determined member [private java.lang.String com.anu.springunijpa.entity.Course.courseLeader]
+[2021-07-22 09:32:27] -     Determined type [name=string, class=org.hibernate.type.StringType]
+[2021-07-22 09:32:27] - Building attribute [Course.courseName]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [courseName]
+[2021-07-22 09:32:27] -     Determined member [private java.lang.String com.anu.springunijpa.entity.Course.courseName]
+[2021-07-22 09:32:27] -     Determined type [name=string, class=org.hibernate.type.StringType]
+[2021-07-22 09:32:27] - Completed entity [com.anu.springunijpa.entity.Course]
+[2021-07-22 09:32:27] - Starting entity [com.anu.springunijpa.entity.User]
+[2021-07-22 09:32:27] - Building identifier attribute [User.userId]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [userId]
+[2021-07-22 09:32:27] -     Determined member [private int com.anu.springunijpa.entity.User.userId]
+[2021-07-22 09:32:27] -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+[2021-07-22 09:32:27] - Building attribute [User.dOB]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [dOB]
+[2021-07-22 09:32:27] -     Determined member [private java.util.Date com.anu.springunijpa.entity.User.dOB]
+[2021-07-22 09:32:27] -     Determined type [name=timestamp, class=org.hibernate.type.TimestampType]
+[2021-07-22 09:32:27] - Building attribute [User.userName]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [userName]
+[2021-07-22 09:32:27] -     Determined member [private java.lang.String com.anu.springunijpa.entity.User.userName]
+[2021-07-22 09:32:27] -     Determined type [name=string, class=org.hibernate.type.StringType]
+[2021-07-22 09:32:27] - Building attribute [User.userTel]
+[2021-07-22 09:32:27] - Starting attribute metadata determination [userTel]
+[2021-07-22 09:32:27] -     Determined member [private java.lang.String com.anu.springunijpa.entity.User.userTel]
+[2021-07-22 09:32:27] -     Determined type [name=string, class=org.hibernate.type.StringType]
+[2021-07-22 09:32:27] - Completed entity [com.anu.springunijpa.entity.User]
+[2021-07-22 09:32:27] - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+[2021-07-22 09:32:27] - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [institute]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [institute] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] -  TLSHandshake: localhost:3306, TLSv1.2, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, -1826445814
+[2021-07-22 09:32:28] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56ea388a
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course_id]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course_id] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course_leader]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course_leader] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course_name]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course_name] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - No alter strings for table : course
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user_id]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user_id] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [date_of_birth]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [date_of_birth] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user_name]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user_name] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user_tel]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user_tel] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - No alter strings for table : user
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [course]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [course] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Normalizing identifier quoting for object name [user]
+[2021-07-22 09:32:28] - Rendering unquoted identifier [user] in mixed case for use in DatabaseMetaData
+[2021-07-22 09:32:28] - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+[2021-07-22 09:32:28] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 09:32:28] - Checking 0 named HQL queries
+[2021-07-22 09:32:28] - Checking 0 named SQL queries
+[2021-07-22 09:32:28] - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@1d55dd21] for TypeConfiguration
+[2021-07-22 09:32:28] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@289a4b90
+[2021-07-22 09:32:28] - Registering SessionFactory: 60c59b5c-ae2c-40ca-966e-283772ca8968 (<unnamed>)
+[2021-07-22 09:32:28] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2021-07-22 09:32:28] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'entityManagerFactory'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,boolean,java.lang.Class[])] of bean '(inner bean)#71b639d0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#71b639d0': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,java.lang.Class[])] of bean '(inner bean)#71b639d0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#71b639d0': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map,boolean)] of bean '(inner bean)#71b639d0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#71b639d0': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Ignoring factory method [public static javax.persistence.EntityManager org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory,java.util.Map)] of bean '(inner bean)#71b639d0': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name '(inner bean)#71b639d0': Unsatisfied dependency expressed through method 'createSharedEntityManager' parameter 1: Ambiguous argument values for parameter of type [java.util.Map] - did you specify the correct bean references as arguments?
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean '(inner bean)#71b639d0'
+[2021-07-22 09:32:28] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2021-07-22 09:32:28] - Creating instance of bean 'jpaMappingContext'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Eagerly caching bean 'jpaMappingContext' to allow for resolving potential circular references
+[2021-07-22 09:32:28] - Invoking afterPropertiesSet() on bean with name 'jpaMappingContext'
+[2021-07-22 09:32:28] - Initializing JpaMetamodelMappingContext…
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'entityManagerFactory'
+[2021-07-22 09:32:28] - Finished initializing JpaMetamodelMappingContext!
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Finished creating instance of bean 'jpaMappingContext'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:28] - Invoking afterPropertiesSet() on bean with name 'courseRepository'
+[2021-07-22 09:32:28] -  TLSHandshake: localhost:3306, TLSv1.2, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, -1826445814
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61f652d7
+[2021-07-22 09:32:28] - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+[2021-07-22 09:32:28] - Statistics initialized [enabled=false]
+[2021-07-22 09:32:28] - Initializing service [role=org.hibernate.jmx.spi.JmxService]
+[2021-07-22 09:32:28] - Opened Session [9452fd93-00d9-40a6-b98f-54130ce891c9] at timestamp: 1626926548133
+[2021-07-22 09:32:28] - Closing session [9452fd93-00d9-40a6-b98f-54130ce891c9]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@217b0952]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-22 09:32:28] - Opening Hibernate Session.  tenant=null
+[2021-07-22 09:32:28] - Opened Session [371167c4-a1fb-4762-b5c6-190e0ec89381] at timestamp: 1626926548159
+[2021-07-22 09:32:28] - Closing session [371167c4-a1fb-4762-b5c6-190e0ec89381]
+[2021-07-22 09:32:28] - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@38ba8b45]
+[2021-07-22 09:32:28] - Releasing JDBC resources
+[2021-07-22 09:32:28] - Closing logical connection
+[2021-07-22 09:32:28] - Logical connection closed
+[2021-07-22 09:32:28] - Getting BeanInfo for class [com.anu.springunijpa.entity.Course]
+[2021-07-22 09:32:28] -     findClass(java.lang.ObjectCustomizer)
+[2021-07-22 09:32:28] -       findClassInternal(java.lang.ObjectCustomizer)
+[2021-07-22 09:32:28] -     --> Returning ClassNotFoundException
+[2021-07-22 09:32:28] -     --> Passing on ClassNotFoundException
+[2021-07-22 09:32:28] -     findClass(com.anu.springunijpa.entity.CourseCustomizer)
+[2021-07-22 09:32:28] -       findClassInternal(com.anu.springunijpa.entity.CourseCustomizer)
+[2021-07-22 09:32:28] -     --> Returning ClassNotFoundException
+[2021-07-22 09:32:28] -     --> Passing on ClassNotFoundException
+[2021-07-22 09:32:28] - Caching PropertyDescriptors for class [com.anu.springunijpa.entity.Course]
+[2021-07-22 09:32:28] - Found bean property 'class' of type [java.lang.Class]
+[2021-07-22 09:32:28] - Found bean property 'courseId' of type [java.lang.String]
+[2021-07-22 09:32:28] - Found bean property 'courseLeader' of type [java.lang.String]
+[2021-07-22 09:32:28] - Found bean property 'courseName' of type [java.lang.String]
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIJRMPServerImpl[6a4cb55a:17acc60f395:-7fff, -5071547165399993357]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2021-07-22 09:32:28] - making new client
+[2021-07-22 09:32:28] - no subject
+[2021-07-22 09:32:28] - connectionId=rmi://127.0.0.1  8
+[2021-07-22 09:32:28] - making new connection: rmi://127.0.0.1  8
+[2021-07-22 09:32:28] - Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2021-07-22 09:32:28] - Admin: timeout=120000
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@506181bc: connectionId=rmi://127.0.0.1  8
+[2021-07-22 09:32:28] - Admin: Timestamp=1626926548189
+[2021-07-22 09:32:28] - Admin: remaining timeout=119999
+[2021-07-22 09:32:28] - Waiting with timeout: 119999 ms remaining
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: add object [6a4cb55a:17acc60f395:-7fd3, -5784751669555232361]
+[2021-07-22 09:32:28] - new connection done: rmi://127.0.0.1  8
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "[B" found via defaultLoader, defined by null
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: id = [6a4cb55a:17acc60f395:-7fd3, -5784751669555232361], vmid = 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff, duration = 600000
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: add to dirty set: 1b76455b91b7fda9:7853f94e:17acc2f267a:-7fff
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 84
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:28] - Initializing repository instance for com.anu.springunijpa.repository.CourseRepository…
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:28] - Returning cached instance of singleton bean 'applicationStartup'
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fd3, -5784751669555232361]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fd3, -5784751669555232361]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7)
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+[2021-07-22 09:32:28] - connectionId=rmi://127.0.0.1  8, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+[2021-07-22 09:32:28] - Receive a new request.
+[2021-07-22 09:32:28] - Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:28] - name = org.springframework.boot:type=Admin,name=SpringApplication
+[2021-07-22 09:32:28] - org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+[2021-07-22 09:32:28] - Finish a request.
+[2021-07-22 09:32:28] - Admin: Timestamp=1626926548197
+[2021-07-22 09:32:28] - Admin: elapsed=0
+[2021-07-22 09:32:28] - Admin: remaining timeout=120000
+[2021-07-22 09:32:28] - Waiting with timeout: 120000 ms remaining
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIConnectionImpl[6a4cb55a:17acc60f395:-7fd3, -5784751669555232361]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+[2021-07-22 09:32:28] - [javax.management.remote.rmi.RMIConnectionImpl@506181bc: connectionId=rmi://127.0.0.1  8] closing.
+[2021-07-22 09:32:28] - terminate the ServerCommunicatorAdmin object.
+[2021-07-22 09:32:28] - client=javax.management.remote.rmi.RMIConnectionImpl@506181bc: connectionId=rmi://127.0.0.1  8
+[2021-07-22 09:32:28] - closing client.
+[2021-07-22 09:32:28] - Admin: elapsed=3
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: remove object [6a4cb55a:17acc60f395:-7fd3, -5784751669555232361]
+[2021-07-22 09:32:28] - RMI TCP Connection(1)-127.0.0.1: server socket: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=33381], exportCount: 1
+[2021-07-22 09:32:28] - sending notif
+[2021-07-22 09:32:28] - done
+[2021-07-22 09:32:28] - [javax.management.remote.rmi.RMIConnectionImpl@506181bc: connectionId=rmi://127.0.0.1  8] closed.

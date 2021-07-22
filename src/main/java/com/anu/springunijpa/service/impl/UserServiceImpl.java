@@ -1,6 +1,8 @@
 package com.anu.springunijpa.service.impl;
 
 import com.anu.springunijpa.entity.User;
+import com.anu.springunijpa.exception.IdNotFoundException;
+import com.anu.springunijpa.exception.UserNotFoundException;
 import com.anu.springunijpa.repository.UserRepository;
 import com.anu.springunijpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -33,27 +36,37 @@ public class UserServiceImpl implements UserService {
     //to view all the users
     @Override
     public Page<User> getUsers(Pageable page) {
-//        Pageable page = PageRequest.of(pageNumber,pageSize);
-        return userRepository.findAll(page);
-//        return userRepository.findAll();
+        Page<User> userList = userRepository.findAll(page);
+        if (userList.isEmpty()) {
+            throw new UserNotFoundException("No users found !");
+        }
+        return userList;
     }
 
     //to search user by id
     @Override
     public User getUserById(int userId) {
-        return userRepository.findById(userId).orElse(null);
+        return userRepository.findById(userId).orElseThrow(() -> new IdNotFoundException("User with this Id not found!!"));
     }
 
     //to search user by name
     @Override
     public User getUserByName(String userName) {
-        return userRepository.findByUserName(userName);
+        User user=userRepository.findByUserName(userName);
+        if (user==null){
+            throw new UserNotFoundException("User with this name not found !");
+        }
+        return user;
     }
 
     //to search user by telephone number
     @Override
     public User getUserByTel(String userTel) {
-        return userRepository.findByUserTel(userTel);
+        User user = userRepository.findByUserTel(userTel);
+        if (user==null){
+            throw new UserNotFoundException("User with this telephone number not found!");
+        }
+        return user;
     }
 
     //to delete user by id
@@ -75,12 +88,16 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> searchByIdOrName(int userId, String userName) {
-        return userRepository.findByUserIdOrUserName(userId,userName);
+        List<User> userList=userRepository.findByUserIdOrUserName(userId, userName);
+        if (userList.isEmpty()){
+            throw new UserNotFoundException("User with this name or id not found !!");
+        }
+        return userList;
     }
 
     @Override
     public List<User> searchByIdOrNameOrTel(int userId, String userName, String userTel) {
-        return userRepository.findByUserIdOrUserNameOrUserTel(userId,userName,userTel);
+        return userRepository.findByUserIdOrUserNameOrUserTel(userId, userName, userTel);
     }
 
 

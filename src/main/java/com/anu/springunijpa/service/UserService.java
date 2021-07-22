@@ -1,6 +1,8 @@
 package com.anu.springunijpa.service;
 
 import com.anu.springunijpa.entity.User;
+import com.anu.springunijpa.exception.IdNotFoundException;
+import com.anu.springunijpa.exception.UserNotFoundException;
 import com.anu.springunijpa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -35,7 +37,7 @@ public interface UserService {
      * @param page the page size and number of pages
      * @return all the users
      */
-    Page<User> getUsers(Pageable page);
+    Page<User> getUsers(Pageable page)throws UserNotFoundException;
 
 
     /**
@@ -43,7 +45,7 @@ public interface UserService {
      * @param userId the id of the user
      * @return the user details belongs to the id
      */
-    User getUserById(int userId);
+    User getUserById(int userId)throws IdNotFoundException;
 
 
     /**
@@ -51,7 +53,7 @@ public interface UserService {
      * @param userName the name of the user
      * @return the user details belongs to the name
      */
-    User getUserByName(String userName);
+    User getUserByName(String userName)throws UserNotFoundException;
 
 
     /**
@@ -59,7 +61,7 @@ public interface UserService {
      * @param userTel the telephone number of the user
      * @return the user details belongs to the telephone number
      */
-    User getUserByTel(String userTel);
+    User getUserByTel(String userTel) throws UserNotFoundException;
 
 
     /**
@@ -84,7 +86,7 @@ public interface UserService {
      * @param userName the name of the user
      * @return list of users
      */
-    List<User> searchByIdOrName(int userId, String userName);
+    List<User> searchByIdOrName(int userId, String userName)throws UserNotFoundException;
 
     List<User> searchByIdOrNameOrTel(int userId,String userName,String userTel);
 

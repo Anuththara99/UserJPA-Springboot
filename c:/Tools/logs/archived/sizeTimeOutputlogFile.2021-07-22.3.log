@@ -1,0 +1,64 @@
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:24] - Resolved location pattern [classpath*:com/anu/springunijpa/**/*.class] to resources [file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class]
+[2021-07-22 09:32:24] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:24] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:24] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:24] - Loaded [org.springframework.boot.autoconfigure.AutoConfigurationImportFilter] names: [org.springframework.boot.autoconfigure.condition.OnBeanCondition, org.springframework.boot.autoconfigure.condition.OnClassCondition, org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition]
+[2021-07-22 09:32:24] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIJRMPServerImpl[6a4cb55a:17acc60f395:-7fff, -5071547165399993357]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2021-07-22 09:32:25] - making new client
+[2021-07-22 09:32:25] - no subject
+[2021-07-22 09:32:25] - connectionId=rmi://127.0.0.1  2
+[2021-07-22 09:32:25] - making new connection: rmi://127.0.0.1  2
+[2021-07-22 09:32:25] - Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2021-07-22 09:32:25] - Admin: timeout=120000
+[2021-07-22 09:32:25] - Admin: Timestamp=1626926545037
+[2021-07-22 09:32:25] - Admin: remaining timeout=119999
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@79582fb5: connectionId=rmi://127.0.0.1  2
+[2021-07-22 09:32:25] - Waiting with timeout: 119999 ms remaining
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: add object [6a4cb55a:17acc60f395:-7ff7, -8568324158138405114]
+[2021-07-22 09:32:25] - new connection done: rmi://127.0.0.1  2
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting output stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration did not match due to @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel'
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@12411044
+[2021-07-22 09:32:25] - RMI TCP Connection(1)-127.0.0.1: class "java.rmi.server.UID" found via defaultLoader, defined by null

@@ -2,6 +2,8 @@ package com.anu.springunijpa.service.impl;
 
 import com.anu.springunijpa.entity.Course;
 import com.anu.springunijpa.entity.User;
+import com.anu.springunijpa.exception.CourseNotFoundException;
+import com.anu.springunijpa.exception.IdNotFoundException;
 import com.anu.springunijpa.repository.CourseRepository;
 import com.anu.springunijpa.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,17 +32,25 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public Course getCourseById(String courseId) {
-        return courseRepository.findById(courseId).orElse(null);
+        return courseRepository.findById(courseId).orElseThrow(()->new IdNotFoundException("Course Id not Found !!"));
     }
 
     @Override
     public Course getCourseByName(String courseName) {
-        return courseRepository.findByCourseName(courseName);
+        Course course=courseRepository.findByCourseName(courseName);
+        if (course==null){
+            throw new CourseNotFoundException("Course with this Name not found !!");
+        }
+        return course;
     }
 
     @Override
     public Course getCourseByLeader(String courseLeader) {
-        return courseRepository.findByCourseLeader(courseLeader);
+        Course course=courseRepository.findByCourseLeader(courseLeader);
+        if (course==null){
+            throw new CourseNotFoundException("Course with this Leader not found !!");
+        }
+        return course;
     }
 
     @Override

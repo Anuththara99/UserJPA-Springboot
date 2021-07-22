@@ -1,0 +1,546 @@
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched due to @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched due to @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration.persistenceExceptionTranslationPostProcessor()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+[2021-07-22 09:32:25] - Condition JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer did not match due to AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-22 09:32:25] - @EnableAutoConfiguration was declared on a class in the package 'com.anu.springunijpa'. Automatic @Repository and @Entity scanning is enabled.
+[2021-07-22 09:32:25] - Scanning for JPA repositories in packages com.anu.springunijpa.
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-22 09:32:25] - Resolved classpath location [com/anu/springunijpa/] to resources [URL [file:/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/]]
+[2021-07-22 09:32:25] - Looking for matching resources in directory tree [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*.class]
+[2021-07-22 09:32:25] - Resolved location pattern [classpath*:com/anu/springunijpa/**/*.class] to resources [file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/SpringUniJpaApplication.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/Course.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity/User.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-22 09:32:25] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-22 09:32:25] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/CourseService.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/UserService.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:25] - Ignored because not matching any filter: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:25] - Loaded [org.springframework.data.util.ProxyUtils$ProxyDetector] names: [org.springframework.data.jpa.util.HibernateProxyDetector]
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-22 09:32:25] - Resolved classpath location [com/anu/springunijpa/] to resources [URL [file:/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/]]
+[2021-07-22 09:32:25] - Looking for matching resources in directory tree [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/controller] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/entity] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/repository] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/resolver] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Searching directory [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl] for files matching pattern [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/**/*Impl.class]
+[2021-07-22 09:32:25] - Resolved location pattern [classpath*:com/anu/springunijpa/**/*Impl.class] to resources [file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class], file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:25] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-22 09:32:25] - Scanning file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:25] - Identified candidate component class: file [/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-22 09:32:25] - Spring Data JPA - Registering repository: courseRepository - Interface: com.anu.springunijpa.repository.CourseRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+[2021-07-22 09:32:25] - Spring Data JPA - Registering repository: userRepository - Interface: com.anu.springunijpa.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+[2021-07-22 09:32:25] - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration.stringHttpMessageConverter()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration.mappingJackson2HttpMessageConverter()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration#messageConverters matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.messageConverters()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.data.web.config.ProjectingArgumentResolverRegistrar.projectingArgumentResolverBeanPostProcessor()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataWebConfiguration.pageableResolver()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataWebConfiguration.sortResolver()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataJacksonConfiguration.jacksonGeoModule()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration#pageableCustomizer matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration.pageableCustomizer()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration#sortCustomizer matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration.sortCustomizer()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+[2021-07-22 09:32:25] - Condition ProjectInfoAutoConfiguration.GitResourceAvailableCondition on org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#gitProperties did not match due to GitResource did not find git info at classpath:git.properties
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'configurationProperties'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'servletConfigInitParams'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'servletContextInitParams'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'systemProperties'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'systemEnvironment'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'random'
+[2021-07-22 09:32:25] - Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/''
+[2021-07-22 09:32:25] - Could not find key 'spring.info.build.location:classpath:META-INF/build-info.properties' in any property source
+[2021-07-22 09:32:25] - Resolved placeholder 'spring.info.build.location:classpath:META-INF/build-info.properties'
+[2021-07-22 09:32:25] - Condition OnResourceCondition on org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#buildProperties did not match due to @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration.jdbcTemplate()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration.namedParameterJdbcTemplate()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration matched due to @ConditionalOnProperty (spring.sql.init.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration.dataSourceScriptDatabaseInitializer()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration#taskScheduler did not match due to @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration.scheduledBeanLazyInitializationExcludeFilter()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration.taskSchedulerBuilder()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration#transactionManager did not match due to @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration matched due to @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration matched due to @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration matched due to @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.org.springframework.transaction.config.internalTransactionAdvisor()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.transactionAttributeSource()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.transactionInterceptor()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.org.springframework.transaction.config.internalTransactionalEventListenerFactory()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration#transactionTemplate matched due to @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration.transactionTemplate()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration#platformTransactionManagerCustomizers matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.platformTransactionManagerCustomizers()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration#transactionalOperator did not match due to @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration#restTemplateBuilderConfigurer matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilderConfigurer()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration#restTemplateBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilder()
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration matched due to @ConditionalOnWebApplication (required) found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration.tomcatWebServerFactoryCustomizer()
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnProperty (server.servlet.encoding.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration#characterEncodingFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.characterEncodingFilter()
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.localeCharsetMappingsCustomizer()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnProperty (spring.servlet.multipart.enabled) matched
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartConfigElement matched due to @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement,org.springframework.web.multipart.commons.CommonsMultipartResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration.multipartConfigElement()
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration.multipartResolver()
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration matched due to found 'session' scope
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration matched due to @ConditionalOnClass found required classes 'com.fasterxml.jackson.databind.ObjectMapper', 'org.springframework.messaging.simp.config.AbstractMessageBrokerConfiguration'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Condition OnBeanCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration did not match due to @ConditionalOnBean (types: org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration,com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans of type org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'autoConfigurationReport'
+[2021-07-22 09:32:25] - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration'
+[2021-07-22 09:32:25] - Successfully enhanced com.anu.springunijpa.SpringUniJpaApplication; enhanced class name is: com.anu.springunijpa.SpringUniJpaApplication$$EnhancerBySpringCGLIB$$92da47ac
+[2021-07-22 09:32:25] - Replacing bean definition 'springUniJpaApplication' existing class 'com.anu.springunijpa.SpringUniJpaApplication' with enhanced class 'com.anu.springunijpa.SpringUniJpaApplication$$EnhancerBySpringCGLIB$$92da47ac'
+[2021-07-22 09:32:25] - Successfully enhanced com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration; enhanced class name is: com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration$$EnhancerBySpringCGLIB$$7a644578
+[2021-07-22 09:32:25] - Replacing bean definition 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration' existing class 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration' with enhanced class 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration$$EnhancerBySpringCGLIB$$7a644578'
+[2021-07-22 09:32:25] - Successfully enhanced com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration; enhanced class name is: com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration$$EnhancerBySpringCGLIB$$62cca23d
+[2021-07-22 09:32:25] - Replacing bean definition 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration' existing class 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration' with enhanced class 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration$$EnhancerBySpringCGLIB$$62cca23d'
+[2021-07-22 09:32:25] - Successfully enhanced com.oembedler.moon.graphql.boot.GraphQLServletProperties; enhanced class name is: com.oembedler.moon.graphql.boot.GraphQLServletProperties$$EnhancerBySpringCGLIB$$3831c89c
+[2021-07-22 09:32:25] - Replacing bean definition 'graphql.servlet-com.oembedler.moon.graphql.boot.GraphQLServletProperties' existing class 'com.oembedler.moon.graphql.boot.GraphQLServletProperties' with enhanced class 'com.oembedler.moon.graphql.boot.GraphQLServletProperties$$EnhancerBySpringCGLIB$$3831c89c'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2021-07-22 09:32:25] - Creating instance of bean 'propertySourcesPlaceholderConfigurer'
+[2021-07-22 09:32:25] - Eagerly caching bean 'propertySourcesPlaceholderConfigurer' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'emBeanDefinitionRegistrarPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-22 09:32:25] - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@5524b72f]
+[2021-07-22 09:32:25] - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@3f628ce9]
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'preserveErrorControllerTargetClassPostProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'preserveErrorControllerTargetClassPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'preserveErrorControllerTargetClassPostProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Invoking afterPropertiesSet() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-22 09:32:25] - Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-22 09:32:25] - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-22 09:32:25] - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+[2021-07-22 09:32:25] - Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator]
+[2021-07-22 09:32:25] - Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator]
+[2021-07-22 09:32:25] - Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+[2021-07-22 09:32:25] - Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+[2021-07-22 09:32:25] - Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory]
+[2021-07-22 09:32:25] - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+[2021-07-22 09:32:25] - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+[2021-07-22 09:32:25] - Found bean property 'class' of type [java.lang.Class]
+[2021-07-22 09:32:25] - Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+[2021-07-22 09:32:25] - Found bean property 'exposeProxy' of type [boolean]
+[2021-07-22 09:32:25] - Found bean property 'frozen' of type [boolean]
+[2021-07-22 09:32:25] - Found bean property 'includePatterns' of type [java.util.List]
+[2021-07-22 09:32:25] - Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+[2021-07-22 09:32:25] - Found bean property 'opaque' of type [boolean]
+[2021-07-22 09:32:25] - Found bean property 'optimize' of type [boolean]
+[2021-07-22 09:32:25] - Found bean property 'order' of type [int]
+[2021-07-22 09:32:25] - Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+[2021-07-22 09:32:25] - Found bean property 'proxyTargetClass' of type [boolean]
+[2021-07-22 09:32:25] - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-22 09:32:25] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2021-07-22 09:32:25] - Creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'environment'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2021-07-22 09:32:26] - Eagerly caching bean 'persistenceExceptionTranslationPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Finished creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating instance of bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'webServerFactoryCustomizerBeanPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Finished creating instance of bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'errorPageRegistrarBeanPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Finished creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating instance of bean 'projectingArgumentResolverBeanPostProcessor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Getting BeanInfo for class [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration]
+[2021-07-22 09:32:26] - Caching PropertyDescriptors for class [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration]
+[2021-07-22 09:32:26] - Found bean property 'class' of type [java.lang.Class]
+[2021-07-22 09:32:26] - Found bean property 'importMetadata' of type [org.springframework.core.type.AnnotationMetadata]
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry'
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Creating instance of bean 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:26] - Eagerly caching bean 'transactionAttributeSource' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-07-22 09:32:26] - Creating instance of bean 'transactionInterceptor'
+[2021-07-22 09:32:26] - Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Eagerly caching bean 'transactionInterceptor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Invoking afterPropertiesSet() on bean with name 'transactionInterceptor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'transactionInterceptor'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'projectingArgumentResolverBeanPostProcessor' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'projectingArgumentResolverBeanPostProcessor'
+[2021-07-22 09:32:26] - No 'messageSource' bean, using [Empty MessageSource]
+[2021-07-22 09:32:26] - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+[2021-07-22 09:32:26] - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@10dc7d6]
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[2021-07-22 09:32:26] - Creating instance of bean 'tomcatServletWebServerFactory'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-07-22 09:32:26] - The Apache Tomcat Native library could not be found using names [tcnative-1, libtcnative-1] on the java.library.path [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]. The errors reported were [Can't load library: /home/anuththara/IdeaProjects/spring-uni-jpa/bin/libtcnative-1.so, Can't load library: /home/anuththara/IdeaProjects/spring-uni-jpa/bin/liblibtcnative-1.so, no tcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: /home/anuththara/IdeaProjects/spring-uni-jpa/bin/libtcnative-1.so, Can't load library: /home/anuththara/IdeaProjects/spring-uni-jpa/bin/liblibtcnative-1.so, no tcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at org.apache.tomcat.jni.Library.<init>(Library.java:101)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:211)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:192)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:101)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getDefaultLifecycleListeners(TomcatServletWebServerFactory.java:173)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.<init>(TomcatServletWebServerFactory.java:120)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:217)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.anu.springunijpa.SpringUniJpaApplication.main(SpringUniJpaApplication.java:10)
+[2021-07-22 09:32:26] - Eagerly caching bean 'tomcatServletWebServerFactory' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[2021-07-22 09:32:26] - Creating instance of bean 'websocketServletWebServerCustomizer'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-07-22 09:32:26] - Eagerly caching bean 'websocketServletWebServerCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'websocketServletWebServerCustomizer'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating instance of bean 'servletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Creating instance of bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.context.properties.BoundConfigurationProperties' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Eagerly caching bean 'servletWebServerFactoryCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'servletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating instance of bean 'tomcatServletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Eagerly caching bean 'tomcatServletWebServerFactoryCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'tomcatServletWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating instance of bean 'tomcatWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'environment'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Eagerly caching bean 'tomcatWebServerFactoryCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'tomcatWebServerFactoryCustomizer'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[2021-07-22 09:32:26] - Creating instance of bean 'localeCharsetMappingsCustomizer'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-07-22 09:32:26] - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-22 09:32:26] - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-07-22 09:32:26] - Eagerly caching bean 'localeCharsetMappingsCustomizer' to allow for resolving potential circular references
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-22 09:32:26] - Finished creating instance of bean 'localeCharsetMappingsCustomizer'
+[2021-07-22 09:32:26] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 82
+[2021-07-22 09:32:26] - RMI TCP Connection(1)-127.0.0.1: (port 33381) op = 80
+[2021-07-22 09:32:26] - RMI TCP Connection(1)-127.0.0.1: getting input stream
+[2021-07-22 09:32:26] - RMI TCP Connection(1)-127.0.0.1: call dispatcher
+[2021-07-22 09:32:26] - RMI TCP Connection(1)-127.0.0.1: [127.0.0.1: javax.management.remote.rmi.RMIJRMPServerImpl[6a4cb55a:17acc60f395:-7fff, -5071547165399993357]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+[2021-07-22 09:32:26] - making new client
+[2021-07-22 09:32:26] - no subject
+[2021-07-22 09:32:26] - connectionId=rmi://127.0.0.1  4
+[2021-07-22 09:32:26] - making new connection: rmi://127.0.0.1  4
+[2021-07-22 09:32:26] - Creates a new ServerCommunicatorAdmin object with the timeout 120000
+[2021-07-22 09:32:26] - Admin: timeout=120000
