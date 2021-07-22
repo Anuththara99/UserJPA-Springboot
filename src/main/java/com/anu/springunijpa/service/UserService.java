@@ -88,7 +88,14 @@ public interface UserService {
      */
     List<User> searchByIdOrName(int userId, String userName)throws UserNotFoundException;
 
-    List<User> searchByIdOrNameOrTel(String serachtype,String search);
+    /**
+     * to search users by id or name or tel using key value
+     * @param serachtype search type can be id , name or tel
+     * @param search search is value of id or value of name or value of tel that need to search
+     * @return the user details belongs to the search type and value
+     * @throws UserNotFoundException display error when search values not found
+     */
+    List<User> searchByIdOrNameOrTel(String serachtype,String search) throws UserNotFoundException;
 
 
 }

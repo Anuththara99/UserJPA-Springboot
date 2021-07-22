@@ -107,8 +107,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> searchByIdOrNameOrTel(String searchtype,String search) {
         int userId = 0;
-        String userName = null;
-        String userTel = null;
+        String userName =null;
+        String userTel =null;
+//        Optional<String> name=Optional.ofNullable(userName);
         if (searchtype.equals("id")) {
             int id = Integer.parseInt(search);
             userId = id;

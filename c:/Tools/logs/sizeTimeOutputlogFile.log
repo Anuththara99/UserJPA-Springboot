@@ -55,3 +55,6 @@
 [2021-07-22 12:55:10] - Starting ProtocolHandler ["http-nio-8080"]
 [2021-07-22 12:55:10] - Tomcat started on port(s): 8080 (http) with context path ''
 [2021-07-22 12:55:10] - Started SpringUniJpaApplication in 2.565 seconds (JVM running for 3.232)
+[2021-07-22 13:25:05] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 13:25:06] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 13:25:06] - HikariPool-1 - Shutdown completed.
