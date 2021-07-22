@@ -1,0 +1,138 @@
+[2021-07-22 15:11:38] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 15:11:38] - Finished Spring Data repository scanning in 192 ms. Found 2 JPA repository interfaces.
+[2021-07-22 15:11:38] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 15:11:38] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 15:11:38] - Starting service [Tomcat]
+[2021-07-22 15:11:38] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 15:11:38] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 15:11:38] - Root WebApplicationContext: initialization completed in 3481 ms
+[2021-07-22 15:11:39] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 15:11:39] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 15:11:39] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 15:11:39] - HikariPool-1 - Starting...
+[2021-07-22 15:11:39] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 15:11:40] - HikariPool-1 - Start completed.
+[2021-07-22 15:11:40] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 15:11:40] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 15:11:40] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 15:11:41] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 15:11:41] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 15:11:41] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 15:11:41] - Started SpringUniJpaApplication in 7.775 seconds (JVM running for 11.83)
+[2021-07-22 15:11:50] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 15:11:50] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 15:11:50] - Completed initialization in 0 ms
+[2021-07-22 15:15:36] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 15:15:36] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 15:15:36] - HikariPool-1 - Shutdown completed.
+[2021-07-22 15:15:45] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 26258 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 15:15:45] - No active profile set, falling back to default profiles: default
+[2021-07-22 15:15:47] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 15:15:47] - Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+[2021-07-22 15:15:48] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 15:15:48] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 15:15:48] - Starting service [Tomcat]
+[2021-07-22 15:15:48] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 15:15:48] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 15:15:48] - Root WebApplicationContext: initialization completed in 3081 ms
+[2021-07-22 15:15:49] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 15:15:49] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 15:15:49] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 15:15:49] - HikariPool-1 - Starting...
+[2021-07-22 15:15:49] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 15:15:50] - HikariPool-1 - Start completed.
+[2021-07-22 15:15:50] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 15:15:50] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 15:15:50] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 15:15:51] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 15:15:51] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 15:15:51] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 15:15:51] - Started SpringUniJpaApplication in 7.116 seconds (JVM running for 10.155)
+[2021-07-22 15:15:57] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 15:15:57] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 15:15:57] - Completed initialization in 0 ms
+[2021-07-22 15:20:49] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 15:20:49] - HikariPool-1 - Shutdown initiated...
+[2021-07-22 15:20:49] - HikariPool-1 - Shutdown completed.
+[2021-07-22 15:20:53] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 26618 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 15:20:53] - No active profile set, falling back to default profiles: default
+[2021-07-22 15:20:53] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 15:20:53] - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+[2021-07-22 15:20:54] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 15:20:54] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 15:20:54] - Starting service [Tomcat]
+[2021-07-22 15:20:54] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 15:20:54] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 15:20:54] - Root WebApplicationContext: initialization completed in 863 ms
+[2021-07-22 15:20:54] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 15:20:54] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 15:20:54] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 15:20:54] - HikariPool-1 - Starting...
+[2021-07-22 15:20:54] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 15:20:54] - HikariPool-1 - Start completed.
+[2021-07-22 15:20:54] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 15:20:54] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 15:20:54] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 15:20:55] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'graphQLServletRegistrationBean' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLWebAutoConfiguration.class]: Unsatisfied dependency expressed through method 'graphQLServletRegistrationBean' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'graphQLHttpServlet' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLWebAutoConfiguration.class]: Unsatisfied dependency expressed through method 'graphQLHttpServlet' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'invocationInputFactory' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLWebAutoConfiguration.class]: Unsatisfied dependency expressed through method 'invocationInputFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'graphQLSchemaProvider' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLWebAutoConfiguration.class]: Unsatisfied dependency expressed through method 'graphQLSchemaProvider' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'graphQLSchema' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLJavaToolsAutoConfiguration.class]: Unsatisfied dependency expressed through method 'graphQLSchema' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schemaParser' defined in class path resource [com/oembedler/moon/graphql/boot/GraphQLJavaToolsAutoConfiguration.class]: Unsatisfied dependency expressed through method 'schemaParser' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userResolver': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.anu.springunijpa.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.anu.springunijpa.repository.UserRepository.findAllByUser(org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.anu.springunijpa.repository.UserRepository.findAllByUser(org.springframework.data.domain.Pageable)! No property user found for type User! Did you mean 'userId'?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.anu.springunijpa.repository.UserRepository.findAllByUser(org.springframework.data.domain.Pageable)! No property user found for type User! Did you mean 'userId'?
+[2021-07-22 15:20:55] - Stopping service [Tomcat]
+[2021-07-22 15:20:55] - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[2021-07-22 15:20:55] - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@16.0.1/java.math.BigInteger.implMulAdd(BigInteger.java:3183)
+ java.base@16.0.1/java.math.BigInteger.mulAdd(BigInteger.java:3153)
+ java.base@16.0.1/java.math.BigInteger.implSquareToLen(BigInteger.java:2186)
+ java.base@16.0.1/java.math.BigInteger.squareToLen(BigInteger.java:2106)
+ java.base@16.0.1/java.math.BigInteger.implMontgomerySquare(BigInteger.java:2848)
+ java.base@16.0.1/java.math.BigInteger.montgomerySquare(BigInteger.java:2805)
+ java.base@16.0.1/java.math.BigInteger.oddModPow(BigInteger.java:3075)
+ java.base@16.0.1/java.math.BigInteger.modPow(BigInteger.java:2736)
+ java.base@16.0.1/com.sun.crypto.provider.DHKeyAgreement.engineGenerateSecret(DHKeyAgreement.java:330)
+ java.base@16.0.1/com.sun.crypto.provider.DHKeyAgreement.engineGenerateSecret(DHKeyAgreement.java:259)
+ java.base@16.0.1/com.sun.crypto.provider.DHKeyAgreement.engineGenerateSecret(DHKeyAgreement.java:391)
+ java.base@16.0.1/javax.crypto.KeyAgreement.generateSecret(KeyAgreement.java:678)
+ java.base@16.0.1/sun.security.ssl.KAKeyDerivation.t12DeriveKey(KAKeyDerivation.java:77)
+ java.base@16.0.1/sun.security.ssl.KAKeyDerivation.deriveKey(KAKeyDerivation.java:61)
+ java.base@16.0.1/sun.security.ssl.DHClientKeyExchange$DHClientKeyExchangeProducer.produce(DHClientKeyExchange.java:209)
+ java.base@16.0.1/sun.security.ssl.ClientKeyExchange$ClientKeyExchangeProducer.produce(ClientKeyExchange.java:65)
+ java.base@16.0.1/sun.security.ssl.SSLHandshake.produce(SSLHandshake.java:440)
+ java.base@16.0.1/sun.security.ssl.ServerHelloDone$ServerHelloDoneConsumer.consume(ServerHelloDone.java:182)
+ java.base@16.0.1/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+ java.base@16.0.1/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+ java.base@16.0.1/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+ java.base@16.0.1/sun.security.ssl.TransportContext.dispatch(TransportContext.java:199)
+ java.base@16.0.1/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
+ java.base@16.0.1/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1498)
+ java.base@16.0.1/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1404)
+ java.base@16.0.1/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+ java.base@16.0.1/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+ app//com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:317)
+ app//com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:188)
+ app//com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:97)
+ app//com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:333)
+ app//com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:203)
+ app//com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1353)
+ app//com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+ app//com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+ app//com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+ app//com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+ app//com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+ app//com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+ app//com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+ app//com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+ app//com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+ app//com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+ app//com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+ app//com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+ java.base@16.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@16.0.1/java.lang.Thread.run(Thread.java:831)

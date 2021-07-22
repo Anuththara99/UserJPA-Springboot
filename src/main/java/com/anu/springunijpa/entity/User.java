@@ -27,16 +27,24 @@ public class User {
     @Column(name = "user_tel")
     private String userTel;
 
-//    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-//    @JoinTable(name = "user_course",
-//            joinColumns = {
-//            @JoinColumn(name = "user_id",referencedColumnName = "user_id", nullable = false,updatable = false)
-//            },
-//            inverseJoinColumns = {
-//            @JoinColumn(name = "course_id",referencedColumnName = "course_id",nullable = false,updatable = false)
-//            }
-//    )
-//    private List<Course> courses=new ArrayList<>();
+    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
+    @JoinTable(name = "user_course",
+            joinColumns =
+            @JoinColumn(name = "user_id")
+            ,
+            inverseJoinColumns =
+            @JoinColumn(name = "course_id")
+
+    )
+    private List<Course> courses=new ArrayList<>();
+
+    public List<Course> getCourses() {
+        return courses;
+    }
+
+    public void setCourses(List<Course> courses) {
+        this.courses = courses;
+    }
 
     public int getUserId() {
         return userId;
@@ -69,6 +77,7 @@ public class User {
     public void setUserTel(String userTel) {
         this.userTel = userTel;
     }
+
 
     @Override
     public String toString() {

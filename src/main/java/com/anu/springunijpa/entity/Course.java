@@ -23,8 +23,17 @@ public class Course {
     @Column(name = "course_leader")
     private String courseLeader;
 
-//    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY)
-//    private List<User> user= new ArrayList<>();
+    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
+    private List<User> users= new ArrayList<>();
+
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
 
     public String getCourseId() {
         return courseId;
@@ -49,6 +58,8 @@ public class Course {
     public void setCourseLeader(String courseLeader) {
         this.courseLeader = courseLeader;
     }
+
+
 
     @Override
     public String toString() {
