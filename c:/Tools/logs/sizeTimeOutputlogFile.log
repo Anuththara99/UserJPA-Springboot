@@ -1,6 +1,6 @@
-[2021-07-22 15:52:14] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2021-07-22 15:52:14] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2021-07-22 15:52:14] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2021-07-22 15:52:14] - Starting ProtocolHandler ["http-nio-8080"]
-[2021-07-22 15:52:14] - Tomcat started on port(s): 8080 (http) with context path ''
-[2021-07-22 15:52:14] - Started SpringUniJpaApplication in 3.586 seconds (JVM running for 4.131)
+[2021-07-22 16:10:26] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 16:10:26] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 16:10:28] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 16:10:28] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 16:10:28] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 16:10:28] - Started SpringUniJpaApplication in 17.878 seconds (JVM running for 23.6)
