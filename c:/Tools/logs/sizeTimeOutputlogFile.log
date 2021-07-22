@@ -1,3 +1,48 @@
 [2021-07-22 12:18:10] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 [2021-07-22 12:22:49] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
 [2021-07-22 12:22:50] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:29:51] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:29:52] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:30:18] - Id not Found !
+[2021-07-22 12:30:46] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:30:47] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:30:54] - User with this Id not found!!
+[2021-07-22 12:31:23] - Course Id not Found !!
+[2021-07-22 12:32:40] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:32:41] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:32:47] - Course Id not Found !!
+[2021-07-22 12:33:12] - Course Id not Found !!
+[2021-07-22 12:33:24] - Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "name"
+[2021-07-22 12:35:10] - User with this Id not found!!
+[2021-07-22 12:36:48] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:36:49] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:37:14] - User with this Id not found!!
+[2021-07-22 12:37:44] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 17593 (/home/anuththara/IdeaProjects/spring-uni-jpa/target/classes started by anuththara in /home/anuththara/IdeaProjects/spring-uni-jpa)
+[2021-07-22 12:37:44] - No active profile set, falling back to default profiles: default
+[2021-07-22 12:37:45] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-22 12:37:45] - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+[2021-07-22 12:37:45] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-22 12:37:45] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:37:45] - Starting service [Tomcat]
+[2021-07-22 12:37:45] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-22 12:37:45] - Initializing Spring embedded WebApplicationContext
+[2021-07-22 12:37:45] - Root WebApplicationContext: initialization completed in 732 ms
+[2021-07-22 12:37:45] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-22 12:37:45] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-22 12:37:45] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-22 12:37:45] - HikariPool-1 - Starting...
+[2021-07-22 12:37:45] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-22 12:37:45] - HikariPool-1 - Start completed.
+[2021-07-22 12:37:45] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-22 12:37:46] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-22 12:37:46] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-22 12:37:46] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-22 12:37:46] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-22 12:37:46] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-22 12:37:46] - Started SpringUniJpaApplication in 2.34 seconds (JVM running for 2.836)
+[2021-07-22 12:37:54] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-22 12:37:54] - Initializing Servlet 'dispatcherServlet'
+[2021-07-22 12:37:54] - Completed initialization in 1 ms
+[2021-07-22 12:38:02] - user id -12
+[2021-07-22 12:38:17] - user id -198
+[2021-07-22 12:38:17] - User with this Id not found!!

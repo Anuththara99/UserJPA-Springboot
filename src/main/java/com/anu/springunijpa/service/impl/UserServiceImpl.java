@@ -1,10 +1,13 @@
 package com.anu.springunijpa.service.impl;
 
+import com.anu.springunijpa.controller.UserController;
 import com.anu.springunijpa.entity.User;
 import com.anu.springunijpa.exception.IdNotFoundException;
 import com.anu.springunijpa.exception.UserNotFoundException;
 import com.anu.springunijpa.repository.UserRepository;
 import com.anu.springunijpa.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -20,6 +23,8 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     //to add new user
     @Override
@@ -46,6 +51,7 @@ public class UserServiceImpl implements UserService {
     //to search user by id
     @Override
     public User getUserById(int userId) {
+        logger.info("user id -"+userId);
         return userRepository.findById(userId).orElseThrow(() -> new IdNotFoundException("User with this Id not found!!"));
     }
 
@@ -53,6 +59,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getUserByName(String userName) {
         User user=userRepository.findByUserName(userName);
+        logger.info("user name -"+userName);
         if (user==null){
             throw new UserNotFoundException("User with this name not found !");
         }
@@ -62,6 +69,7 @@ public class UserServiceImpl implements UserService {
     //to search user by telephone number
     @Override
     public User getUserByTel(String userTel) {
+        logger.info("user tel -"+userTel);
         User user = userRepository.findByUserTel(userTel);
         if (user==null){
             throw new UserNotFoundException("User with this telephone number not found!");
@@ -72,6 +80,7 @@ public class UserServiceImpl implements UserService {
     //to delete user by id
     @Override
     public String deleteUser(int userId) {
+        logger.info("user id -"+userId);
         userRepository.deleteById(userId);
         return "Successfully Removed User " + userId + "!!";
     }

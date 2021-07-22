@@ -45,9 +45,10 @@ public interface CourseService {
 
 
     /**
-     * to view course by course leader
+     * to view by course leader name
      * @param courseLeader name of the course leader
      * @return the details of the course that belongs to the course leader
+     * @throws CourseNotFoundException when leader name is not found
      */
     Course getCourseByLeader(String courseLeader) throws CourseNotFoundException;
 

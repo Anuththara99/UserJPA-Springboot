@@ -30,23 +30,9 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    @GetMapping("/")
-    public void logLevelDisplay(){
-        logger.error("Error message");
-        logger.warn("Warning message");
-        logger.info("Info message");
-        logger.debug("Debug message");
-        logger.trace("Trace message");
-    }
-
     //view all user using userService with pagination
     @GetMapping("/users")
     public Page<User> viewAllUser(Pageable page) {
-        logger.trace("Trace: View user method");
-        logger.debug("debug: View user method");
-        logger.info("info: View user method");
-        logger.error("error: View user method");
-        logger.warn("warn : View user method");
         return userService.getUsers(page);
     }
 
@@ -64,7 +50,7 @@ public class UserController {
 
     //search user by user telephone number using userService
     @GetMapping("users/tel/{userTel}")
-    public User searchUserByTel(@PathVariable String userTel){
+    public User searchUserByTel(@PathVariable String userTel) {
         return userService.getUserByTel(userTel);
     }
 
@@ -82,24 +68,24 @@ public class UserController {
 
     //to search user by id or user name
     @GetMapping("/users/idorname/{userId},{userName}")
-    public ResponseEntity<List<User>> searchUserByIdOrName(@PathVariable("userId") int userId, @PathVariable("userName") String userName){
-        return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId,userName), HttpStatus.OK);
+    public ResponseEntity<List<User>> searchUserByIdOrName(@PathVariable("userId") int userId, @PathVariable("userName") String userName) {
+        return new ResponseEntity<List<User>>(userService.searchByIdOrName(userId, userName), HttpStatus.OK);
     }
 
     @GetMapping("/users/search")
-    public ResponseEntity<List<User>> searchByAny(@RequestParam String searchtype,@RequestParam String search){
-        int userId =0;
-        String userName=null;
-        String userTel=null;
-        if (searchtype.equals("id")){
+    public ResponseEntity<List<User>> searchByAny(@RequestParam String searchtype, @RequestParam String search) {
+        int userId = 0;
+        String userName = null;
+        String userTel = null;
+        if (searchtype.equals("id")) {
             int id = Integer.parseInt(search);
-            userId=id;
-        }else if(searchtype.equals("name")){
-            userName=search;
-        }else if(searchtype.equals("tel")){
-            userTel=search;
+            userId = id;
+        } else if (searchtype.equals("name")) {
+            userName = search;
+        } else if (searchtype.equals("tel")) {
+            userTel = search;
         }
-        return new ResponseEntity<List<User>>(userService.searchByIdOrNameOrTel(userId,userName,userTel), HttpStatus.OK);
+        return new ResponseEntity<List<User>>(userService.searchByIdOrNameOrTel(userId, userName, userTel), HttpStatus.OK);
     }
 
 

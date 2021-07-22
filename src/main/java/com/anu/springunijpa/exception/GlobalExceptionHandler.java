@@ -30,6 +30,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         details.add("User not Found !");
         HttpStatus status=HttpStatus.BAD_REQUEST;
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error("User not Found !");
         return ResponseEntity.status(status).body(error);
     }
 
@@ -40,6 +41,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         details.add("Id not Found !");
         HttpStatus status=HttpStatus.NOT_FOUND;
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
     @ExceptionHandler(Exception.class)
@@ -49,6 +51,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         details.add("Other Exception !");
         HttpStatus status=HttpStatus.BAD_REQUEST;
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -59,6 +62,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Request method Not supported !");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -68,6 +72,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Media  Not supported !");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -77,6 +82,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Media  Not Acceptable !");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -86,6 +92,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Path variable is missing !");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -95,6 +102,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Request body is not Readable !!");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -104,6 +112,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Incorrect Type !!");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 
@@ -113,6 +122,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         List<String> details= new ArrayList<>();
         details.add("Request param is Missing  !!");
         Error error= new Error(message,details, LocalDateTime.now(),status);
+        logger.error(message);
         return ResponseEntity.status(status).body(error);
     }
 }
