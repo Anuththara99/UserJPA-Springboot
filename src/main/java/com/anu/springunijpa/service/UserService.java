@@ -88,7 +88,7 @@ public interface UserService {
      */
     List<User> searchByIdOrName(int userId, String userName)throws UserNotFoundException;
 
-    List<User> searchByIdOrNameOrTel(int userId,String userName,String userTel);
+    List<User> searchByIdOrNameOrTel(String serachtype,String search);
 
 
 }

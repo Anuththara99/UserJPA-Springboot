@@ -105,8 +105,23 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> searchByIdOrNameOrTel(int userId, String userName, String userTel) {
-        return userRepository.findByUserIdOrUserNameOrUserTel(userId, userName, userTel);
+    public List<User> searchByIdOrNameOrTel(String searchtype,String search) {
+        int userId = 0;
+        String userName = null;
+        String userTel = null;
+        if (searchtype.equals("id")) {
+            int id = Integer.parseInt(search);
+            userId = id;
+        } else if (searchtype.equals("name")) {
+            userName = search;
+        } else if (searchtype.equals("tel")) {
+            userTel = search;
+        }
+        List<User> userList=userRepository.findByUserIdOrUserNameOrUserTel(userId, userName, userTel);
+        if(userList.isEmpty()){
+            throw new UserNotFoundException("User with this "+searchtype+" not found");
+        }
+        return userList;
     }
 
 

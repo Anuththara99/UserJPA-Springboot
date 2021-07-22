@@ -74,18 +74,7 @@ public class UserController {
 
     @GetMapping("/users/search")
     public ResponseEntity<List<User>> searchByAny(@RequestParam String searchtype, @RequestParam String search) {
-        int userId = 0;
-        String userName = null;
-        String userTel = null;
-        if (searchtype.equals("id")) {
-            int id = Integer.parseInt(search);
-            userId = id;
-        } else if (searchtype.equals("name")) {
-            userName = search;
-        } else if (searchtype.equals("tel")) {
-            userTel = search;
-        }
-        return new ResponseEntity<List<User>>(userService.searchByIdOrNameOrTel(userId, userName, userTel), HttpStatus.OK);
+        return new ResponseEntity<List<User>>(userService.searchByIdOrNameOrTel(searchtype,search), HttpStatus.OK);
     }
 
 
