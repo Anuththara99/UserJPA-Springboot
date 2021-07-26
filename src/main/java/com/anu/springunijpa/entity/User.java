@@ -27,24 +27,36 @@ public class User {
     @Column(name = "user_tel")
     private String userTel;
 
-    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-    @JoinTable(name = "user_course",
-            joinColumns =
-            @JoinColumn(name = "user_id")
-            ,
-            inverseJoinColumns =
-            @JoinColumn(name = "course_id")
+    @OneToMany(mappedBy = "user")
+    Set<UserCourse> user_course;
 
-    )
-    private List<Course> courses=new ArrayList<>();
-
-    public List<Course> getCourses() {
-        return courses;
+    public Set<UserCourse> getUser_course() {
+        return user_course;
     }
 
-    public void setCourses(List<Course> courses) {
-        this.courses = courses;
+    public void setUser_course(Set<UserCourse> user_course) {
+        this.user_course = user_course;
     }
+    //    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
+//    @JoinTable(name = "user_course",
+//            joinColumns =
+//            @JoinColumn(name = "user_id")
+//            ,
+//            inverseJoinColumns =
+//            @JoinColumn(name = "course_id"),
+//            uniqueConstraints =
+//                    {@UniqueConstraint(columnNames={"user_id", "course_id"})}
+//
+//    )
+//    private List<Course> courses=new ArrayList<>();
+
+//    public List<Course> getCourses() {
+//        return courses;
+//    }
+//
+//    public void setCourses(List<Course> courses) {
+//        this.courses = courses;
+//    }
 
     public int getUserId() {
         return userId;
@@ -86,8 +98,7 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", dOB=" + dOB +
                 ", userTel='" + userTel + '\'' +
+                ", user_course=" + user_course +
                 '}';
     }
-
-
 }

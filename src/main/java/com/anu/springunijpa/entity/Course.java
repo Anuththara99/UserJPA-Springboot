@@ -23,17 +23,28 @@ public class Course {
     @Column(name = "course_leader")
     private String courseLeader;
 
-    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-    private List<User> users= new ArrayList<>();
+    @OneToMany(mappedBy = "course")
+    Set<UserCourse> user_course;
 
-
-    public List<User> getUsers() {
-        return users;
+    public Set<UserCourse> getUser_course() {
+        return user_course;
     }
 
-    public void setUsers(List<User> users) {
-        this.users = users;
+    public void setUser_course(Set<UserCourse> user_course) {
+        this.user_course = user_course;
     }
+
+    //    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
+//    private List<User> users= new ArrayList<>();
+
+
+//    public List<User> getUsers() {
+//        return users;
+//    }
+//
+//    public void setUsers(List<User> users) {
+//        this.users = users;
+//    }
 
     public String getCourseId() {
         return courseId;
@@ -60,14 +71,13 @@ public class Course {
     }
 
 
-
     @Override
     public String toString() {
         return "Course{" +
-                "courseId=" + courseId +
+                "courseId='" + courseId + '\'' +
                 ", courseName='" + courseName + '\'' +
                 ", courseLeader='" + courseLeader + '\'' +
+                ", user_course=" + user_course +
                 '}';
     }
-
 }
