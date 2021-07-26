@@ -44,13 +44,13 @@ public class UserCourse {
 //        this.course = course;
 //    }
 
-    public String getUser_course() {
-        return user_course;
-    }
-
-    public void setUser_course(String user_course) {
-        this.user_course = user_course;
-    }
+//    public String getUser_course() {
+//        return user_course;
+//    }
+//
+//    public void setUser_course(String user_course) {
+//        this.user_course = user_course;
+//    }
 
     @Override
     public String toString() {
