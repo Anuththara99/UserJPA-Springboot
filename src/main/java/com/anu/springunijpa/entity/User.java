@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.*;
 
 
@@ -27,12 +28,12 @@ public class User {
     @Column(name = "user_name")
     private String userName;
     @Column(name = "date_of_birth")
-    private Date dOB;
+    private LocalDate dOB;
     @Column(name = "user_tel")
     private String userTel;
 
-    @OneToMany(mappedBy = "user")
-    Set<UserCourse> userCourseSet;
+//    @OneToMany(mappedBy = "user")
+//    Set<UserCourse> userCourseSet;
 
 
     public int getUserId() {
@@ -51,11 +52,11 @@ public class User {
         this.userName = userName;
     }
 
-    public Date getdOB() {
+    public LocalDate getdOB() {
         return dOB;
     }
 
-    public void setdOB(Date dOB) {
+    public void setdOB(LocalDate dOB) {
         this.dOB = dOB;
     }
 
@@ -74,7 +75,6 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", dOB=" + dOB +
                 ", userTel='" + userTel + '\'' +
-                ", userCourseSet=" + userCourseSet +
                 '}';
     }
 }
