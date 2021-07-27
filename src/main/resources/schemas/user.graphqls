@@ -32,4 +32,8 @@ type Course{
     courseLeader: String
 
 }
+type UserCourse{
+    userId : ID
+    courseId : ID
+}
 

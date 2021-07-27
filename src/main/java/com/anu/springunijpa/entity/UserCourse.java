@@ -2,6 +2,10 @@ package com.anu.springunijpa.entity;
 
 import javax.persistence.*;
 
+/**
+ * user_course entity
+ */
+
 @Entity
 public class UserCourse {
 
@@ -18,7 +22,7 @@ public class UserCourse {
     @JoinColumn(name = "course_id")
     Course course;
 
-    String user_course;
+    String userCourseSet;
 
     public UserCourseKey getId() {
         return id;
@@ -28,37 +32,13 @@ public class UserCourse {
         this.id = id;
     }
 
-//    public User getUser() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
-
-//    public Course getCourse() {
-//        return course;
-//    }
-//
-//    public void setCourse(Course course) {
-//        this.course = course;
-//    }
-
-//    public String getUser_course() {
-//        return user_course;
-//    }
-//
-//    public void setUser_course(String user_course) {
-//        this.user_course = user_course;
-//    }
-
     @Override
     public String toString() {
         return "UserCourse{" +
                 "id=" + id +
                 ", user=" + user +
                 ", course=" + course +
-                ", user_course=" + user_course +
+                ", userCourseSet='" + userCourseSet + '\'' +
                 '}';
     }
 }

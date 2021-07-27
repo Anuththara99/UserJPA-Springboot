@@ -5,6 +5,12 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * Compound key class for user_course entity
+ * userId is a primary key of user entity
+ * courseId is the primary key of course entity
+ */
+
 @Embeddable
 public class UserCourseKey implements Serializable {
 

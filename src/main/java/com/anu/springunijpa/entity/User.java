@@ -10,6 +10,10 @@ import java.io.Serializable;
 import java.util.*;
 
 
+/**
+ * user entity
+ */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -28,35 +32,8 @@ public class User {
     private String userTel;
 
     @OneToMany(mappedBy = "user")
-    Set<UserCourse> user_course;
+    Set<UserCourse> userCourseSet;
 
-    public Set<UserCourse> getUser_course() {
-        return user_course;
-    }
-
-    public void setUser_course(Set<UserCourse> user_course) {
-        this.user_course = user_course;
-    }
-    //    @ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-//    @JoinTable(name = "user_course",
-//            joinColumns =
-//            @JoinColumn(name = "user_id")
-//            ,
-//            inverseJoinColumns =
-//            @JoinColumn(name = "course_id"),
-//            uniqueConstraints =
-//                    {@UniqueConstraint(columnNames={"user_id", "course_id"})}
-//
-//    )
-//    private List<Course> courses=new ArrayList<>();
-
-//    public List<Course> getCourses() {
-//        return courses;
-//    }
-//
-//    public void setCourses(List<Course> courses) {
-//        this.courses = courses;
-//    }
 
     public int getUserId() {
         return userId;
@@ -90,7 +67,6 @@ public class User {
         this.userTel = userTel;
     }
 
-
     @Override
     public String toString() {
         return "User{" +
@@ -98,7 +74,7 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", dOB=" + dOB +
                 ", userTel='" + userTel + '\'' +
-                ", user_course=" + user_course +
+                ", userCourseSet=" + userCourseSet +
                 '}';
     }
 }

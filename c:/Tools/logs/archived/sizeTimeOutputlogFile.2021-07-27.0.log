@@ -1,0 +1,110 @@
+[2021-07-27 09:04:30] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 5468 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-27 09:04:30] - No active profile set, falling back to default profiles: default
+[2021-07-27 09:04:31] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27 09:04:31] - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+[2021-07-27 09:04:32] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-27 09:04:32] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-27 09:04:32] - Starting service [Tomcat]
+[2021-07-27 09:04:32] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-27 09:04:32] - Initializing Spring embedded WebApplicationContext
+[2021-07-27 09:04:32] - Root WebApplicationContext: initialization completed in 2297 ms
+[2021-07-27 09:04:32] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-27 09:04:33] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-27 09:04:33] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-27 09:04:33] - HikariPool-1 - Starting...
+[2021-07-27 09:04:33] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-27 09:04:34] - HikariPool-1 - Start completed.
+[2021-07-27 09:04:34] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-27 09:04:35] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-27 09:04:35] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 09:04:36] - Schema type was defined but can never be accessed, and can be safely deleted: UserCourse
+[2021-07-27 09:04:36] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-27 09:04:36] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-27 09:04:36] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-27 09:04:36] - Started SpringUniJpaApplication in 7.213 seconds (JVM running for 9.703)
+[2021-07-27 09:04:54] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-27 09:04:54] - Initializing Servlet 'dispatcherServlet'
+[2021-07-27 09:04:54] - Completed initialization in 1 ms
+[2021-07-27 09:09:26] - Course Id not Found !!
+[2021-07-27 09:09:36] - Course Id not Found !!
+[2021-07-27 09:09:46] - Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "lo"
+[2021-07-27 09:10:10] - user id -3
+[2021-07-27 09:11:38] - Cannot invoke "com.anu.springunijpa.entity.User.setUserName(String)" because "exUser" is null
+[2021-07-27 09:27:20] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 09:27:20] - HikariPool-1 - Shutdown initiated...
+[2021-07-27 09:27:20] - HikariPool-1 - Shutdown completed.
+[2021-07-27 09:59:11] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 5324 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-27 09:59:11] - No active profile set, falling back to default profiles: default
+[2021-07-27 09:59:14] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27 09:59:14] - Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+[2021-07-27 09:59:15] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-27 09:59:15] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-27 09:59:15] - Starting service [Tomcat]
+[2021-07-27 09:59:15] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-27 09:59:15] - Initializing Spring embedded WebApplicationContext
+[2021-07-27 09:59:15] - Root WebApplicationContext: initialization completed in 3199 ms
+[2021-07-27 09:59:15] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-27 09:59:15] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-27 09:59:15] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-27 09:59:16] - HikariPool-1 - Starting...
+[2021-07-27 09:59:16] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-27 09:59:16] - HikariPool-1 - Start completed.
+[2021-07-27 09:59:17] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-27 09:59:17] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-27 09:59:17] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 09:59:18] - Schema type was defined but can never be accessed, and can be safely deleted: UserCourse
+[2021-07-27 09:59:18] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-27 09:59:19] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-27 09:59:19] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-27 09:59:19] - Started SpringUniJpaApplication in 8.014 seconds (JVM running for 10.726)
+[2021-07-27 09:59:31] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-27 09:59:31] - Initializing Servlet 'dispatcherServlet'
+[2021-07-27 09:59:31] - Completed initialization in 2 ms
+[2021-07-27 10:14:19] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 10:14:19] - HikariPool-1 - Shutdown initiated...
+[2021-07-27 10:14:19] - HikariPool-1 - Shutdown completed.
+[2021-07-27 10:14:33] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 6483 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-27 10:14:33] - No active profile set, falling back to default profiles: default
+[2021-07-27 10:14:34] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27 10:14:34] - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+[2021-07-27 10:14:35] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-27 10:14:35] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-27 10:14:35] - Starting service [Tomcat]
+[2021-07-27 10:14:35] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-27 10:14:35] - Initializing Spring embedded WebApplicationContext
+[2021-07-27 10:14:35] - Root WebApplicationContext: initialization completed in 2167 ms
+[2021-07-27 10:14:35] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-27 10:14:36] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-27 10:14:36] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-27 10:14:37] - HikariPool-1 - Starting...
+[2021-07-27 10:14:37] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-27 10:14:38] - HikariPool-1 - Start completed.
+[2021-07-27 10:14:38] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-27 10:14:40] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-27 10:14:40] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 10:14:41] - Schema type was defined but can never be accessed, and can be safely deleted: UserCourse
+[2021-07-27 10:14:41] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-27 10:14:42] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-27 10:14:42] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-07-27 10:14:42] - Started SpringUniJpaApplication in 9.683 seconds (JVM running for 12.064)
+[2021-07-27 10:14:59] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-27 10:14:59] - Initializing Servlet 'dispatcherServlet'
+[2021-07-27 10:14:59] - Completed initialization in 1 ms
+[2021-07-27 10:21:23] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 10:21:23] - HikariPool-1 - Shutdown initiated...
+[2021-07-27 10:21:23] - HikariPool-1 - Shutdown completed.
+[2021-07-27 10:21:31] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 6900 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-27 10:21:31] - No active profile set, falling back to default profiles: default
+[2021-07-27 10:21:32] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27 10:21:32] - Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+[2021-07-27 10:21:33] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-27 10:21:33] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-27 10:21:33] - Starting service [Tomcat]
+[2021-07-27 10:21:33] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-27 10:21:33] - Initializing Spring embedded WebApplicationContext
+[2021-07-27 10:21:33] - Root WebApplicationContext: initialization completed in 2504 ms
+[2021-07-27 10:21:34] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-27 10:21:34] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-27 10:21:34] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-27 10:21:34] - HikariPool-1 - Starting...
+[2021-07-27 10:21:34] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

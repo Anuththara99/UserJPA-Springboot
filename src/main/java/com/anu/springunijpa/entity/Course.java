@@ -8,6 +8,10 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.*;
 
+/**
+ * course entity
+ */
+
 @Data
 @Entity
 @NoArgsConstructor
@@ -24,27 +28,8 @@ public class Course {
     private String courseLeader;
 
     @OneToMany(mappedBy = "course")
-    Set<UserCourse> user_course;
+    Set<UserCourse> userCourseSet;
 
-    public Set<UserCourse> getUser_course() {
-        return user_course;
-    }
-
-    public void setUser_course(Set<UserCourse> user_course) {
-        this.user_course = user_course;
-    }
-
-    //    @ManyToMany(mappedBy = "courses",fetch = FetchType.LAZY,cascade = CascadeType.PERSIST)
-//    private List<User> users= new ArrayList<>();
-
-
-//    public List<User> getUsers() {
-//        return users;
-//    }
-//
-//    public void setUsers(List<User> users) {
-//        this.users = users;
-//    }
 
     public String getCourseId() {
         return courseId;
@@ -70,14 +55,13 @@ public class Course {
         this.courseLeader = courseLeader;
     }
 
-
     @Override
     public String toString() {
         return "Course{" +
                 "courseId='" + courseId + '\'' +
                 ", courseName='" + courseName + '\'' +
                 ", courseLeader='" + courseLeader + '\'' +
-                ", user_course=" + user_course +
+                ", userCourseSet=" + userCourseSet +
                 '}';
     }
 }
