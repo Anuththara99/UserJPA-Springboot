@@ -27,8 +27,8 @@ public class Course {
     @Column(name = "course_leader")
     private String courseLeader;
 
-//    @OneToMany(mappedBy = "course")
-//    Set<UserCourse> userCourseSet;
+    @OneToMany(mappedBy = "course")
+    Set<UserCourse> userCourseSet;
 
 
     public String getCourseId() {
@@ -61,7 +61,7 @@ public class Course {
                 "courseId='" + courseId + '\'' +
                 ", courseName='" + courseName + '\'' +
                 ", courseLeader='" + courseLeader + '\'' +
-                ", userCourseSet="  +
+                ", userCourseSet=" + userCourseSet +
                 '}';
     }
 }

@@ -1,0 +1,130 @@
+[2021-07-27 16:32:43] - @EnableAutoConfiguration was declared on a class in the package 'com.anu.springunijpa'. Automatic @Repository and @Entity scanning is enabled.
+[2021-07-27 16:32:43] - Scanning for JPA repositories in packages com.anu.springunijpa.
+[2021-07-27 16:32:43] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-27 16:32:43] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-27 16:32:43] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-27 16:32:43] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-27 16:32:43] - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'embeddedDataSourceBeanFactoryPostProcessor'
+[2021-07-27 16:32:43] - Replacing 'dataSource' DataSource bean with embedded version
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'dataSource'
+[2021-07-27 16:32:43] - Found key 'spring.test.database.connection' in PropertySource 'Annotations' with value of type EmbeddedDatabaseConnection
+[2021-07-27 16:32:43] - Starting embedded database: url='jdbc:h2:mem:06a8b6dc-593e-4000-bd1b-2c385d147255;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2021-07-27 16:32:43] - Fetching JDBC Connection from DataSource
+[2021-07-27 16:32:43] - Creating new JDBC Driver Connection to [jdbc:h2:mem:06a8b6dc-593e-4000-bd1b-2c385d147255;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@9147ba2'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-07-27 16:32:43] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-07-27 16:32:43] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-07-27 16:32:43] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-07-27 16:32:43] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@7dddfc35
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.anu.springunijpa.entity.Course
+		com.anu.springunijpa.entity.User
+		com.anu.springunijpa.entity.UserCourse
+		com.anu.springunijpa.entity.UserCourseKey]
+	Mapping files names []
+	Properties []
+[2021-07-27 16:32:43] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-07-27 16:32:43] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-07-27 16:32:43] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-07-27 16:32:43] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-07-27 16:32:43] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-07-27 16:32:43] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-07-27 16:32:43] - Adding type registration boolean -> org.hibernate.type.BooleanType@64b018f3
+[2021-07-27 16:32:43] - Adding type registration boolean -> org.hibernate.type.BooleanType@64b018f3
+[2021-07-27 16:32:43] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@64b018f3
+[2021-07-27 16:32:43] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@78b7f805
+[2021-07-27 16:32:43] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@23468512
+[2021-07-27 16:32:43] - Adding type registration yes_no -> org.hibernate.type.YesNoType@3caafa67
+[2021-07-27 16:32:43] - Adding type registration byte -> org.hibernate.type.ByteType@1c61eda5
+[2021-07-27 16:32:43] - Adding type registration byte -> org.hibernate.type.ByteType@1c61eda5
+[2021-07-27 16:32:43] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1c61eda5
+[2021-07-27 16:32:43] - Adding type registration character -> org.hibernate.type.CharacterType@52d3fafd
+[2021-07-27 16:32:43] - Adding type registration char -> org.hibernate.type.CharacterType@52d3fafd
+[2021-07-27 16:32:43] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@52d3fafd
+[2021-07-27 16:32:43] - Adding type registration short -> org.hibernate.type.ShortType@4f59a516
+[2021-07-27 16:32:43] - Adding type registration short -> org.hibernate.type.ShortType@4f59a516
+[2021-07-27 16:32:43] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4f59a516
+[2021-07-27 16:32:43] - Adding type registration integer -> org.hibernate.type.IntegerType@4262fdeb
+[2021-07-27 16:32:43] - Adding type registration int -> org.hibernate.type.IntegerType@4262fdeb
+[2021-07-27 16:32:43] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4262fdeb
+[2021-07-27 16:32:43] - Adding type registration long -> org.hibernate.type.LongType@42ea7565
+[2021-07-27 16:32:43] - Adding type registration long -> org.hibernate.type.LongType@42ea7565
+[2021-07-27 16:32:43] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@42ea7565
+[2021-07-27 16:32:43] - Adding type registration float -> org.hibernate.type.FloatType@37a0ec3c
+[2021-07-27 16:32:43] - Adding type registration float -> org.hibernate.type.FloatType@37a0ec3c
+[2021-07-27 16:32:43] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@37a0ec3c
+[2021-07-27 16:32:43] - Adding type registration double -> org.hibernate.type.DoubleType@2b736fee
+[2021-07-27 16:32:43] - Adding type registration double -> org.hibernate.type.DoubleType@2b736fee
+[2021-07-27 16:32:43] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2b736fee
+[2021-07-27 16:32:43] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6c8fe7a4
+[2021-07-27 16:32:43] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6c8fe7a4
+[2021-07-27 16:32:43] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5a08b084
+[2021-07-27 16:32:43] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5a08b084
+[2021-07-27 16:32:43] - Adding type registration string -> org.hibernate.type.StringType@552cede7
+[2021-07-27 16:32:43] - Adding type registration java.lang.String -> org.hibernate.type.StringType@552cede7
+[2021-07-27 16:32:43] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@40ed1802
+[2021-07-27 16:32:43] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@31e739bf
+[2021-07-27 16:32:43] - Adding type registration url -> org.hibernate.type.UrlType@59c500f7
+[2021-07-27 16:32:43] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@59c500f7
+[2021-07-27 16:32:43] - Adding type registration Duration -> org.hibernate.type.DurationType@6b5ab2f2
+[2021-07-27 16:32:43] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6b5ab2f2
+[2021-07-27 16:32:43] - Adding type registration Instant -> org.hibernate.type.InstantType@2dafae61
+[2021-07-27 16:32:43] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2dafae61
+[2021-07-27 16:32:43] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3421debd
+[2021-07-27 16:32:43] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3421debd
+[2021-07-27 16:32:43] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1f782c05
+[2021-07-27 16:32:43] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1f782c05
+[2021-07-27 16:32:43] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@22da2fe6
+[2021-07-27 16:32:43] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@22da2fe6
+[2021-07-27 16:32:43] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6367a688

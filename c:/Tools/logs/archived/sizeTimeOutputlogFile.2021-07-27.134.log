@@ -1,0 +1,65 @@
+[2021-07-27 16:34:03] - Performing dependency injection for test context [[DefaultTestContext@2a62b5bc testClass = CourseServiceImplTest, testInstance = com.anu.springunijpa.service.impl.CourseServiceImplTest@34a875b3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@53de625d testClass = CourseServiceImplTest, locations = '{}', classes = '{class com.anu.springunijpa.SpringUniJpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@535779e4 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b79fd76, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1f81aa00, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1acaf3d, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2b9ed6da, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@d58e6388, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1fd14d74, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+[2021-07-27 16:34:03] - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}
+[2021-07-27 16:34:03] - Starting CourseServiceImplTest using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 1720 (started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-27 16:34:03] - Running with Spring Boot v2.5.2, Spring v5.3.8
+[2021-07-27 16:34:03] - No active profile set, falling back to default profiles: default
+[2021-07-27 16:34:03] - Loading source class com.anu.springunijpa.SpringUniJpaApplication
+[2021-07-27 16:34:03] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@60afd40d
+[2021-07-27 16:34:03] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-27 16:34:03] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-07-27 16:34:04] - Found key 'spring.boot.enableautoconfiguration' in PropertySource 'configurationProperties' with value of type String
+[2021-07-27 16:34:04] - Found key 'spring.jmx.enabled' in PropertySource 'configurationProperties' with value of type String
+[2021-07-27 16:34:04] - Found key 'spring.datasource.url' in PropertySource 'configurationProperties' with value of type String
+[2021-07-27 16:34:04] - Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+[2021-07-27 16:34:04] - Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+[2021-07-27 16:34:04] - Found key 'spring.data.jpa.repositories.bootstrap-mode' in PropertySource 'Annotations' with value of type BootstrapMode
+[2021-07-27 16:34:04] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-27 16:34:04] - @EnableAutoConfiguration was declared on a class in the package 'com.anu.springunijpa'. Automatic @Repository and @Entity scanning is enabled.
+[2021-07-27 16:34:04] - Scanning for JPA repositories in packages com.anu.springunijpa.
+[2021-07-27 16:34:04] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-27 16:34:04] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-27 16:34:04] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-27 16:34:04] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-27 16:34:04] - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'embeddedDataSourceBeanFactoryPostProcessor'
+[2021-07-27 16:34:04] - Replacing 'dataSource' DataSource bean with embedded version
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'dataSource'
+[2021-07-27 16:34:04] - Found key 'spring.test.database.connection' in PropertySource 'Annotations' with value of type EmbeddedDatabaseConnection
+[2021-07-27 16:34:04] - Starting embedded database: url='jdbc:h2:mem:c9cfecdf-6b61-467f-a3e2-faa893730f57;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2021-07-27 16:34:04] - Fetching JDBC Connection from DataSource
+[2021-07-27 16:34:04] - Creating new JDBC Driver Connection to [jdbc:h2:mem:c9cfecdf-6b61-467f-a3e2-faa893730f57;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-27 16:34:04] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-07-27 16:34:04] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'

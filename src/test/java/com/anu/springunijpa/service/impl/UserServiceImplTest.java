@@ -1,74 +1,110 @@
 package com.anu.springunijpa.service.impl;
 
 import com.anu.springunijpa.entity.User;
-import com.anu.springunijpa.entity.UserCourse;
+import com.anu.springunijpa.entity.UserCourseKey;
 import com.anu.springunijpa.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDate;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@RunWith(SpringRunner.class)
 @DataJpaTest
+@RunWith(SpringRunner.class)
 class UserServiceImplTest {
 
     @Autowired
-    UserRepository userRepository;
+    private TestEntityManager testEntityManager;
+
+    @Autowired
+    private UserRepository userRepository;
+
 
     @Test
-    void saveUser() {
+    public void testSaveUser() {
+        User user = new User();
+        user.setUserId(1);
+        user.setUserName("John");
+        user.setUserTel("0701000111");
+        LocalDate date = LocalDate.of(1999,5,2);
+        user.setdOB(date);
+        User newUser = userRepository.save(user);
+        assertNotNull(newUser);
+
     }
 
-    @Test
-    void saveUsers() {
-    }
 
     @Test
-    void getUsers() {
+    void testGetUsers() {
+        Iterable<User> userList = userRepository.findAll();
+        assertThat(userList).isNotEmpty();
     }
 
     @Test
     void getUserById() {
-//        int id =3;
-////        User userObj=new User();
-//        User user = userRepository.findById(id).get();
-//        Date date= new Date(2001,12,10);
-////        userCourseSet.add()
-//        User expectUser = new User(3,"Kate",date,"767097796");
-//        assertEquals(expectUser,user);
+        LocalDate date= LocalDate.of(1999,5,2);
+        User expectUser = new User();
+        expectUser.setUserId(1);
+        expectUser.setUserName("John");
+        expectUser.setdOB(date);
+        expectUser.setUserTel("0701000111");
+        testEntityManager.persist(expectUser);
+        testEntityManager.flush();
+        User user = userRepository.findById(9).get();
+        assertThat(user).isEqualTo(expectUser);
     }
 
     @Test
-    void getUserByName() {
+    void getUserByName(){
+        String name = "John";
+        User user =userRepository.findByUserName(name);
+        assertThat(user).isNotNull();
     }
 
     @Test
     void getUserByTel() {
+        String tel= "709709234";
+        User user=userRepository.findByUserTel(tel);
+        assertThat(user).isNotNull();
     }
 
     @Test
     void deleteUser() {
+        int id = 8;
+        userRepository.deleteById(id);
+        assertThat(userRepository.existsById(8)).isFalse();
     }
 
     @Test
     void updateUser() {
+        User user = userRepository.findById(8).get();
+        user.setUserName("John");
+        user.setUserTel("709709234");
+        userRepository.save(user);
+        assertThat(user).isNotNull();
     }
 
     @Test
     void searchByIdOrName() {
+        int id = 8;
+        String name = "John";
+        List<User> userList= userRepository.findByUserIdOrUserName(id,name);
+        assertThat(userList).isNotEmpty();
     }
 
     @Test
     void searchByIdOrNameOrTel() {
+        int id = 8;
+        String name ="John";
+        String tel = "709709234";
+        List<User> userList = userRepository.findByUserIdOrUserNameOrUserTel(id,name,tel);
+        assertThat(userList).isNotEmpty();
     }
 }

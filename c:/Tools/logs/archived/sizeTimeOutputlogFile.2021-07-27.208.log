@@ -1,0 +1,111 @@
+[2021-07-27 17:13:28] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-27 17:13:28] - Initializing Servlet 'dispatcherServlet'
+[2021-07-27 17:13:28] - Detected StandardServletMultipartResolver
+[2021-07-27 17:13:28] - Detected AcceptHeaderLocaleResolver
+[2021-07-27 17:13:28] - Detected FixedThemeResolver
+[2021-07-27 17:13:28] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24749ad3
+[2021-07-27 17:13:28] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2ad6aeb8
+[2021-07-27 17:13:28] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-07-27 17:13:28] - Completed initialization in 0 ms
+[2021-07-27 17:13:28] - GET "/courses/c5", parameters={}
+[2021-07-27 17:13:28] - Mapped to com.anu.springunijpa.controller.CourseController#searchCourseById(String)
+[2021-07-27 17:13:28] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-27 17:13:28] - Found thread-bound EntityManager [SessionImpl(2010841393<open>)] for JPA transaction
+[2021-07-27 17:13:28] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-27 17:13:28] - Setting JDBC Connection [HikariProxyConnection@752215900 wrapping com.mysql.cj.jdbc.ConnectionImpl@7f426ddd] read-only
+[2021-07-27 17:13:28] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-27 17:13:28] - begin
+[2021-07-27 17:13:28] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1fe69061]
+[2021-07-27 17:13:28] - select course0_.course_id as course_i1_0_0_, course0_.course_leader as course_l2_0_0_, course0_.course_name as course_n3_0_0_ from course course0_ where course0_.course_id=?
+[2021-07-27 17:13:28] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.Course#c5]
+[2021-07-27 17:13:28] - Processing attribute `courseLeader` : value = Mr.Flutter
+[2021-07-27 17:13:28] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `courseName` : value = flutter
+[2021-07-27 17:13:28] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.Course#c5]
+[2021-07-27 17:13:28] - Done entity load : com.anu.springunijpa.entity.Course#c5
+[2021-07-27 17:13:28] - Initiating transaction commit
+[2021-07-27 17:13:28] - Committing JPA transaction on EntityManager [SessionImpl(2010841393<open>)]
+[2021-07-27 17:13:28] - committing
+[2021-07-27 17:13:28] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@752215900 wrapping com.mysql.cj.jdbc.ConnectionImpl@7f426ddd]
+[2021-07-27 17:13:28] - Not closing pre-bound JPA EntityManager after transaction
+[2021-07-27 17:13:28] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-27 17:13:28] - Loading collection: [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - select usercourse0_.course_id as course_i1_2_0_, usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, user1_.user_id as user_id1_1_2_, user1_.date_of_birth as date_of_2_1_2_, user1_.user_name as user_nam3_1_2_, user1_.user_tel as user_tel4_1_2_ from user_course usercourse0_ inner join user user1_ on usercourse0_.user_id=user1_.user_id where usercourse0_.course_id=?
+[2021-07-27 17:13:28] - Preparing collection initializer : [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - Found row of collection: [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - Found row of collection: [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - Found row of collection: [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=1}]
+[2021-07-27 17:13:28] - Processing attribute `course` : value = c5
+[2021-07-27 17:13:28] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `user` : value = 1
+[2021-07-27 17:13:28] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=1}]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.User#1]
+[2021-07-27 17:13:28] - Processing attribute `dOB` : value = 1999-05-02
+[2021-07-27 17:13:28] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userName` : value = John
+[2021-07-27 17:13:28] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userTel` : value = 709709234
+[2021-07-27 17:13:28] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.User#1]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=5}]
+[2021-07-27 17:13:28] - Processing attribute `course` : value = c5
+[2021-07-27 17:13:28] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `user` : value = 5
+[2021-07-27 17:13:28] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=5}]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.User#5]
+[2021-07-27 17:13:28] - Processing attribute `dOB` : value = 1999-08-22
+[2021-07-27 17:13:28] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userName` : value = Jane
+[2021-07-27 17:13:28] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userTel` : value = 704749234
+[2021-07-27 17:13:28] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.User#5]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=6}]
+[2021-07-27 17:13:28] - Processing attribute `course` : value = c5
+[2021-07-27 17:13:28] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `user` : value = 6
+[2021-07-27 17:13:28] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=6}]
+[2021-07-27 17:13:28] - Resolving attributes for [com.anu.springunijpa.entity.User#6]
+[2021-07-27 17:13:28] - Processing attribute `dOB` : value = 2002-02-10
+[2021-07-27 17:13:28] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-27 17:13:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userName` : value = Sara
+[2021-07-27 17:13:28] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Processing attribute `userTel` : value = 726098756
+[2021-07-27 17:13:28] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:28] - Done materializing entity [com.anu.springunijpa.entity.User#6]
+[2021-07-27 17:13:28] - 1 collections were found in result set for role: com.anu.springunijpa.entity.Course.userCourseSet
+[2021-07-27 17:13:28] - Collection fully initialized: [com.anu.springunijpa.entity.Course.userCourseSet#c5]
+[2021-07-27 17:13:28] - 1 collections initialized for role: com.anu.springunijpa.entity.Course.userCourseSet
+[2021-07-27 17:13:28] - Done loading collection
+[2021-07-27 17:13:28] - Writing [java.lang.StackOverflowError]
+[2021-07-27 17:13:28] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-27 17:13:28] - Completed 200 OK
+[2021-07-27 17:13:37] - GET "/courses", parameters={}
+[2021-07-27 17:13:37] - Mapped to com.anu.springunijpa.controller.CourseController#viewAllCourse()
+[2021-07-27 17:13:37] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-27 17:13:37] - Found thread-bound EntityManager [SessionImpl(2054140941<open>)] for JPA transaction
+[2021-07-27 17:13:37] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-27 17:13:37] - Setting JDBC Connection [HikariProxyConnection@1957184816 wrapping com.mysql.cj.jdbc.ConnectionImpl@7f426ddd] read-only
+[2021-07-27 17:13:37] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-27 17:13:37] - begin
+[2021-07-27 17:13:37] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7097df7d]

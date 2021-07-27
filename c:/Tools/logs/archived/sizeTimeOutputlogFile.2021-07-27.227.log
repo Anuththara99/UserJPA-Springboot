@@ -1,0 +1,168 @@
+[2021-07-27 17:20:47] - Adding type registration short -> org.hibernate.type.ShortType@59838256
+[2021-07-27 17:20:47] - Adding type registration short -> org.hibernate.type.ShortType@59838256
+[2021-07-27 17:20:47] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@59838256
+[2021-07-27 17:20:47] - Adding type registration integer -> org.hibernate.type.IntegerType@523a7801
+[2021-07-27 17:20:47] - Adding type registration int -> org.hibernate.type.IntegerType@523a7801
+[2021-07-27 17:20:47] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@523a7801
+[2021-07-27 17:20:47] - Adding type registration long -> org.hibernate.type.LongType@3e046e39
+[2021-07-27 17:20:47] - Adding type registration long -> org.hibernate.type.LongType@3e046e39
+[2021-07-27 17:20:47] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3e046e39
+[2021-07-27 17:20:47] - Adding type registration float -> org.hibernate.type.FloatType@2213639b
+[2021-07-27 17:20:47] - Adding type registration float -> org.hibernate.type.FloatType@2213639b
+[2021-07-27 17:20:47] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2213639b
+[2021-07-27 17:20:47] - Adding type registration double -> org.hibernate.type.DoubleType@317890ea
+[2021-07-27 17:20:47] - Adding type registration double -> org.hibernate.type.DoubleType@317890ea
+[2021-07-27 17:20:47] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@317890ea
+[2021-07-27 17:20:47] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@50b93353
+[2021-07-27 17:20:47] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@50b93353
+[2021-07-27 17:20:47] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@75d366c2
+[2021-07-27 17:20:47] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@75d366c2
+[2021-07-27 17:20:47] - Adding type registration string -> org.hibernate.type.StringType@7c90b7b7
+[2021-07-27 17:20:47] - Adding type registration java.lang.String -> org.hibernate.type.StringType@7c90b7b7
+[2021-07-27 17:20:47] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@235c997d
+[2021-07-27 17:20:47] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5c6a5192
+[2021-07-27 17:20:47] - Adding type registration url -> org.hibernate.type.UrlType@23c767e6
+[2021-07-27 17:20:47] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@23c767e6
+[2021-07-27 17:20:47] - Adding type registration Duration -> org.hibernate.type.DurationType@7f42e06e
+[2021-07-27 17:20:47] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@7f42e06e
+[2021-07-27 17:20:47] - Adding type registration Instant -> org.hibernate.type.InstantType@6661d8c0
+[2021-07-27 17:20:47] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6661d8c0
+[2021-07-27 17:20:47] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@73c48264
+[2021-07-27 17:20:47] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@73c48264
+[2021-07-27 17:20:47] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1bbddada
+[2021-07-27 17:20:47] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1bbddada
+[2021-07-27 17:20:47] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@4a070cf0
+[2021-07-27 17:20:47] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@4a070cf0
+[2021-07-27 17:20:47] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@519c6fcc
+[2021-07-27 17:20:47] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@519c6fcc
+[2021-07-27 17:20:47] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@11787b64
+[2021-07-27 17:20:47] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@11787b64
+[2021-07-27 17:20:47] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6b321262
+[2021-07-27 17:20:47] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6b321262
+[2021-07-27 17:20:47] - Adding type registration date -> org.hibernate.type.DateType@445821a6
+[2021-07-27 17:20:47] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@445821a6
+[2021-07-27 17:20:47] - Adding type registration time -> org.hibernate.type.TimeType@611b35d6
+[2021-07-27 17:20:47] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@611b35d6
+[2021-07-27 17:20:47] - Adding type registration timestamp -> org.hibernate.type.TimestampType@52ca2652
+[2021-07-27 17:20:47] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@52ca2652
+[2021-07-27 17:20:47] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@52ca2652
+[2021-07-27 17:20:47] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5efeb117
+[2021-07-27 17:20:47] - Adding type registration calendar -> org.hibernate.type.CalendarType@f2b90fc
+[2021-07-27 17:20:47] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@f2b90fc
+[2021-07-27 17:20:47] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@f2b90fc
+[2021-07-27 17:20:47] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@251c4280
+[2021-07-27 17:20:47] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@5921b93c
+[2021-07-27 17:20:47] - Adding type registration locale -> org.hibernate.type.LocaleType@45292ec1
+[2021-07-27 17:20:47] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@45292ec1
+[2021-07-27 17:20:47] - Adding type registration currency -> org.hibernate.type.CurrencyType@656a3d6b
+[2021-07-27 17:20:47] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@656a3d6b
+[2021-07-27 17:20:47] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4d464510
+[2021-07-27 17:20:47] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4d464510
+[2021-07-27 17:20:47] - Adding type registration class -> org.hibernate.type.ClassType@27dc627a
+[2021-07-27 17:20:47] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@27dc627a
+[2021-07-27 17:20:47] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@661d6bb6
+[2021-07-27 17:20:47] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@661d6bb6
+[2021-07-27 17:20:47] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@385dfb63
+[2021-07-27 17:20:47] - Adding type registration binary -> org.hibernate.type.BinaryType@67fb5025
+[2021-07-27 17:20:47] - Adding type registration byte[] -> org.hibernate.type.BinaryType@67fb5025
+[2021-07-27 17:20:47] - Adding type registration [B -> org.hibernate.type.BinaryType@67fb5025
+[2021-07-27 17:20:47] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@79b18230
+[2021-07-27 17:20:47] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@79b18230
+[2021-07-27 17:20:47] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@79b18230
+[2021-07-27 17:20:47] - Adding type registration row_version -> org.hibernate.type.RowVersionType@5c059a68
+[2021-07-27 17:20:47] - Adding type registration image -> org.hibernate.type.ImageType@5fdfe8cf
+[2021-07-27 17:20:47] - Adding type registration characters -> org.hibernate.type.CharArrayType@31723307
+[2021-07-27 17:20:47] - Adding type registration char[] -> org.hibernate.type.CharArrayType@31723307
+[2021-07-27 17:20:47] - Adding type registration [C -> org.hibernate.type.CharArrayType@31723307
+[2021-07-27 17:20:47] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@48268eec
+[2021-07-27 17:20:47] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@48268eec
+[2021-07-27 17:20:47] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@48268eec
+[2021-07-27 17:20:47] - Adding type registration text -> org.hibernate.type.TextType@515b9d4a
+[2021-07-27 17:20:47] - Adding type registration ntext -> org.hibernate.type.NTextType@23cd5d42
+[2021-07-27 17:20:47] - Adding type registration blob -> org.hibernate.type.BlobType@160e99e0
+[2021-07-27 17:20:47] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@160e99e0
+[2021-07-27 17:20:47] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@21e45a6f
+[2021-07-27 17:20:47] - Adding type registration clob -> org.hibernate.type.ClobType@1c628f6a
+[2021-07-27 17:20:47] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1c628f6a
+[2021-07-27 17:20:47] - Adding type registration nclob -> org.hibernate.type.NClobType@6f9ab79d
+[2021-07-27 17:20:47] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6f9ab79d
+[2021-07-27 17:20:47] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@53aa2fc9
+[2021-07-27 17:20:47] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@23ca36d
+[2021-07-27 17:20:47] - Adding type registration serializable -> org.hibernate.type.SerializableType@715f45c6
+[2021-07-27 17:20:47] - Adding type registration object -> org.hibernate.type.ObjectType@2e7af36e
+[2021-07-27 17:20:47] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2e7af36e
+[2021-07-27 17:20:47] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@733e6df7
+[2021-07-27 17:20:47] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7fe07361
+[2021-07-27 17:20:47] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@741ac284
+[2021-07-27 17:20:47] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4ef4f627
+[2021-07-27 17:20:47] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4ea56bdb
+[2021-07-27 17:20:47] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@32227215
+[2021-07-27 17:20:47] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@108e9837
+[2021-07-27 17:20:47] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@79a201cf
+[2021-07-27 17:20:47] - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@1a2e0d57] into BootstrapContext; was [null]
+[2021-07-27 17:20:47] - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@1a2e0d57) [was null]
+[2021-07-27 17:20:47] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@54ffa561] into BootstrapContext; was [null]
+[2021-07-27 17:20:47] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@49c099b] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3d9f0a5]
+[2021-07-27 17:20:47] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@1a2e0d57]
+[2021-07-27 17:20:47] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@1a2e0d57]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-27 17:20:47] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2021-07-27 17:20:47] - Creating new JDBC Driver Connection to [jdbc:h2:mem:ac4de2e4-8a3a-47ea-8180-0d5be94d19ce;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+[2021-07-27 17:20:47] - Database ->
+       name : H2
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+[2021-07-27 17:20:47] - Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+[2021-07-27 17:20:47] - JDBC version : 4.1
+[2021-07-27 17:20:47] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-27 17:20:47] - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+[2021-07-27 17:20:47] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2021-07-27 17:20:47] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1d289d3f] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@10f405ff]
+[2021-07-27 17:20:47] - Binding entity from annotated class: com.anu.springunijpa.entity.Course
+[2021-07-27 17:20:47] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-27 17:20:47] - Import with entity name Course
+[2021-07-27 17:20:47] - Bind entity com.anu.springunijpa.entity.Course on table course
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_id, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - Not known whether passed class name [com.anu.springunijpa.entity.Course] is safe
+[2021-07-27 17:20:47] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.Course
+[2021-07-27 17:20:47] - MetadataSourceProcessor property courseId with lazy=false
+[2021-07-27 17:20:47] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseId]
+[2021-07-27 17:20:47] - building SimpleValue for courseId
+[2021-07-27 17:20:47] - Building property courseId
+[2021-07-27 17:20:47] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(course_id)]), courseId, assigned, , ...)
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_leader, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - MetadataSourceProcessor property courseLeader with lazy=false
+[2021-07-27 17:20:47] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseLeader]
+[2021-07-27 17:20:47] - building SimpleValue for courseLeader
+[2021-07-27 17:20:47] - Building property courseLeader
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_name, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - MetadataSourceProcessor property courseName with lazy=false
+[2021-07-27 17:20:47] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseName]
+[2021-07-27 17:20:47] - building SimpleValue for courseName
+[2021-07-27 17:20:47] - Building property courseName
+[2021-07-27 17:20:47] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set_key, insertable=true, updatable=true, unique=false}
+[2021-07-27 17:20:47] - Binding column: Ejb3JoinColumn{logicalColumnName='userCourseSet_KEY', referencedColumn='null', mappedBy='null'}
+[2021-07-27 17:20:47] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-27 17:20:47] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-27 17:20:47] - Collection role: com.anu.springunijpa.entity.Course.userCourseSet

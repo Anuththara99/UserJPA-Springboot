@@ -32,8 +32,8 @@ public class User {
     @Column(name = "user_tel")
     private String userTel;
 
-//    @OneToMany(mappedBy = "user")
-//    Set<UserCourse> userCourseSet;
+    @OneToMany(mappedBy = "user")
+    Set<UserCourse> userCourseSet;
 
 
     public int getUserId() {

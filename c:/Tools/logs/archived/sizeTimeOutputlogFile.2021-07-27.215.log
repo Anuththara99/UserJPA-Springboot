@@ -1,0 +1,233 @@
+[2021-07-27 17:13:51] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=6}]
+[2021-07-27 17:13:51] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-27 17:13:51] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Done loading collection
+[2021-07-27 17:13:51] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-27 17:13:51] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-27 17:13:51] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-27 17:13:51] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-27 17:13:51] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-27 17:13:51] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-27 17:13:51] - Processing attribute `course` : value = c1
+[2021-07-27 17:13:51] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `user` : value = 7
+[2021-07-27 17:13:51] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:51] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-27 17:13:51] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-27 17:13:51] - Processing attribute `course` : value = c3
+[2021-07-27 17:13:51] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `user` : value = 7
+[2021-07-27 17:13:51] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:51] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-27 17:13:51] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-27 17:13:51] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Done loading collection
+[2021-07-27 17:13:51] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-27 17:13:51] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-27 17:13:51] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-27 17:13:51] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-27 17:13:51] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-27 17:13:51] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-27 17:13:51] - Processing attribute `course` : value = c2
+[2021-07-27 17:13:51] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `user` : value = 8
+[2021-07-27 17:13:51] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:51] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-27 17:13:51] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-27 17:13:51] - Processing attribute `course` : value = c3
+[2021-07-27 17:13:51] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `user` : value = 8
+[2021-07-27 17:13:51] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:51] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:51] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-27 17:13:51] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-27 17:13:51] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Done loading collection
+[2021-07-27 17:13:51] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-27 17:13:51] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-27 17:13:51] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-27 17:13:51] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-27 17:13:51] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-27 17:13:51] - Done loading collection
+[2021-07-27 17:13:51] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-27 17:13:51] - Completed 200 OK
+[2021-07-27 17:13:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-27 17:13:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-27 17:13:57] - GET "/users/search?searchtype=name&search=kate", parameters={masked}
+[2021-07-27 17:13:57] - Mapped to com.anu.springunijpa.controller.UserController#searchByAny(String, String)
+[2021-07-27 17:13:57] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-27 17:13:57] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where ( ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 ) ) or ( generatedAlias0.userTel is null )
+[2021-07-27 17:13:57] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0 where ( ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 ) ) or ( generatedAlias0.userTel is null )
+[2021-07-27 17:13:57] - throwQueryException() : no errors
+[2021-07-27 17:13:57] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'anu'
+    |  |     |  |  |  \-[IDENT] Node: 'springunijpa'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[OR] Node: 'or'
+          +-[OR] Node: 'or'
+          |  +-[EQ] Node: '='
+          |  |  +-[DOT] Node: '.'
+          |  |  |  +-[IDENT] Node: 'generatedAlias0'
+          |  |  |  \-[IDENT] Node: 'userId'
+          |  |  \-[COLON] Node: ':'
+          |  |     \-[IDENT] Node: 'param0'
+          |  \-[EQ] Node: '='
+          |     +-[DOT] Node: '.'
+          |     |  +-[IDENT] Node: 'generatedAlias0'
+          |     |  \-[IDENT] Node: 'userName'
+          |     \-[COLON] Node: ':'
+          |        \-[IDENT] Node: 'param1'
+          \-[IS_NULL] Node: 'is null'
+             \-[DOT] Node: '.'
+                +-[IDENT] Node: 'generatedAlias0'
+                \-[IDENT] Node: 'userTel'
+
+[2021-07-27 17:13:57] - select << begin [level=1, statement=select]
+[2021-07-27 17:13:57] - FromClause{level=1} : com.anu.springunijpa.entity.User (generatedAlias0) -> user0_
+[2021-07-27 17:13:57] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-27 17:13:57] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-27 17:13:57] - getDataType() : userId -> org.hibernate.type.IntegerType@236ae13d
+[2021-07-27 17:13:57] - Resolved : generatedAlias0.userId -> user0_.user_id
+[2021-07-27 17:13:57] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-27 17:13:57] - getDataType() : userName -> org.hibernate.type.StringType@5bf9ea6b
+[2021-07-27 17:13:57] - Resolved : generatedAlias0.userName -> user0_.user_name
+[2021-07-27 17:13:57] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-27 17:13:57] - getDataType() : userTel -> org.hibernate.type.StringType@5bf9ea6b
+[2021-07-27 17:13:57] - Resolved : generatedAlias0.userTel -> user0_.user_tel
+[2021-07-27 17:13:57] - select : finishing up [level=1, statement=select]
+[2021-07-27 17:13:57] - processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) ( where ( or ( or ( = ( user0_.user_id user0_.user_id userId ) ? ) ( = ( user0_.user_name user0_.user_id userName ) ? ) ) ( is null ( user0_.user_tel user0_.user_id userTel ) ) ) ) )
+[2021-07-27 17:13:57] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-SqlNode
+          +-SqlNode
+          |  +-BinaryLogicOperatorNode
+          |  |  +-DotNode
+          |  |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |  |  | path: generatedAlias0.userId
+          |  |  |  +-IdentNode
+          |  |  |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |  |  |  | originalText: generatedAlias0
+          |  |  |  \-IdentNode
+          |  |  |    persister: null
+          |  |  |    originalText: userId
+          |  |  \-ParameterNode
+          |  \-BinaryLogicOperatorNode
+          |     +-DotNode
+          |     | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |     | path: generatedAlias0.userName
+          |     |  +-IdentNode
+          |     |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |     |  | originalText: generatedAlias0
+          |     |  \-IdentNode
+          |     |    persister: null
+          |     |    originalText: userName
+          |     \-ParameterNode
+          \-IsNullLogicOperatorNode
+             \-DotNode
+               persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+               path: generatedAlias0.userTel
+                +-IdentNode
+                | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+                | originalText: generatedAlias0
+                \-IdentNode
+                  persister: null
+                  originalText: userTel
+
+[2021-07-27 17:13:57] - Using FROM fragment [user user0_]
+[2021-07-27 17:13:57] - select >> end [level=1, statement=select]
+[2021-07-27 17:13:57] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.anu.springunijpa.entity.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[OR] SqlNode: 'or'
+          +-[OR] SqlNode: 'or'
+          |  +-[EQ] BinaryLogicOperatorNode: '='
+          |  |  +-[DOT] DotNode: 'user0_.user_id' {propertyName=userId,dereferenceType=PRIMITIVE,getPropertyPath=userId,path=generatedAlias0.userId,tableAlias=user0_,className=com.anu.springunijpa.entity.User,classAlias=generatedAlias0}
+          |  |  |  +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+          |  |  |  \-[IDENT] IdentNode: 'userId' {originalText=userId}
+          |  |  \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.IntegerType@236ae13d}
+          |  \-[EQ] BinaryLogicOperatorNode: '='
+          |     +-[DOT] DotNode: 'user0_.user_name' {propertyName=userName,dereferenceType=PRIMITIVE,getPropertyPath=userName,path=generatedAlias0.userName,tableAlias=user0_,className=com.anu.springunijpa.entity.User,classAlias=generatedAlias0}
+          |     |  +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+          |     |  \-[IDENT] IdentNode: 'userName' {originalText=userName}
+          |     \-[NAMED_PARAM] ParameterNode: '?' {name=param1, expectedType=org.hibernate.type.StringType@5bf9ea6b}
+          \-[IS_NULL] IsNullLogicOperatorNode: 'is null'
+             \-[DOT] DotNode: 'user0_.user_tel' {propertyName=userTel,dereferenceType=PRIMITIVE,getPropertyPath=userTel,path=generatedAlias0.userTel,tableAlias=user0_,className=com.anu.springunijpa.entity.User,classAlias=generatedAlias0}
+                +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+                \-[IDENT] IdentNode: 'userTel' {originalText=userTel}
+
+[2021-07-27 17:13:57] - throwQueryException() : no errors
+[2021-07-27 17:13:57] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0 where ( ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 ) ) or ( generatedAlias0.userTel is null )
+[2021-07-27 17:13:57] - SQL: select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=? or user0_.user_tel is null
+[2021-07-27 17:13:57] - throwQueryException() : no errors
+[2021-07-27 17:13:57] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=? or user0_.user_tel is null
+[2021-07-27 17:13:57] - Result set row: 0
+[2021-07-27 17:13:57] - Result row: EntityKey[com.anu.springunijpa.entity.User#3]
+[2021-07-27 17:13:57] - Resolving attributes for [com.anu.springunijpa.entity.User#3]
+[2021-07-27 17:13:57] - Processing attribute `dOB` : value = 2001-12-10
+[2021-07-27 17:13:57] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-27 17:13:57] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `userName` : value = Kate
+[2021-07-27 17:13:57] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `userTel` : value = 767097796
+[2021-07-27 17:13:57] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Done materializing entity [com.anu.springunijpa.entity.User#3]
+[2021-07-27 17:13:57] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-27 17:13:57] - Writing [[User{userId=3, userName='Kate', dOB=2001-12-10, userTel='767097796'}]]
+[2021-07-27 17:13:57] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#3]
+[2021-07-27 17:13:57] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-27 17:13:57] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#3]
+[2021-07-27 17:13:57] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#3]
+[2021-07-27 17:13:57] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#3]
+[2021-07-27 17:13:57] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=3}]
+[2021-07-27 17:13:57] - Processing attribute `course` : value = c1
+[2021-07-27 17:13:57] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `user` : value = 3
+[2021-07-27 17:13:57] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `userCourseSet` : value = null
+[2021-07-27 17:13:57] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=3}]
+[2021-07-27 17:13:57] - Resolving attributes for [com.anu.springunijpa.entity.Course#c1]
+[2021-07-27 17:13:57] - Processing attribute `courseLeader` : value = Mr.Java
+[2021-07-27 17:13:57] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-27 17:13:57] - Processing attribute `courseName` : value = java
