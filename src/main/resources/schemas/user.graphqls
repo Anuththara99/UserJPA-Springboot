@@ -11,6 +11,14 @@ type Query{
     findUser(userId:ID) : User
     #display course that belongs to given courseId
     findCourse(courseId:String) : Course
+    #display user that belongs to given useName
+    findUserByName(userName:String): User
+    #display course that belongs to given courseName
+    findCourseByName(courseName:String) : Course
+    #display user that belongs to given userTel
+    findUserByTel(userTel:String) :User
+    #display course that belongs to given courseTel
+    findCourseByLeader(courseLeader:String) : Course
 
 }
 type User{
@@ -36,4 +44,6 @@ type UserCourse{
     userId : ID
     courseId : ID
 }
+
+
 

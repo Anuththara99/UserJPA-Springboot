@@ -25,4 +25,12 @@ public class CourseResolver implements GraphQLQueryResolver {
         return courseRepository.findById(courseId).orElse(null);
     }
 
+    public Course findCourseByName(String courseName){
+        return courseRepository.findByCourseName(courseName);
+    }
+
+    public Course findCourseByLeader(String courseLeader){
+        return courseRepository.findByCourseLeader(courseLeader);
+    }
+
 }

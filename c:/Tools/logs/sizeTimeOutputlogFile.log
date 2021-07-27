@@ -1,60 +1,31 @@
-[2021-07-27 17:20:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:20:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:21:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:21:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:21:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:21:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:22:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:22:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:22:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:22:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:23:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:23:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:23:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:23:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:24:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:24:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:24:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:24:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:25:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:25:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:25:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:25:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:26:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:26:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:26:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:26:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:27:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:27:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:27:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:27:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:28:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:28:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:28:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:28:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:29:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:29:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:29:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:29:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:30:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:30:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:30:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:30:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:31:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:31:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:31:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:31:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:32:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:32:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:32:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:32:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:33:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:33:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:33:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:33:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:34:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:34:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:34:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:34:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-27 17:35:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-27 17:35:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-27 18:03:48] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-27 18:03:48] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Tue Jul 27 18:03:38 IST 2021
+[2021-07-27 18:03:48] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-27 18:03:48] - Stopping beans in phase 2147483647
+[2021-07-27 18:03:48] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-27 18:03:48] - Stopping beans in phase 2147483646
+[2021-07-27 18:03:48] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-27 18:03:48] - Stopping beans in phase 0
+[2021-07-27 18:03:48] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-27 18:03:48] - Unregistering JMX-exposed beans on shutdown
+[2021-07-27 18:03:48] - Unregistering JMX-exposed beans
+[2021-07-27 18:03:48] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-27 18:03:48] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27 18:03:48] - HHH000031: Closing
+[2021-07-27 18:03:48] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@6d96e94] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@22aefae0]
+[2021-07-27 18:03:48] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-27 18:03:48] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-27 18:03:48] - HikariPool-1 - Shutdown initiated...
+[2021-07-27 18:03:48] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38de5daf: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@97786d2: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@286573a6: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f74a60e: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c2baf6a: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c507f49: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c554d11: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77aa7062: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a5d015f: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@abecee7: (connection evicted)
+[2021-07-27 18:03:48] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-27 18:03:48] - HikariPool-1 - Shutdown completed.
