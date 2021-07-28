@@ -1,0 +1,190 @@
+[2021-07-28 18:39:03] - Executing request. operation name: 'null'. query: 'mutation createUser($userInput: UserInput){
+    createUser(userInput: $userInput){
+        userId
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{userInput={userId=13, userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 18:39:03] - Parsing query: 'mutation createUser($userInput: UserInput){
+    createUser(userInput: $userInput){
+        userId
+        userName
+        dOB
+        userTel
+    }
+
+}'...
+[2021-07-28 18:39:03] - Validating query: 'mutation createUser($userInput: UserInput){
+    createUser(userInput: $userInput){
+        userId
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 18:39:03] - Executing '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa'. operation name: 'null'. query: 'mutation createUser($userInput: UserInput){
+    createUser(userInput: $userInput){
+        userId
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{userInput={userId=13, userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 18:39:03] - Executing '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa' query operation: 'MUTATION' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 18:39:03] - '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa' fetching field '/createUser' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 18:39:03] - '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa', field '/createUser' fetch threw exception
+java.lang.IllegalArgumentException: Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+	at com.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:4314)
+	at com.fasterxml.jackson.databind.ObjectMapper.convertValue(ObjectMapper.java:4255)
+	at com.coxautodev.graphql.tools.MethodFieldResolver$createDataFetcher$$inlined$forEachIndexed$lambda$1.invoke(MethodFieldResolver.kt:81)
+	at com.coxautodev.graphql.tools.MethodFieldResolver$createDataFetcher$$inlined$forEachIndexed$lambda$1.invoke(MethodFieldResolver.kt:20)
+	at com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher.get(MethodFieldResolver.kt:145)
+	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:258)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:199)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:70)
+	at graphql.execution.Execution.executeOperation(Execution.java:158)
+	at graphql.execution.Execution.execute(Execution.java:100)
+	at graphql.GraphQL.execute(GraphQL.java:554)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:496)
+	at graphql.GraphQL.executeAsync(GraphQL.java:470)
+	at graphql.GraphQL.execute(GraphQL.java:401)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:92)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:88)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:39)
+	at graphql.servlet.AbstractGraphQLHttpServlet.query(AbstractGraphQLHttpServlet.java:265)
+	at graphql.servlet.AbstractGraphQLHttpServlet.lambda$new$2(AbstractGraphQLHttpServlet.java:183)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doRequest(AbstractGraphQLHttpServlet.java:236)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doRequestAsync(AbstractGraphQLHttpServlet.java:227)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doPost(AbstractGraphQLHttpServlet.java:257)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.ser.impl.UnsupportedTypeSerializer.serialize(UnsupportedTypeSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:4292)
+	... 60 common frames omitted
+[2021-07-28 18:39:03] - Exception while fetching data (/createUser) : Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+java.lang.IllegalArgumentException: Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+	at com.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:4314)
+	at com.fasterxml.jackson.databind.ObjectMapper.convertValue(ObjectMapper.java:4255)
+	at com.coxautodev.graphql.tools.MethodFieldResolver$createDataFetcher$$inlined$forEachIndexed$lambda$1.invoke(MethodFieldResolver.kt:81)
+	at com.coxautodev.graphql.tools.MethodFieldResolver$createDataFetcher$$inlined$forEachIndexed$lambda$1.invoke(MethodFieldResolver.kt:20)
+	at com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher.get(MethodFieldResolver.kt:145)
+	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:258)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:199)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:70)
+	at graphql.execution.Execution.executeOperation(Execution.java:158)
+	at graphql.execution.Execution.execute(Execution.java:100)
+	at graphql.GraphQL.execute(GraphQL.java:554)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:496)
+	at graphql.GraphQL.executeAsync(GraphQL.java:470)
+	at graphql.GraphQL.execute(GraphQL.java:401)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:92)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:88)
+	at graphql.servlet.GraphQLQueryInvoker.query(GraphQLQueryInvoker.java:39)
+	at graphql.servlet.AbstractGraphQLHttpServlet.query(AbstractGraphQLHttpServlet.java:265)
+	at graphql.servlet.AbstractGraphQLHttpServlet.lambda$new$2(AbstractGraphQLHttpServlet.java:183)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doRequest(AbstractGraphQLHttpServlet.java:236)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doRequestAsync(AbstractGraphQLHttpServlet.java:227)
+	at graphql.servlet.AbstractGraphQLHttpServlet.doPost(AbstractGraphQLHttpServlet.java:257)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.ser.impl.UnsupportedTypeSerializer.serialize(UnsupportedTypeSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:808)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:764)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:720)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:35)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:4292)
+	... 60 common frames omitted
+[2021-07-28 18:39:03] - '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa' completing field '/createUser'...
+[2021-07-28 18:39:03] - Execution '32f654e5-d8a2-4b8a-bd3e-b14d7860bdfa' completed with '1' errors

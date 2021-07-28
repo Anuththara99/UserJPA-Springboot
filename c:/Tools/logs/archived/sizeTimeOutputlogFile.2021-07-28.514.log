@@ -1,0 +1,186 @@
+[2021-07-28 16:43:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:43:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:44:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:44:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:44:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:44:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:45:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:45:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:45:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:45:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:46:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:46:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:46:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:46:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:47:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:47:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:47:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:47:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:48:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:48:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:48:40] - Executing request. operation name: 'null'. query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{userName=Rahul, dOB=2001-12-30, userTel=077020230}'
+[2021-07-28 16:48:40] - Parsing query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 16:48:40] - Validating query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 16:48:40] - Executing '1e036b8b-71a2-48c9-b405-b929f40fa4e7'. operation name: 'null'. query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{userName=Rahul, dOB=2001-12-30, userTel=077020230}'
+[2021-07-28 16:48:40] - Executing '1e036b8b-71a2-48c9-b405-b929f40fa4e7' query operation: 'MUTATION' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' fetching field '/createUser' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:48:40] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-07-28 16:48:40] - Opened new EntityManager [SessionImpl(1578199857<open>)] for JPA transaction
+[2021-07-28 16:48:40] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 16:48:40] - begin
+[2021-07-28 16:48:40] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@79bf6816]
+[2021-07-28 16:48:40] - Executing identity-insert immediately
+[2021-07-28 16:48:40] - insert into user (date_of_birth, user_name, user_tel) values (?, ?, ?)
+[2021-07-28 16:48:40] - Natively generated identity: 12
+[2021-07-28 16:48:40] - HHH000387: ResultSet's statement was not registered
+[2021-07-28 16:48:40] - Initiating transaction commit
+[2021-07-28 16:48:40] - Committing JPA transaction on EntityManager [SessionImpl(1578199857<open>)]
+[2021-07-28 16:48:40] - committing
+[2021-07-28 16:48:40] - Processing flush-time cascades
+[2021-07-28 16:48:40] - Dirty checking collections
+[2021-07-28 16:48:40] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2021-07-28 16:48:40] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-07-28 16:48:40] - Listing entities:
+[2021-07-28 16:48:40] - com.anu.springunijpa.entity.User{userCourseSet=null, dOB=null, userTel=null, userName=null, userId=12}
+[2021-07-28 16:48:40] - Closing JPA EntityManager [SessionImpl(1578199857<open>)] after transaction
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' field '/createUser' fetch returned 'com.anu.springunijpa.entity.User'
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' completing field '/createUser'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' fetching field '/createUser/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' field '/createUser/userName' fetch returned 'null'
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' completing field '/createUser/userName'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' fetching field '/createUser/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' field '/createUser/dOB' fetch returned 'null'
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' completing field '/createUser/dOB'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' fetching field '/createUser/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' field '/createUser/userTel' fetch returned 'null'
+[2021-07-28 16:48:40] - '1e036b8b-71a2-48c9-b405-b929f40fa4e7' completing field '/createUser/userTel'...
+[2021-07-28 16:48:40] - Execution '1e036b8b-71a2-48c9-b405-b929f40fa4e7' completed with zero errors
+[2021-07-28 16:48:48] - GET "/users", parameters={}
+[2021-07-28 16:48:48] - Mapped to com.anu.springunijpa.controller.UserController#viewAllUser(Pageable)
+[2021-07-28 16:48:48] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 16:48:48] - Found thread-bound EntityManager [SessionImpl(720431717<open>)] for JPA transaction
+[2021-07-28 16:48:48] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-28 16:48:48] - Setting JDBC Connection [HikariProxyConnection@607588683 wrapping com.mysql.cj.jdbc.ConnectionImpl@389a5022] read-only
+[2021-07-28 16:48:48] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 16:48:48] - begin
+[2021-07-28 16:48:48] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@20088115]
+[2021-07-28 16:48:48] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0
+[2021-07-28 16:48:48] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ limit ?
+[2021-07-28 16:48:48] - Result set row: 0
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#1]
+[2021-07-28 16:48:48] - Result set row: 1
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 16:48:48] - Result set row: 2
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#3]
+[2021-07-28 16:48:48] - Result set row: 3
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#4]
+[2021-07-28 16:48:48] - Result set row: 4
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#5]
+[2021-07-28 16:48:48] - Result set row: 5
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#6]
+[2021-07-28 16:48:48] - Result set row: 6
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#7]
+[2021-07-28 16:48:48] - Result set row: 7
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#8]
+[2021-07-28 16:48:48] - Result set row: 8
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#9]
+[2021-07-28 16:48:48] - Result set row: 9
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#11]
+[2021-07-28 16:48:48] - Result set row: 10
+[2021-07-28 16:48:48] - Result row: EntityKey[com.anu.springunijpa.entity.User#12]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#1]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 1999-05-02
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = John
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 709709234
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#1]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Liza
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#3]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2001-12-10
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Kate
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 767097796
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#3]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#4]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2000-11-23
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Roy
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 707096111
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#4]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#5]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 1999-08-22
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Jane
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 704749234
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#5]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#6]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2002-02-10
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Sara
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#6]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#7]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2000-12-15
+[2021-07-28 16:48:48] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 16:48:48] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userName` : value = Tom
+[2021-07-28 16:48:48] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Processing attribute `userTel` : value = 0717879325
+[2021-07-28 16:48:48] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:48:48] - Done materializing entity [com.anu.springunijpa.entity.User#7]
+[2021-07-28 16:48:48] - Resolving attributes for [com.anu.springunijpa.entity.User#8]
+[2021-07-28 16:48:48] - Processing attribute `dOB` : value = 2001-01-26

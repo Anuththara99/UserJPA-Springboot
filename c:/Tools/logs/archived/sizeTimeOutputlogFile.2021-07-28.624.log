@@ -1,0 +1,196 @@
+[2021-07-28 17:57:30] - Executing request. operation name: 'null'. query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{user={userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 17:57:30] - Parsing query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'...
+[2021-07-28 17:57:30] - Validating query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:57:30] - Query failed to validate : 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:57:51] - Executing request. operation name: 'null'. query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{user={userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 17:57:51] - Parsing query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'...
+[2021-07-28 17:57:51] - Validating query: 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:57:51] - Query failed to validate : 'mutation createUser($userInput:UserIput){
+    createUser(user:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:57:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 17:57:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 17:58:16] - Executing request. operation name: 'null'. query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{userInput={userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 17:58:16] - Parsing query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'...
+[2021-07-28 17:58:16] - Validating query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:58:16] - Query failed to validate : 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:58:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 17:58:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 17:58:33] - Executing request. operation name: 'null'. query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'. variables '{userInput={userName=Roni, dOB=2001-10-30, userTel=0712323451}}'
+[2021-07-28 17:58:33] - Parsing query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'...
+[2021-07-28 17:58:33] - Validating query: 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:58:33] - Query failed to validate : 'mutation createUser($userInput:UserIput){
+    createUser(userInput:$userInput){
+        userName
+        dOB
+        userTel
+    }
+
+}'
+[2021-07-28 17:58:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 17:58:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 17:59:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 17:59:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 17:59:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 17:59:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:00:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:00:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:00:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:00:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:01:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:01:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:01:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:01:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:02:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:02:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:02:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:02:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:03:18] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-28 18:03:18] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Wed Jul 28 17:57:23 IST 2021
+[2021-07-28 18:03:18] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-28 18:03:18] - Stopping beans in phase 2147483647
+[2021-07-28 18:03:18] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-28 18:03:18] - Stopping beans in phase 2147483646
+[2021-07-28 18:03:18] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-28 18:03:18] - Stopping beans in phase 0
+[2021-07-28 18:03:18] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-28 18:03:18] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 18:03:18] - Unregistering JMX-exposed beans
+[2021-07-28 18:03:18] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 18:03:18] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 18:03:18] - HHH000031: Closing
+[2021-07-28 18:03:18] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@16d7daec] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@cf10c92]
+[2021-07-28 18:03:18] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 18:03:18] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 18:03:18] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 18:03:18] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@652e345: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@745ad181: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@554824f5: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57622763: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51061d04: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@44909651: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@584587c8: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4548b5c1: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23d494f1: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@85d3d34: (connection evicted)
+[2021-07-28 18:03:18] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-28 18:03:18] - HikariPool-1 - Shutdown completed.
+[2021-07-28 18:03:22] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 15056 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-28 18:03:22] - Running with Spring Boot v2.5.2, Spring v5.3.8
+[2021-07-28 18:03:22] - No active profile set, falling back to default profiles: default
+[2021-07-28 18:03:22] - Loading source class com.anu.springunijpa.SpringUniJpaApplication
+[2021-07-28 18:03:22] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7
+[2021-07-28 18:03:22] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-28 18:03:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/exception/GlobalExceptionHandler.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/GraphQLLocalDate.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserMutationResolver.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-28 18:03:22] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]

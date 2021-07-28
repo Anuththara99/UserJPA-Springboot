@@ -1,0 +1,92 @@
+[2021-07-28 18:29:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:29:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:29:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:29:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:30:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:30:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:30:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:30:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:31:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:31:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:31:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:31:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:32:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:32:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:32:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:32:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:33:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:33:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:33:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:33:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:34:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:34:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:34:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:34:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:35:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:35:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:35:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:35:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:36:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:36:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:36:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:36:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:37:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:37:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:37:42] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:37:42] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:38:12] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:38:12] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:38:40] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-28 18:38:40] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Wed Jul 28 18:27:40 IST 2021
+[2021-07-28 18:38:40] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-28 18:38:40] - Stopping beans in phase 2147483647
+[2021-07-28 18:38:40] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-28 18:38:40] - Stopping beans in phase 2147483646
+[2021-07-28 18:38:40] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-28 18:38:40] - Stopping beans in phase 0
+[2021-07-28 18:38:40] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-28 18:38:40] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 18:38:40] - Unregistering JMX-exposed beans
+[2021-07-28 18:38:40] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 18:38:40] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 18:38:40] - HHH000031: Closing
+[2021-07-28 18:38:40] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@ed13d5d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@10f20d38]
+[2021-07-28 18:38:40] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 18:38:40] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 18:38:40] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 18:38:40] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b1252c8: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60cb2e4a: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@41d9db3e: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ef629be: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4597e65e: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dcdfe53: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27df0e8f: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@361a7b0b: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74790f91: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f3c8b5c: (connection evicted)
+[2021-07-28 18:38:40] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-28 18:38:40] - HikariPool-1 - Shutdown completed.
+[2021-07-28 18:38:51] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 18404 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-28 18:38:51] - Running with Spring Boot v2.5.2, Spring v5.3.8
+[2021-07-28 18:38:51] - No active profile set, falling back to default profiles: default
+[2021-07-28 18:38:51] - Loading source class com.anu.springunijpa.SpringUniJpaApplication
+[2021-07-28 18:38:52] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b14724
+[2021-07-28 18:38:52] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-28 18:38:52] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/exception/GlobalExceptionHandler.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/GraphQLLocalDate.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserMutationResolver.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserResolver.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-28 18:38:52] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-28 18:38:52] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-28 18:38:52] - @EnableAutoConfiguration was declared on a class in the package 'com.anu.springunijpa'. Automatic @Repository and @Entity scanning is enabled.
+[2021-07-28 18:38:52] - Scanning for JPA repositories in packages com.anu.springunijpa.
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-28 18:38:52] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-28 18:38:53] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]

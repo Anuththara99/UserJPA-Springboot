@@ -26,9 +26,20 @@ type Query{
 
 
 }
+input UserInput{
+    #id of the user
+    userId : ID
+    #name of the user
+    userName : String
+    #date of birth
+    dOB: LocalDate
+    #telephone number of the user
+    userTel : String
+
+}
 
 type Mutation{
-    createUser(userName:String,dOB:LocalDate, userTel:String): User
+    createUser(userInput:UserInput): User
 }
 type User{
     #id of the user
@@ -53,6 +64,8 @@ type UserCourse{
     userId : ID
     courseId : ID
 }
+
+
 
 
 

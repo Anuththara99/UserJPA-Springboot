@@ -1,5 +1,7 @@
 package com.anu.springunijpa.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -27,6 +29,7 @@ public class User {
     private int userId;
     @Column(name = "user_name")
     private String userName;
+    @JsonProperty("dOB") @JsonFormat(pattern = "yyyy/MM/dd")
     @Column(name = "date_of_birth")
     private LocalDate dOB;
     @Column(name = "user_tel")
@@ -34,6 +37,7 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     Set<UserCourse> userCourseSet;
+
 
 
     public int getUserId() {

@@ -1,0 +1,167 @@
+[2021-07-28 16:35:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:35:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:35:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:35:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:36:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:36:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:36:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:36:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:37:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:37:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:37:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:37:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:38:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:38:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:38:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:38:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:39:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:39:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:39:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:39:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:40:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:40:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:40:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:40:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:41:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:41:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:41:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:41:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:42:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:42:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:42:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:42:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:43:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:43:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:43:31] - Executing request. operation name: 'null'. query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{user={userName=Rahul, dOB=2001-12-30, userTel=077020230}}'
+[2021-07-28 16:43:31] - Parsing query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 16:43:31] - Validating query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 16:43:31] - Executing 'f488f2db-9aed-429b-a695-d9646e5cdaaf'. operation name: 'null'. query: 'mutation {
+    createUser{
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{user={userName=Rahul, dOB=2001-12-30, userTel=077020230}}'
+[2021-07-28 16:43:31] - Executing 'f488f2db-9aed-429b-a695-d9646e5cdaaf' query operation: 'MUTATION' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 16:43:31] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' fetching field '/createUser' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:43:31] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-07-28 16:43:31] - Opened new EntityManager [SessionImpl(1590936750<open>)] for JPA transaction
+[2021-07-28 16:43:31] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 16:43:31] - begin
+[2021-07-28 16:43:31] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7f51eb23]
+[2021-07-28 16:43:31] - Executing identity-insert immediately
+[2021-07-28 16:43:31] - insert into user (date_of_birth, user_name, user_tel) values (?, ?, ?)
+[2021-07-28 16:43:32] - Natively generated identity: 11
+[2021-07-28 16:43:32] - HHH000387: ResultSet's statement was not registered
+[2021-07-28 16:43:32] - Initiating transaction commit
+[2021-07-28 16:43:32] - Committing JPA transaction on EntityManager [SessionImpl(1590936750<open>)]
+[2021-07-28 16:43:32] - committing
+[2021-07-28 16:43:32] - Processing flush-time cascades
+[2021-07-28 16:43:32] - Dirty checking collections
+[2021-07-28 16:43:32] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2021-07-28 16:43:32] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-07-28 16:43:32] - Listing entities:
+[2021-07-28 16:43:32] - com.anu.springunijpa.entity.User{userCourseSet=null, dOB=null, userTel=null, userName=null, userId=11}
+[2021-07-28 16:43:33] - Closing JPA EntityManager [SessionImpl(1590936750<open>)] after transaction
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' field '/createUser' fetch returned 'com.anu.springunijpa.entity.User'
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' completing field '/createUser'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' fetching field '/createUser/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' field '/createUser/userName' fetch returned 'null'
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' completing field '/createUser/userName'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' fetching field '/createUser/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' field '/createUser/dOB' fetch returned 'null'
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' completing field '/createUser/dOB'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' fetching field '/createUser/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' field '/createUser/userTel' fetch returned 'null'
+[2021-07-28 16:43:33] - 'f488f2db-9aed-429b-a695-d9646e5cdaaf' completing field '/createUser/userTel'...
+[2021-07-28 16:43:33] - Execution 'f488f2db-9aed-429b-a695-d9646e5cdaaf' completed with zero errors
+[2021-07-28 16:43:48] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-07-28 16:43:48] - Initializing Servlet 'dispatcherServlet'
+[2021-07-28 16:43:48] - Detected StandardServletMultipartResolver
+[2021-07-28 16:43:48] - Detected AcceptHeaderLocaleResolver
+[2021-07-28 16:43:48] - Detected FixedThemeResolver
+[2021-07-28 16:43:48] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b529d42
+[2021-07-28 16:43:48] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3c2f310c
+[2021-07-28 16:43:48] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-07-28 16:43:48] - Completed initialization in 1 ms
+[2021-07-28 16:43:48] - GET "/users", parameters={}
+[2021-07-28 16:43:48] - Mapped to com.anu.springunijpa.controller.UserController#viewAllUser(Pageable)
+[2021-07-28 16:43:48] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 16:43:48] - Found thread-bound EntityManager [SessionImpl(398494823<open>)] for JPA transaction
+[2021-07-28 16:43:48] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-28 16:43:48] - Setting JDBC Connection [HikariProxyConnection@1491304146 wrapping com.mysql.cj.jdbc.ConnectionImpl@389a5022] read-only
+[2021-07-28 16:43:48] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 16:43:48] - begin
+[2021-07-28 16:43:48] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7a13b49b]
+[2021-07-28 16:43:48] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0
+[2021-07-28 16:43:48] - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@1b5b020e
+[2021-07-28 16:43:48] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 16:43:48] - throwQueryException() : no errors
+[2021-07-28 16:43:48] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'anu'
+       |     |  |  |  \-[IDENT] Node: 'springunijpa'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'User'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-07-28 16:43:48] - select << begin [level=1, statement=select]
+[2021-07-28 16:43:48] - FromClause{level=1} : com.anu.springunijpa.entity.User (generatedAlias0) -> user0_
+[2021-07-28 16:43:48] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 16:43:48] - select : finishing up [level=1, statement=select]
+[2021-07-28 16:43:48] - processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) )
+[2021-07-28 16:43:48] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-07-28 16:43:48] - Using FROM fragment [user user0_]
+[2021-07-28 16:43:48] - select >> end [level=1, statement=select]
+[2021-07-28 16:43:48] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.anu.springunijpa.entity.User}}
+
+[2021-07-28 16:43:48] - throwQueryException() : no errors
+[2021-07-28 16:43:48] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 16:43:48] - SQL: select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_
+[2021-07-28 16:43:48] - throwQueryException() : no errors
+[2021-07-28 16:43:48] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ limit ?
+[2021-07-28 16:43:48] - Result set row: 0

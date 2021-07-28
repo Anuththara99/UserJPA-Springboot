@@ -1,6 +1,24 @@
-[2021-07-28 16:35:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-28 16:35:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-28 16:35:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-28 16:35:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-28 16:36:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-28 16:36:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 18:40:14] - Completed 200 OK
+[2021-07-28 18:40:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:40:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
