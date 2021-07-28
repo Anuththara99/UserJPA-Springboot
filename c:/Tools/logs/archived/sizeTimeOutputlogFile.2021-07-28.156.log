@@ -1,0 +1,146 @@
+[2021-07-28 09:10:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1059754c'
+[2021-07-28 09:10:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-28 09:10:30] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2021-07-28 09:10:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-07-28 09:10:30] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-07-28 09:10:30] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-07-28 09:10:30] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2021-07-28 09:10:30] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-07-28 09:10:30] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-07-28 09:10:30] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-07-28 09:10:30] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.anu.springunijpa.entity.Course
+		com.anu.springunijpa.entity.User
+		com.anu.springunijpa.entity.UserCourse
+		com.anu.springunijpa.entity.UserCourseKey]
+	Mapping files names []
+	Properties []
+[2021-07-28 09:10:30] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-07-28 09:10:30] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-07-28 09:10:30] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-07-28 09:10:30] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-28 09:10:30] - HHH000206: hibernate.properties not found
+[2021-07-28 09:10:30] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-07-28 09:10:30] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-07-28 09:10:30] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-07-28 09:10:30] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-28 09:10:30] - Adding type registration boolean -> org.hibernate.type.BooleanType@63f855b
+[2021-07-28 09:10:30] - Adding type registration boolean -> org.hibernate.type.BooleanType@63f855b
+[2021-07-28 09:10:30] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@63f855b
+[2021-07-28 09:10:30] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@399ca607
+[2021-07-28 09:10:30] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@76536c53
+[2021-07-28 09:10:30] - Adding type registration yes_no -> org.hibernate.type.YesNoType@6baf25d7
+[2021-07-28 09:10:30] - Adding type registration byte -> org.hibernate.type.ByteType@3913f206
+[2021-07-28 09:10:30] - Adding type registration byte -> org.hibernate.type.ByteType@3913f206
+[2021-07-28 09:10:30] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3913f206
+[2021-07-28 09:10:30] - Adding type registration character -> org.hibernate.type.CharacterType@1e84f3c8
+[2021-07-28 09:10:30] - Adding type registration char -> org.hibernate.type.CharacterType@1e84f3c8
+[2021-07-28 09:10:30] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1e84f3c8
+[2021-07-28 09:10:30] - Adding type registration short -> org.hibernate.type.ShortType@7b5b5bfe
+[2021-07-28 09:10:30] - Adding type registration short -> org.hibernate.type.ShortType@7b5b5bfe
+[2021-07-28 09:10:30] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7b5b5bfe
+[2021-07-28 09:10:30] - Adding type registration integer -> org.hibernate.type.IntegerType@7a2ab862
+[2021-07-28 09:10:30] - Adding type registration int -> org.hibernate.type.IntegerType@7a2ab862
+[2021-07-28 09:10:30] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7a2ab862
+[2021-07-28 09:10:30] - Adding type registration long -> org.hibernate.type.LongType@56c8e6f0
+[2021-07-28 09:10:30] - Adding type registration long -> org.hibernate.type.LongType@56c8e6f0
+[2021-07-28 09:10:30] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@56c8e6f0
+[2021-07-28 09:10:30] - Adding type registration float -> org.hibernate.type.FloatType@733ec58b
+[2021-07-28 09:10:30] - Adding type registration float -> org.hibernate.type.FloatType@733ec58b
+[2021-07-28 09:10:30] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@733ec58b
+[2021-07-28 09:10:30] - Adding type registration double -> org.hibernate.type.DoubleType@66a53104
+[2021-07-28 09:10:30] - Adding type registration double -> org.hibernate.type.DoubleType@66a53104
+[2021-07-28 09:10:30] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@66a53104
+[2021-07-28 09:10:30] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7161457
+[2021-07-28 09:10:30] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7161457
+[2021-07-28 09:10:30] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@20999517
+[2021-07-28 09:10:30] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@20999517
+[2021-07-28 09:10:30] - Adding type registration string -> org.hibernate.type.StringType@40bb4f87
+[2021-07-28 09:10:30] - Adding type registration java.lang.String -> org.hibernate.type.StringType@40bb4f87
+[2021-07-28 09:10:30] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7645f03e
+[2021-07-28 09:10:30] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@daf22f0
+[2021-07-28 09:10:30] - Adding type registration url -> org.hibernate.type.UrlType@3d299393
+[2021-07-28 09:10:30] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3d299393
+[2021-07-28 09:10:30] - Adding type registration Duration -> org.hibernate.type.DurationType@1b0e9707
+[2021-07-28 09:10:30] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@1b0e9707
+[2021-07-28 09:10:30] - Adding type registration Instant -> org.hibernate.type.InstantType@3fcee3d9
+[2021-07-28 09:10:30] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3fcee3d9
+[2021-07-28 09:10:30] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@49fb0bbd
+[2021-07-28 09:10:30] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@49fb0bbd
+[2021-07-28 09:10:30] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@77d4ac52
+[2021-07-28 09:10:30] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@77d4ac52
+[2021-07-28 09:10:30] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1624775
+[2021-07-28 09:10:30] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1624775
+[2021-07-28 09:10:30] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2fbe26da
+[2021-07-28 09:10:30] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2fbe26da
+[2021-07-28 09:10:30] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7c369270
+[2021-07-28 09:10:30] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7c369270
+[2021-07-28 09:10:30] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3b98b809
+[2021-07-28 09:10:30] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3b98b809
+[2021-07-28 09:10:30] - Adding type registration date -> org.hibernate.type.DateType@32faa16c
+[2021-07-28 09:10:30] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@32faa16c
+[2021-07-28 09:10:30] - Adding type registration time -> org.hibernate.type.TimeType@250b5e5b
+[2021-07-28 09:10:30] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@250b5e5b
+[2021-07-28 09:10:30] - Adding type registration timestamp -> org.hibernate.type.TimestampType@5df63359
+[2021-07-28 09:10:30] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5df63359
+[2021-07-28 09:10:30] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5df63359
+[2021-07-28 09:10:30] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@34208baa
+[2021-07-28 09:10:30] - Adding type registration calendar -> org.hibernate.type.CalendarType@41ef1ea2
+[2021-07-28 09:10:30] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@41ef1ea2
+[2021-07-28 09:10:30] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@41ef1ea2
+[2021-07-28 09:10:30] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@35c4697c
+[2021-07-28 09:10:30] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4735d6e5
+[2021-07-28 09:10:30] - Adding type registration locale -> org.hibernate.type.LocaleType@468173fa
+[2021-07-28 09:10:30] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@468173fa
+[2021-07-28 09:10:30] - Adding type registration currency -> org.hibernate.type.CurrencyType@2cd388f5
+[2021-07-28 09:10:30] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2cd388f5
+[2021-07-28 09:10:30] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2c829dbc
+[2021-07-28 09:10:30] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2c829dbc
+[2021-07-28 09:10:30] - Adding type registration class -> org.hibernate.type.ClassType@1ff15a50
+[2021-07-28 09:10:30] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1ff15a50
+[2021-07-28 09:10:30] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3cc30dee
+[2021-07-28 09:10:30] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3cc30dee
+[2021-07-28 09:10:30] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7e7e962d
+[2021-07-28 09:10:30] - Adding type registration binary -> org.hibernate.type.BinaryType@56846330
+[2021-07-28 09:10:30] - Adding type registration byte[] -> org.hibernate.type.BinaryType@56846330
+[2021-07-28 09:10:30] - Adding type registration [B -> org.hibernate.type.BinaryType@56846330
+[2021-07-28 09:10:30] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@484149eb
+[2021-07-28 09:10:30] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@484149eb
+[2021-07-28 09:10:30] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@484149eb
+[2021-07-28 09:10:30] - Adding type registration row_version -> org.hibernate.type.RowVersionType@fe09383
+[2021-07-28 09:10:30] - Adding type registration image -> org.hibernate.type.ImageType@7bdf61ad
+[2021-07-28 09:10:30] - Adding type registration characters -> org.hibernate.type.CharArrayType@b9d018b
+[2021-07-28 09:10:30] - Adding type registration char[] -> org.hibernate.type.CharArrayType@b9d018b
+[2021-07-28 09:10:30] - Adding type registration [C -> org.hibernate.type.CharArrayType@b9d018b
+[2021-07-28 09:10:30] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@634ff56
+[2021-07-28 09:10:30] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@634ff56
+[2021-07-28 09:10:30] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@634ff56
+[2021-07-28 09:10:30] - Adding type registration text -> org.hibernate.type.TextType@2ffe243f
+[2021-07-28 09:10:30] - Adding type registration ntext -> org.hibernate.type.NTextType@1dad01fe
+[2021-07-28 09:10:30] - Adding type registration blob -> org.hibernate.type.BlobType@48eaf42f
+[2021-07-28 09:10:30] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@48eaf42f
+[2021-07-28 09:10:30] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6411504a
+[2021-07-28 09:10:30] - Adding type registration clob -> org.hibernate.type.ClobType@467b0f6e
+[2021-07-28 09:10:30] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@467b0f6e
+[2021-07-28 09:10:30] - Adding type registration nclob -> org.hibernate.type.NClobType@31f295b6
+[2021-07-28 09:10:30] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@31f295b6
+[2021-07-28 09:10:30] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4214ae8f
+[2021-07-28 09:10:30] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@546394ed
+[2021-07-28 09:10:30] - Adding type registration serializable -> org.hibernate.type.SerializableType@7ef8eda7
+[2021-07-28 09:10:30] - Adding type registration object -> org.hibernate.type.ObjectType@91da29b
+[2021-07-28 09:10:30] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@91da29b
+[2021-07-28 09:10:30] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2349f14d
+[2021-07-28 09:10:30] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@17e0933c
+[2021-07-28 09:10:30] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7edb6fca

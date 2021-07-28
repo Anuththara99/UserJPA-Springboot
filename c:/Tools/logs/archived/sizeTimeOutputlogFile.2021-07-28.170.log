@@ -1,0 +1,98 @@
+[2021-07-28 09:11:10] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-07-28 09:11:10] - @EnableAutoConfiguration was declared on a class in the package 'com.anu.springunijpa'. Automatic @Repository and @Entity scanning is enabled.
+[2021-07-28 09:11:10] - Scanning for JPA repositories in packages com.anu.springunijpa.
+[2021-07-28 09:11:10] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/CourseRepository.class]
+[2021-07-28 09:11:10] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/repository/UserRepository.class]
+[2021-07-28 09:11:10] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/CourseServiceImpl.class]
+[2021-07-28 09:11:10] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/service/impl/UserServiceImpl.class]
+[2021-07-28 09:11:10] - Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'dataSource'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-28 09:11:10] - Driver class com.mysql.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@7dc51783'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-07-28 09:11:10] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-07-28 09:11:10] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-07-28 09:11:10] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-07-28 09:11:10] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-07-28 09:11:10] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.anu.springunijpa.entity.Course
+		com.anu.springunijpa.entity.User
+		com.anu.springunijpa.entity.UserCourse
+		com.anu.springunijpa.entity.UserCourseKey]
+	Mapping files names []
+	Properties []
+[2021-07-28 09:11:11] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-07-28 09:11:11] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-07-28 09:11:11] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-07-28 09:11:11] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-28 09:11:11] - HHH000206: hibernate.properties not found
+[2021-07-28 09:11:11] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-07-28 09:11:11] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-07-28 09:11:11] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-07-28 09:11:11] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-28 09:11:11] - Adding type registration boolean -> org.hibernate.type.BooleanType@6baf25d7
+[2021-07-28 09:11:11] - Adding type registration boolean -> org.hibernate.type.BooleanType@6baf25d7
+[2021-07-28 09:11:11] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6baf25d7
+[2021-07-28 09:11:11] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@b27b210
+[2021-07-28 09:11:11] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3913f206
+[2021-07-28 09:11:11] - Adding type registration yes_no -> org.hibernate.type.YesNoType@1280682
+[2021-07-28 09:11:11] - Adding type registration byte -> org.hibernate.type.ByteType@4dc7cd1c
+[2021-07-28 09:11:11] - Adding type registration byte -> org.hibernate.type.ByteType@4dc7cd1c
+[2021-07-28 09:11:11] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4dc7cd1c
+[2021-07-28 09:11:11] - Adding type registration character -> org.hibernate.type.CharacterType@42d6c12d
+[2021-07-28 09:11:11] - Adding type registration char -> org.hibernate.type.CharacterType@42d6c12d
+[2021-07-28 09:11:11] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@42d6c12d

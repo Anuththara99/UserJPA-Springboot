@@ -6,6 +6,8 @@ import com.anu.springunijpa.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureDataJpa;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -18,6 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
 @RunWith(SpringRunner.class)
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 class UserServiceImplTest {
 
     @Autowired
@@ -51,13 +54,13 @@ class UserServiceImplTest {
     void getUserById() {
         LocalDate date= LocalDate.of(1999,5,2);
         User expectUser = new User();
-        expectUser.setUserId(1);
+        expectUser.setUserId(3);
         expectUser.setUserName("John");
         expectUser.setdOB(date);
         expectUser.setUserTel("0701000111");
-        testEntityManager.persist(expectUser);
+        testEntityManager.merge(expectUser);
         testEntityManager.flush();
-        User user = userRepository.findById(9).get();
+        User user = userRepository.findById(3).get();
         assertThat(user).isEqualTo(expectUser);
     }
 
@@ -70,21 +73,21 @@ class UserServiceImplTest {
 
     @Test
     void getUserByTel() {
-        String tel= "709709234";
+        String tel= "0701000111";
         User user=userRepository.findByUserTel(tel);
         assertThat(user).isNotNull();
     }
 
     @Test
     void deleteUser() {
-        int id = 8;
+        int id = 1;
         userRepository.deleteById(id);
-        assertThat(userRepository.existsById(8)).isFalse();
+        assertThat(userRepository.existsById(1)).isFalse();
     }
 
     @Test
     void updateUser() {
-        User user = userRepository.findById(8).get();
+        User user = userRepository.findById(2).get();
         user.setUserName("John");
         user.setUserTel("709709234");
         userRepository.save(user);

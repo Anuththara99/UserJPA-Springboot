@@ -6,6 +6,7 @@ import com.anu.springunijpa.repository.CourseRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -16,8 +17,10 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(SpringRunner.class)
+
 @DataJpaTest
+@RunWith(SpringRunner.class)
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 class CourseServiceImplTest {
 
     @Autowired
@@ -29,17 +32,17 @@ class CourseServiceImplTest {
     @Test
     void testSaveCourse() {
         Course course = new Course();
-        course.setCourseId("c1");
-        course.setCourseName("C");
-        course.setCourseLeader("Mr.C");
-        courseRepository.save(course);
-        assertThat(course).isNotNull();
+        course.setCourseId("c2");
+        course.setCourseName("C++");
+        course.setCourseLeader("Mr.C++");
+        Course newCourse = courseRepository.save(course);
+        assertNotNull(newCourse);
     }
 
     @Test
     void testGetCourse() {
         List<Course> courseList = courseRepository.findAll();
-        assertThat(courseList).isNotEmpty();
+        assertThat(courseList).isEmpty();
     }
 
     @Test
@@ -48,7 +51,7 @@ class CourseServiceImplTest {
         expectCourse.setCourseId("c1");
         expectCourse.setCourseName("C");
         expectCourse.setCourseLeader("Mr.C");
-        entityManager.persist(expectCourse);
+        entityManager.merge(expectCourse);
         entityManager.flush();
         Course course = courseRepository.findById("c1").get();
         assertThat(course).isEqualTo(expectCourse);
@@ -87,11 +90,11 @@ class CourseServiceImplTest {
 
     @Test
     void testUpdateCourse() {
-        String id = "c1";
+        String id = "c2";
         Course course = courseRepository.findById(id).get();
-        course.setCourseId("c1");
-        course.setCourseName("C");
-        course.setCourseLeader("Mr.C");
+        course.setCourseId("c2");
+        course.setCourseName("C#");
+        course.setCourseLeader("Mr.C#");
         courseRepository.save(course);
         assertThat(course).isNotNull();
     }

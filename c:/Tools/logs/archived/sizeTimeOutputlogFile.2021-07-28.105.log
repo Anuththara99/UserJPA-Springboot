@@ -1,0 +1,200 @@
+[2021-07-28 09:01:46] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7ebe2e47
+[2021-07-28 09:01:46] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2a7d9b41
+[2021-07-28 09:01:46] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@25be445f
+[2021-07-28 09:01:46] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5d1b1c2a
+[2021-07-28 09:01:46] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6397248c
+[2021-07-28 09:01:46] - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@746c411c] into BootstrapContext; was [null]
+[2021-07-28 09:01:46] - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@746c411c) [was null]
+[2021-07-28 09:01:46] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@61db86bf] into BootstrapContext; was [null]
+[2021-07-28 09:01:46] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@4da1f38a] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3e377967]
+[2021-07-28 09:01:46] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@746c411c]
+[2021-07-28 09:01:46] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@746c411c]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-28 09:01:46] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2021-07-28 09:01:46] - HikariPool-1 - configuration:
+[2021-07-28 09:01:46] - allowPoolSuspension................................false
+[2021-07-28 09:01:46] - autoCommit................................true
+[2021-07-28 09:01:46] - catalog................................none
+[2021-07-28 09:01:46] - connectionInitSql................................none
+[2021-07-28 09:01:46] - connectionTestQuery................................none
+[2021-07-28 09:01:46] - connectionTimeout................................30000
+[2021-07-28 09:01:46] - dataSource................................none
+[2021-07-28 09:01:46] - dataSourceClassName................................none
+[2021-07-28 09:01:46] - dataSourceJNDI................................none
+[2021-07-28 09:01:46] - dataSourceProperties................................{password=<masked>}
+[2021-07-28 09:01:46] - driverClassName................................"com.mysql.jdbc.Driver"
+[2021-07-28 09:01:46] - exceptionOverrideClassName................................none
+[2021-07-28 09:01:46] - healthCheckProperties................................{}
+[2021-07-28 09:01:46] - healthCheckRegistry................................none
+[2021-07-28 09:01:46] - idleTimeout................................600000
+[2021-07-28 09:01:46] - initializationFailTimeout................................1
+[2021-07-28 09:01:46] - isolateInternalQueries................................false
+[2021-07-28 09:01:46] - jdbcUrl................................jdbc:mysql://localhost:3306/institute_test
+[2021-07-28 09:01:46] - keepaliveTime................................0
+[2021-07-28 09:01:46] - leakDetectionThreshold................................0
+[2021-07-28 09:01:46] - maxLifetime................................1800000
+[2021-07-28 09:01:46] - maximumPoolSize................................10
+[2021-07-28 09:01:46] - metricRegistry................................none
+[2021-07-28 09:01:46] - metricsTrackerFactory................................none
+[2021-07-28 09:01:46] - minimumIdle................................10
+[2021-07-28 09:01:46] - password................................<masked>
+[2021-07-28 09:01:46] - poolName................................"HikariPool-1"
+[2021-07-28 09:01:46] - readOnly................................false
+[2021-07-28 09:01:46] - registerMbeans................................false
+[2021-07-28 09:01:46] - scheduledExecutor................................none
+[2021-07-28 09:01:46] - schema................................none
+[2021-07-28 09:01:46] - threadFactory................................internal
+[2021-07-28 09:01:46] - transactionIsolation................................default
+[2021-07-28 09:01:46] - username................................"root"
+[2021-07-28 09:01:46] - validationTimeout................................5000
+[2021-07-28 09:01:46] - HikariPool-1 - Starting...
+[2021-07-28 09:01:46] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-28 09:01:46] - Driver class com.mysql.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+[2021-07-28 09:01:46] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c5d3a37
+[2021-07-28 09:01:46] - HikariPool-1 - Start completed.
+[2021-07-28 09:01:46] - Database ->
+       name : MySQL
+    version : 8.0.16
+      major : 8
+      minor : 0
+[2021-07-28 09:01:46] - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+      major : 8
+      minor : 0
+[2021-07-28 09:01:46] - JDBC version : 4.2
+[2021-07-28 09:01:46] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-28 09:01:46] - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[2021-07-28 09:01:46] - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[2021-07-28 09:01:46] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2021-07-28 09:01:46] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@103c97ff] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7d25913]
+[2021-07-28 09:01:46] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2021-07-28 09:01:46] - Binding entity from annotated class: com.anu.springunijpa.entity.Course
+[2021-07-28 09:01:46] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 09:01:46] - Import with entity name Course
+[2021-07-28 09:01:46] - Bind entity com.anu.springunijpa.entity.Course on table course
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Not known whether passed class name [com.anu.springunijpa.entity.Course] is safe
+[2021-07-28 09:01:46] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.Course
+[2021-07-28 09:01:46] - MetadataSourceProcessor property courseId with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseId]
+[2021-07-28 09:01:46] - building SimpleValue for courseId
+[2021-07-28 09:01:46] - Building property courseId
+[2021-07-28 09:01:46] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(course_id)]), courseId, assigned, , ...)
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_leader, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property courseLeader with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseLeader]
+[2021-07-28 09:01:46] - building SimpleValue for courseLeader
+[2021-07-28 09:01:46] - Building property courseLeader
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_name, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property courseName with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseName]
+[2021-07-28 09:01:46] - building SimpleValue for courseName
+[2021-07-28 09:01:46] - Building property courseName
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d48a5bf
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set_key, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='userCourseSet_KEY', referencedColumn='null', mappedBy='null'}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 09:01:46] - Collection role: com.anu.springunijpa.entity.Course.userCourseSet
+[2021-07-28 09:01:46] - Building property userCourseSet
+[2021-07-28 09:01:46] - Binding entity from annotated class: com.anu.springunijpa.entity.User
+[2021-07-28 09:01:46] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 09:01:46] - Import with entity name User
+[2021-07-28 09:01:46] - Bind entity com.anu.springunijpa.entity.User on table user
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Not known whether passed class name [com.anu.springunijpa.entity.User] is safe
+[2021-07-28 09:01:46] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.User
+[2021-07-28 09:01:46] - MetadataSourceProcessor property userId with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userId]
+[2021-07-28 09:01:46] - building SimpleValue for userId
+[2021-07-28 09:01:46] - Building property userId
+[2021-07-28 09:01:46] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, identity, , ...)
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=date_of_birth, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property dOB with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:dOB]
+[2021-07-28 09:01:46] - building SimpleValue for dOB
+[2021-07-28 09:01:46] - Building property dOB
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_course_set_key, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='userCourseSet_KEY', referencedColumn='null', mappedBy='null'}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 09:01:46] - Collection role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 09:01:46] - Building property userCourseSet
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property userName with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userName]
+[2021-07-28 09:01:46] - building SimpleValue for userName
+[2021-07-28 09:01:46] - Building property userName
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_tel, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property userTel with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userTel]
+[2021-07-28 09:01:46] - building SimpleValue for userTel
+[2021-07-28 09:01:46] - Building property userTel
+[2021-07-28 09:01:46] - Binding entity from annotated class: com.anu.springunijpa.entity.UserCourse
+[2021-07-28 09:01:46] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 09:01:46] - Import with entity name UserCourse
+[2021-07-28 09:01:46] - Bind entity com.anu.springunijpa.entity.UserCourse on table user_course
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Not known whether passed class name [com.anu.springunijpa.entity.UserCourse] is safe
+[2021-07-28 09:01:46] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.UserCourse
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=course_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='course_id', referencedColumn='', mappedBy=''}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property courseId with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse.id:courseId]
+[2021-07-28 09:01:46] - building SimpleValue for courseId
+[2021-07-28 09:01:46] - Building property courseId
+[2021-07-28 09:01:46] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(course_id)]), courseId, foreign, Hibernate-local--foreign generator, ...)
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property userId with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse.id:userId]
+[2021-07-28 09:01:46] - building SimpleValue for userId
+[2021-07-28 09:01:46] - Building property userId
+[2021-07-28 09:01:46] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, foreign, Hibernate-local--foreign generator, ...)
+[2021-07-28 09:01:46] - Building property id
+[2021-07-28 09:01:46] - #makeIdGenerator(org.hibernate.mapping.Component([org.hibernate.mapping.Property(courseId), org.hibernate.mapping.Property(userId)]), id, assigned, , ...)
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='course_id', referencedColumn='', mappedBy=''}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=course, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Building property course
+[2021-07-28 09:01:46] - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - Building property user
+[2021-07-28 09:01:46] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 09:01:46] - MetadataSourceProcessor property userCourseSet with lazy=false
+[2021-07-28 09:01:46] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse:userCourseSet]
+[2021-07-28 09:01:46] - building SimpleValue for userCourseSet
+[2021-07-28 09:01:46] - Building property userCourseSet
+[2021-07-28 09:01:46] - Starting fillSimpleValue for courseId
+[2021-07-28 09:01:46] - Starting fillSimpleValue for courseLeader
+[2021-07-28 09:01:46] - Starting fillSimpleValue for courseName
+[2021-07-28 09:01:46] - Starting fillSimpleValue for userId
+[2021-07-28 09:01:46] - Starting fillSimpleValue for dOB
+[2021-07-28 09:01:46] - Starting fillSimpleValue for userName
+[2021-07-28 09:01:46] - Starting fillSimpleValue for userTel
+[2021-07-28 09:01:46] - Starting fillSimpleValue for courseId
+[2021-07-28 09:01:46] - Starting fillSimpleValue for userId
+[2021-07-28 09:01:46] - Starting fillSimpleValue for userCourseSet
+[2021-07-28 09:01:46] - Forcing column [course_id] to be non-null as it is part of the primary key for table [course]
+[2021-07-28 09:01:46] - Forcing column [user_id] to be non-null as it is part of the primary key for table [user]
+[2021-07-28 09:01:46] - Forcing column [course_id] to be non-null as it is part of the primary key for table [user_course]

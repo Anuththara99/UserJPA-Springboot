@@ -1,0 +1,205 @@
+[2021-07-28 09:34:23] - rolling back
+[2021-07-28 09:34:23] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@675116435 wrapping com.mysql.cj.jdbc.ConnectionImpl@7d4a7729]
+[2021-07-28 09:34:23] - Not closing pre-bound JPA EntityManager after transaction
+[2021-07-28 09:34:23] - Using @ExceptionHandler com.anu.springunijpa.exception.GlobalExceptionHandler#handleOtherException(Exception)
+[2021-07-28 09:34:23] - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+[2021-07-28 09:34:23] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-28 09:34:23] - Writing [Error(message=could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQ (truncated)...]
+[2021-07-28 09:34:23] - Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet]
+[2021-07-28 09:34:23] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 09:34:23] - Completed 400 BAD_REQUEST
+[2021-07-28 09:34:28] - GET "/users", parameters={}
+[2021-07-28 09:34:28] - Mapped to com.anu.springunijpa.controller.UserController#viewAllUser(Pageable)
+[2021-07-28 09:34:28] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 09:34:29] - Found thread-bound EntityManager [SessionImpl(1632704540<open>)] for JPA transaction
+[2021-07-28 09:34:29] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-28 09:34:29] - Setting JDBC Connection [HikariProxyConnection@1693206003 wrapping com.mysql.cj.jdbc.ConnectionImpl@7d4a7729] read-only
+[2021-07-28 09:34:29] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 09:34:29] - begin
+[2021-07-28 09:34:29] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@54ed2ce7]
+[2021-07-28 09:34:29] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0
+[2021-07-28 09:34:29] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 09:34:29] - throwQueryException() : no errors
+[2021-07-28 09:34:29] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'anu'
+       |     |  |  |  \-[IDENT] Node: 'springunijpa'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'User'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-07-28 09:34:29] - select << begin [level=1, statement=select]
+[2021-07-28 09:34:29] - FromClause{level=1} : com.anu.springunijpa.entity.User (generatedAlias0) -> user0_
+[2021-07-28 09:34:29] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 09:34:29] - select : finishing up [level=1, statement=select]
+[2021-07-28 09:34:29] - processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) )
+[2021-07-28 09:34:29] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-07-28 09:34:29] - Using FROM fragment [user user0_]
+[2021-07-28 09:34:29] - select >> end [level=1, statement=select]
+[2021-07-28 09:34:29] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.anu.springunijpa.entity.User}}
+
+[2021-07-28 09:34:29] - throwQueryException() : no errors
+[2021-07-28 09:34:29] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 09:34:29] - SQL: select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_
+[2021-07-28 09:34:29] - throwQueryException() : no errors
+[2021-07-28 09:34:29] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ limit ?
+[2021-07-28 09:34:29] - Result set row: 0
+[2021-07-28 09:34:29] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 09:34:29] - Result set row: 1
+[2021-07-28 09:34:29] - Result row: EntityKey[com.anu.springunijpa.entity.User#3]
+[2021-07-28 09:34:29] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 09:34:29] - Processing attribute `dOB` : value = 1999-05-02
+[2021-07-28 09:34:29] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 09:34:29] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userName` : value = John
+[2021-07-28 09:34:29] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userTel` : value = 0701000111
+[2021-07-28 09:34:29] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 09:34:29] - Resolving attributes for [com.anu.springunijpa.entity.User#3]
+[2021-07-28 09:34:29] - Processing attribute `dOB` : value = 1999-05-02
+[2021-07-28 09:34:29] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 09:34:29] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userName` : value = John
+[2021-07-28 09:34:29] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Processing attribute `userTel` : value = 0701000111
+[2021-07-28 09:34:29] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 09:34:29] - Done materializing entity [com.anu.springunijpa.entity.User#3]
+[2021-07-28 09:34:29] - Initiating transaction commit
+[2021-07-28 09:34:29] - Committing JPA transaction on EntityManager [SessionImpl(1632704540<open>)]
+[2021-07-28 09:34:29] - committing
+[2021-07-28 09:34:29] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1693206003 wrapping com.mysql.cj.jdbc.ConnectionImpl@7d4a7729]
+[2021-07-28 09:34:29] - Not closing pre-bound JPA EntityManager after transaction
+[2021-07-28 09:34:29] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-07-28 09:34:29] - Writing [Page 1 of 1 containing com.anu.springunijpa.entity.User instances]
+[2021-07-28 09:34:29] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#2]
+[2021-07-28 09:34:29] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 09:34:29] - could not extract ResultSet [n/a]
+java.sql.SQLSyntaxErrorException: Table 'institute_test.user_course' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:390)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:163)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:104)
+	at org.hibernate.loader.collection.plan.AbstractLoadPlanBasedCollectionInitializer.initialize(AbstractLoadPlanBasedCollectionInitializer.java:87)
+	at org.hibernate.persister.collection.AbstractCollectionPersister.initialize(AbstractCollectionPersister.java:710)
+	at org.hibernate.event.internal.DefaultInitializeCollectionEventListener.onInitializeCollection(DefaultInitializeCollectionEventListener.java:76)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99)
+	at org.hibernate.internal.SessionImpl.initializeCollection(SessionImpl.java:2163)
+	at org.hibernate.collection.internal.AbstractPersistentCollection$4.doWork(AbstractPersistentCollection.java:589)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:264)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149)
+	at org.hibernate.collection.internal.AbstractPersistentCollection$1.doWork(AbstractPersistentCollection.java:178)
+	at org.hibernate.collection.internal.AbstractPersistentCollection$1.doWork(AbstractPersistentCollection.java:163)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:264)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:162)
+	at org.hibernate.collection.internal.PersistentSet.size(PersistentSet.java:168)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:97)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:770)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1514)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2021-07-28 09:34:29] - SQL Error: 1146, SQLState: 42S02
+[2021-07-28 09:34:29] - Table 'institute_test.user_course' doesn't exist
+[2021-07-28 09:34:29] - Using @ExceptionHandler com.anu.springunijpa.exception.GlobalExceptionHandler#handleException(Exception, WebRequest)
+[2021-07-28 09:34:29] - Using 'application/octet-stream', given [*/*] and supported [*/*]
+[2021-07-28 09:34:29] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: could not extract ResultSet; nested exception is com.fasterxml.jackson.databind.JsonMappingException: could not extract ResultSet (through reference chain: org.springframework.data.domain.PageImpl["content"]->java.util.Collections$UnmodifiableRandomAccessList[0]->com.anu.springunijpa.entity.User["userCourseSet"])]
+[2021-07-28 09:34:29] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 09:34:29] - Completed 500 INTERNAL_SERVER_ERROR

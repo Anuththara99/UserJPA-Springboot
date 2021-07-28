@@ -1,0 +1,128 @@
+[2021-07-28 09:05:21] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7c369270
+[2021-07-28 09:05:21] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@16da476c
+[2021-07-28 09:05:21] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@16da476c
+[2021-07-28 09:05:21] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@67bf0480
+[2021-07-28 09:05:21] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@67bf0480
+[2021-07-28 09:05:21] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@20d33ea
+[2021-07-28 09:05:21] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@20d33ea
+[2021-07-28 09:05:21] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@e09f1b6
+[2021-07-28 09:05:21] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@e09f1b6
+[2021-07-28 09:05:21] - Adding type registration date -> org.hibernate.type.DateType@3fc7c734
+[2021-07-28 09:05:21] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3fc7c734
+[2021-07-28 09:05:21] - Adding type registration time -> org.hibernate.type.TimeType@202ae86f
+[2021-07-28 09:05:21] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@202ae86f
+[2021-07-28 09:05:21] - Adding type registration timestamp -> org.hibernate.type.TimestampType@2792b416
+[2021-07-28 09:05:21] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2792b416
+[2021-07-28 09:05:21] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2792b416
+[2021-07-28 09:05:21] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7fad214a
+[2021-07-28 09:05:21] - Adding type registration calendar -> org.hibernate.type.CalendarType@7793ad58
+[2021-07-28 09:05:21] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7793ad58
+[2021-07-28 09:05:21] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7793ad58
+[2021-07-28 09:05:21] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@70d77826
+[2021-07-28 09:05:21] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@839df62
+[2021-07-28 09:05:21] - Adding type registration locale -> org.hibernate.type.LocaleType@39de9bda
+[2021-07-28 09:05:21] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@39de9bda
+[2021-07-28 09:05:21] - Adding type registration currency -> org.hibernate.type.CurrencyType@6dee8ae6
+[2021-07-28 09:05:21] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6dee8ae6
+[2021-07-28 09:05:21] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6f5e16cf
+[2021-07-28 09:05:21] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6f5e16cf
+[2021-07-28 09:05:21] - Adding type registration class -> org.hibernate.type.ClassType@45b32dfe
+[2021-07-28 09:05:21] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@45b32dfe
+[2021-07-28 09:05:21] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4f2d014a
+[2021-07-28 09:05:21] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4f2d014a
+[2021-07-28 09:05:21] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@28e0e464
+[2021-07-28 09:05:21] - Adding type registration binary -> org.hibernate.type.BinaryType@7499eac7
+[2021-07-28 09:05:21] - Adding type registration byte[] -> org.hibernate.type.BinaryType@7499eac7
+[2021-07-28 09:05:21] - Adding type registration [B -> org.hibernate.type.BinaryType@7499eac7
+[2021-07-28 09:05:21] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1de4285e
+[2021-07-28 09:05:21] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1de4285e
+[2021-07-28 09:05:21] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1de4285e
+[2021-07-28 09:05:21] - Adding type registration row_version -> org.hibernate.type.RowVersionType@58ae402b
+[2021-07-28 09:05:21] - Adding type registration image -> org.hibernate.type.ImageType@3728a578
+[2021-07-28 09:05:21] - Adding type registration characters -> org.hibernate.type.CharArrayType@d88f893
+[2021-07-28 09:05:21] - Adding type registration char[] -> org.hibernate.type.CharArrayType@d88f893
+[2021-07-28 09:05:21] - Adding type registration [C -> org.hibernate.type.CharArrayType@d88f893
+[2021-07-28 09:05:21] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@554188ac
+[2021-07-28 09:05:21] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@554188ac
+[2021-07-28 09:05:21] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@554188ac
+[2021-07-28 09:05:21] - Adding type registration text -> org.hibernate.type.TextType@7f353a0f
+[2021-07-28 09:05:21] - Adding type registration ntext -> org.hibernate.type.NTextType@2abc8034
+[2021-07-28 09:05:21] - Adding type registration blob -> org.hibernate.type.BlobType@511f5b1d
+[2021-07-28 09:05:21] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@511f5b1d
+[2021-07-28 09:05:21] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@67eec8e1
+[2021-07-28 09:05:21] - Adding type registration clob -> org.hibernate.type.ClobType@a6e4897
+[2021-07-28 09:05:21] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@a6e4897
+[2021-07-28 09:05:21] - Adding type registration nclob -> org.hibernate.type.NClobType@32120956
+[2021-07-28 09:05:21] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@32120956
+[2021-07-28 09:05:21] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1084ac45
+[2021-07-28 09:05:21] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1b90fee4
+[2021-07-28 09:05:21] - Adding type registration serializable -> org.hibernate.type.SerializableType@47248a48
+[2021-07-28 09:05:21] - Adding type registration object -> org.hibernate.type.ObjectType@6397248c
+[2021-07-28 09:05:21] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6397248c
+[2021-07-28 09:05:21] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2d2b6960
+[2021-07-28 09:05:21] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@38291795
+[2021-07-28 09:05:21] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@234c5e41
+[2021-07-28 09:05:21] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@40ef0af8
+[2021-07-28 09:05:21] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@36790bec
+[2021-07-28 09:05:21] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@461c3709
+[2021-07-28 09:05:21] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7e3d7dd
+[2021-07-28 09:05:21] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3f63a513
+[2021-07-28 09:05:21] - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@377874b4] into BootstrapContext; was [null]
+[2021-07-28 09:05:21] - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@377874b4) [was null]
+[2021-07-28 09:05:21] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@5b000fe6] into BootstrapContext; was [null]
+[2021-07-28 09:05:21] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@4751e8b9] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@7af443a3]
+[2021-07-28 09:05:21] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@377874b4]
+[2021-07-28 09:05:21] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@377874b4]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-07-28 09:05:21] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2021-07-28 09:05:21] - HikariPool-1 - configuration:
+[2021-07-28 09:05:21] - allowPoolSuspension................................false
+[2021-07-28 09:05:21] - autoCommit................................true
+[2021-07-28 09:05:21] - catalog................................none
+[2021-07-28 09:05:21] - connectionInitSql................................none
+[2021-07-28 09:05:21] - connectionTestQuery................................none
+[2021-07-28 09:05:21] - connectionTimeout................................30000
+[2021-07-28 09:05:21] - dataSource................................none
+[2021-07-28 09:05:21] - dataSourceClassName................................none
+[2021-07-28 09:05:21] - dataSourceJNDI................................none
+[2021-07-28 09:05:21] - dataSourceProperties................................{password=<masked>}
+[2021-07-28 09:05:21] - driverClassName................................"com.mysql.jdbc.Driver"
+[2021-07-28 09:05:21] - exceptionOverrideClassName................................none
+[2021-07-28 09:05:21] - healthCheckProperties................................{}
+[2021-07-28 09:05:21] - healthCheckRegistry................................none
+[2021-07-28 09:05:21] - idleTimeout................................600000
+[2021-07-28 09:05:21] - initializationFailTimeout................................1
+[2021-07-28 09:05:21] - isolateInternalQueries................................false
+[2021-07-28 09:05:21] - jdbcUrl................................jdbc:mysql://localhost:3306/institute_test
+[2021-07-28 09:05:21] - keepaliveTime................................0
+[2021-07-28 09:05:21] - leakDetectionThreshold................................0
+[2021-07-28 09:05:21] - maxLifetime................................1800000
+[2021-07-28 09:05:21] - maximumPoolSize................................10
+[2021-07-28 09:05:21] - metricRegistry................................none
+[2021-07-28 09:05:21] - metricsTrackerFactory................................none
+[2021-07-28 09:05:21] - minimumIdle................................10
+[2021-07-28 09:05:21] - password................................<masked>
+[2021-07-28 09:05:21] - poolName................................"HikariPool-1"
+[2021-07-28 09:05:21] - readOnly................................false
+[2021-07-28 09:05:21] - registerMbeans................................false
+[2021-07-28 09:05:21] - scheduledExecutor................................none
+[2021-07-28 09:05:21] - schema................................none
+[2021-07-28 09:05:21] - threadFactory................................internal
+[2021-07-28 09:05:21] - transactionIsolation................................default
+[2021-07-28 09:05:21] - username................................"root"
+[2021-07-28 09:05:21] - validationTimeout................................5000
+[2021-07-28 09:05:21] - HikariPool-1 - Starting...
+[2021-07-28 09:05:21] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[2021-07-28 09:05:21] - Driver class com.mysql.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
