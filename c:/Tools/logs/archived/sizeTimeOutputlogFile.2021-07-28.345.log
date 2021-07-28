@@ -1,0 +1,167 @@
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[4]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[4]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[4]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[4]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[4]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[4]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[4]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[4]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[4]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[4]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[4]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[4]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[5]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[5]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[5]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[5]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[5]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[5]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[5]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[5]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[5]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[5]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[5]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[5]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[6]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[6]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[6]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[6]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[6]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[6]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[6]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[6]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[6]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[6]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[6]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[6]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[7]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[7]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[7]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[7]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[7]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[7]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[7]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[7]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[7]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[7]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[7]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[7]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[8]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[8]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[8]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[8]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[8]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[8]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[8]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[8]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[8]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[8]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[8]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[8]/userTel'...
+[2021-07-28 10:22:31] - Execution 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completed with zero errors
+[2021-07-28 10:22:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:22:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:23:16] - Executing request. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:Roy){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:23:16] - Parsing query: 'query {
+    findByIdOrName(userId:2,userName:Roy){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:23:16] - Validating query: 'query {
+    findByIdOrName(userId:2,userName:Roy){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:23:16] - Query failed to validate : 'query {
+    findByIdOrName(userId:2,userName:Roy){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:23:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:23:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:23:28] - Executing request. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"Roy"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:23:28] - Parsing query: 'query {
+    findByIdOrName(userId:2,userName:"Roy"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:23:28] - Validating query: 'query {
+    findByIdOrName(userId:2,userName:"Roy"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:23:28] - Executing '2ae4a2b1-874e-4d61-8980-2fb6960cb716'. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"Roy"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:23:28] - Executing '2ae4a2b1-874e-4d61-8980-2fb6960cb716' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 10:23:28] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:23:28] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:23:28] - throwQueryException() : no errors
+[2021-07-28 10:23:28] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'anu'
+    |  |     |  |  |  \-[IDENT] Node: 'springunijpa'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[OR] Node: 'or'
+          +-[EQ] Node: '='
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'generatedAlias0'
+          |  |  \-[IDENT] Node: 'userId'
+          |  \-[COLON] Node: ':'
+          |     \-[IDENT] Node: 'param0'
+          \-[EQ] Node: '='
+             +-[DOT] Node: '.'
+             |  +-[IDENT] Node: 'generatedAlias0'
+             |  \-[IDENT] Node: 'userName'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'param1'
+

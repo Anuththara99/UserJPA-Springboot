@@ -1,0 +1,104 @@
+[2021-07-28 16:33:42] - Done loading collection
+[2021-07-28 16:33:42] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-28 16:33:42] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 16:33:42] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-28 16:33:42] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-28 16:33:42] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-28 16:33:42] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-28 16:33:42] - Processing attribute `course` : value = c1
+[2021-07-28 16:33:42] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `user` : value = 7
+[2021-07-28 16:33:42] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `userCourseSet` : value = null
+[2021-07-28 16:33:42] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-28 16:33:42] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-28 16:33:42] - Processing attribute `course` : value = c3
+[2021-07-28 16:33:42] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `user` : value = 7
+[2021-07-28 16:33:42] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `userCourseSet` : value = null
+[2021-07-28 16:33:42] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-28 16:33:42] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-28 16:33:42] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Done loading collection
+[2021-07-28 16:33:42] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-28 16:33:42] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 16:33:42] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-28 16:33:42] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-28 16:33:42] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-28 16:33:42] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-28 16:33:42] - Processing attribute `course` : value = c2
+[2021-07-28 16:33:42] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `user` : value = 8
+[2021-07-28 16:33:42] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `userCourseSet` : value = null
+[2021-07-28 16:33:42] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-28 16:33:42] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-28 16:33:42] - Processing attribute `course` : value = c3
+[2021-07-28 16:33:42] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `user` : value = 8
+[2021-07-28 16:33:42] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Processing attribute `userCourseSet` : value = null
+[2021-07-28 16:33:42] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 16:33:42] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-28 16:33:42] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-28 16:33:42] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Done loading collection
+[2021-07-28 16:33:42] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 16:33:42] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 16:33:42] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 16:33:42] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 16:33:42] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:33:42] - Done loading collection
+[2021-07-28 16:33:42] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 16:33:42] - Completed 200 OK
+[2021-07-28 16:33:50] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:33:50] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:34:19] - Executing request. operation name: 'null'. query: 'mutation {
+    createUser(userId:10,userName:"Rahul",dOB:"2001-12-29",userTel:"0789898908")
+}'. variables '{}'
+[2021-07-28 16:34:19] - Parsing query: 'mutation {
+    createUser(userId:10,userName:"Rahul",dOB:"2001-12-29",userTel:"0789898908")
+}'...
+[2021-07-28 16:34:19] - Validating query: 'mutation {
+    createUser(userId:10,userName:"Rahul",dOB:"2001-12-29",userTel:"0789898908")
+}'
+[2021-07-28 16:34:19] - Query failed to validate : 'mutation {
+    createUser(userId:10,userName:"Rahul",dOB:"2001-12-29",userTel:"0789898908")
+}'
+[2021-07-28 16:34:20] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:34:20] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:34:45] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-28 16:34:45] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Wed Jul 28 16:31:48 IST 2021
+[2021-07-28 16:34:45] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-28 16:34:45] - Stopping beans in phase 2147483647
+[2021-07-28 16:34:45] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-28 16:34:45] - Stopping beans in phase 2147483646
+[2021-07-28 16:34:45] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-28 16:34:45] - Stopping beans in phase 0
+[2021-07-28 16:34:45] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-28 16:34:45] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 16:34:45] - Unregistering JMX-exposed beans
+[2021-07-28 16:34:45] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 16:34:45] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 16:34:45] - HHH000031: Closing
+[2021-07-28 16:34:45] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7385fe23] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3e04abc5]
+[2021-07-28 16:34:45] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 16:34:45] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 16:34:45] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 16:34:45] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aa752bb: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4881bb14: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69934e60: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ec56690: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6dddd34a: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b67294: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2929dbc6: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3922bdab: (connection evicted)
+[2021-07-28 16:34:45] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5346b80e: (connection evicted)

@@ -1,5 +1,7 @@
+scalar LocalDate
 schema {
     query: Query
+    mutation: Mutation
 }
 """ schema for User entity and Course entity"""
 type Query{
@@ -19,7 +21,14 @@ type Query{
     findUserByTel(userTel:String) :User
     #display course that belongs to given courseTel
     findCourseByLeader(courseLeader:String) : Course
+    #display user that belongs to given userId or userName
+    findByIdOrName(userId:ID,userName:String):[User]
 
+
+}
+
+type Mutation{
+    createUser(userName:String,dOB:LocalDate, userTel:String): User
 }
 type User{
     #id of the user
@@ -27,7 +36,7 @@ type User{
     #name of the user
     userName : String
     #date of birth
-    dOB: String
+    dOB: LocalDate
     #telephone number of the user
     userTel : String
 }
@@ -44,6 +53,7 @@ type UserCourse{
     userId : ID
     courseId : ID
 }
+
 
 
 

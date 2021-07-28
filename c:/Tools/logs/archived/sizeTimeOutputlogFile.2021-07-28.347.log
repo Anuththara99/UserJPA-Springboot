@@ -1,0 +1,154 @@
+[2021-07-28 10:23:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:23:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:24:08] - Executing request. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"tom"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:08] - Parsing query: 'query {
+    findByIdOrName(userId:2,userName:"tom"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:24:08] - Validating query: 'query {
+    findByIdOrName(userId:2,userName:"tom"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:24:08] - Executing '98e03d70-3566-4f8a-b67c-d07b89d21573'. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"tom"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:08] - Executing '98e03d70-3566-4f8a-b67c-d07b89d21573' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 10:24:08] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:24:08] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=?
+[2021-07-28 10:24:08] - Result set row: 0
+[2021-07-28 10:24:08] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:08] - Result set row: 1
+[2021-07-28 10:24:08] - Result row: EntityKey[com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:24:08] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:08] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 10:24:08] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:24:08] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userName` : value = Liza
+[2021-07-28 10:24:08] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:24:08] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:08] - Resolving attributes for [com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:24:08] - Processing attribute `dOB` : value = 2000-12-15
+[2021-07-28 10:24:08] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:24:08] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userName` : value = Tom
+[2021-07-28 10:24:08] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Processing attribute `userTel` : value = 0717879325
+[2021-07-28 10:24:08] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:08] - Done materializing entity [com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[0]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[0]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[0]/userId'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[0]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[0]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[0]/userName'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[0]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[0]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[0]/dOB'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[0]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[0]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[0]/userTel'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[1]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[1]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[1]/userId'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[1]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[1]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[1]/userName'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[1]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[1]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[1]/dOB'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' fetching field '/findByIdOrName[1]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' field '/findByIdOrName[1]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:24:08] - '98e03d70-3566-4f8a-b67c-d07b89d21573' completing field '/findByIdOrName[1]/userTel'...
+[2021-07-28 10:24:08] - Execution '98e03d70-3566-4f8a-b67c-d07b89d21573' completed with zero errors
+[2021-07-28 10:24:18] - Executing request. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"pio"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:18] - Parsing query: 'query {
+    findByIdOrName(userId:2,userName:"pio"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:24:18] - Validating query: 'query {
+    findByIdOrName(userId:2,userName:"pio"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:24:18] - Executing '7e7d5b03-2d90-4ca7-a83b-6124915c653b'. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"pio"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:18] - Executing '7e7d5b03-2d90-4ca7-a83b-6124915c653b' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' fetching field '/findByIdOrName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:18] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 10:24:18] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:24:18] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=?
+[2021-07-28 10:24:18] - Result set row: 0
+[2021-07-28 10:24:18] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:18] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:18] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 10:24:18] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:18] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:24:18] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:18] - Processing attribute `userName` : value = Liza
+[2021-07-28 10:24:18] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:18] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:24:18] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:18] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' field '/findByIdOrName' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completing field '/findByIdOrName'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' fetching field '/findByIdOrName[0]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' field '/findByIdOrName[0]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completing field '/findByIdOrName[0]/userId'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' fetching field '/findByIdOrName[0]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' field '/findByIdOrName[0]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completing field '/findByIdOrName[0]/userName'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' fetching field '/findByIdOrName[0]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' field '/findByIdOrName[0]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completing field '/findByIdOrName[0]/dOB'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' fetching field '/findByIdOrName[0]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' field '/findByIdOrName[0]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:24:18] - '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completing field '/findByIdOrName[0]/userTel'...
+[2021-07-28 10:24:18] - Execution '7e7d5b03-2d90-4ca7-a83b-6124915c653b' completed with zero errors

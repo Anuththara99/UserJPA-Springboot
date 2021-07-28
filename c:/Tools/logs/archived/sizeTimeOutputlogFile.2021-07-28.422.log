@@ -1,0 +1,221 @@
+[2021-07-28 11:17:50] -  Row delete: update user_course set course_id=null where course_id=? and user_id=?
+[2021-07-28 11:17:50] -  One-shot delete: update user_course set course_id=null where course_id=?
+[2021-07-28 11:17:50] - Static SQL for collection: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 11:17:50] -  Row insert: update user_course set user_id=? where course_id=? and user_id=?
+[2021-07-28 11:17:50] -  Row update: update user_course set  where course_id=? and user_id=?
+[2021-07-28 11:17:50] -  Row delete: update user_course set user_id=null where user_id=? and course_id=?
+[2021-07-28 11:17:50] -  One-shot delete: update user_course set user_id=null where user_id=?
+[2021-07-28 11:17:50] - Static SQL for entity: com.anu.springunijpa.entity.UserCourse
+[2021-07-28 11:17:50] -  Version select: select course_id, user_id from user_course where course_id =? and user_id =?
+[2021-07-28 11:17:50] -  Snapshot select: select usercourse_.course_id, usercourse_.user_id, usercourse_.user_course_set as user_cou3_2_ from user_course usercourse_ where usercourse_.course_id=? and usercourse_.user_id=?
+[2021-07-28 11:17:50] -  Insert 0: insert into user_course (user_course_set, course_id, user_id) values (?, ?, ?)
+[2021-07-28 11:17:50] -  Update 0: update user_course set user_course_set=? where course_id=? and user_id=?
+[2021-07-28 11:17:50] -  Delete 0: delete from user_course where course_id=? and user_id=?
+[2021-07-28 11:17:50] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dda561
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c89b864]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@163df259]
+[2021-07-28 11:17:50] - Visiting attribute path : courseId
+[2021-07-28 11:17:50] - Visiting attribute path : userId
+[2021-07-28 11:17:50] - Visiting attribute path : course
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c3679e5]
+[2021-07-28 11:17:50] - Visiting attribute path : course.courseLeader
+[2021-07-28 11:17:50] - Visiting attribute path : course.courseName
+[2021-07-28 11:17:50] - Visiting attribute path : course.userCourseSet
+[2021-07-28 11:17:50] - Property path deemed to be circular : course.userCourseSet
+[2021-07-28 11:17:50] - Visiting attribute path : user
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65d23aa3]
+[2021-07-28 11:17:50] - Visiting attribute path : user.dOB
+[2021-07-28 11:17:50] - Visiting attribute path : user.userCourseSet
+[2021-07-28 11:17:50] - Property path deemed to be circular : user.userCourseSet
+[2021-07-28 11:17:50] - Visiting attribute path : user.userName
+[2021-07-28 11:17:50] - Visiting attribute path : user.userTel
+[2021-07-28 11:17:50] - Visiting attribute path : userCourseSet
+[2021-07-28 11:17:50] - Building LoadPlan...
+[2021-07-28 11:17:50] - processing queryspace <gen:0>
+[2021-07-28 11:17:50] - LoadPlan(entity=com.anu.springunijpa.entity.UserCourse)
+    - Returns
+       - EntityReturnImpl(entity=com.anu.springunijpa.entity.UserCourse, querySpaceUid=<gen:0>, path=com.anu.springunijpa.entity.UserCourse)
+          - EntityAttributeFetchImpl(entity=com.anu.springunijpa.entity.Course, querySpaceUid=<gen:1>, path=com.anu.springunijpa.entity.UserCourse.course)
+          - EntityAttributeFetchImpl(entity=com.anu.springunijpa.entity.User, querySpaceUid=<gen:2>, path=com.anu.springunijpa.entity.UserCourse.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.anu.springunijpa.entity.UserCourse)
+          - SQL table alias mapping - usercourse0_
+          - alias suffix - 0_
+          - suffixed key columns - {course_i1_2_0_, user_id2_2_0_}
+          - JOIN (JoinDefinedByMetadata(id)) : <gen:0> -> <gen:0>-id
+             - CompositeQuerySpaceImpl(uid=<gen:0>-id)
+                - SQL table alias mapping - usercourse0_
+          - JOIN (JoinDefinedByMetadata(course)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.anu.springunijpa.entity.Course)
+                - SQL table alias mapping - course1_
+                - alias suffix - 1_
+                - suffixed key columns - {course_i1_0_1_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.anu.springunijpa.entity.User)
+                - SQL table alias mapping - user2_
+                - alias suffix - 2_
+                - suffixed key columns - {user_id1_1_2_}
+
+[2021-07-28 11:17:50] - Static select for entity com.anu.springunijpa.entity.UserCourse [NONE]: select usercourse0_.course_id as course_i1_2_0_, usercourse0_.user_id as user_id2_2_0_, usercourse0_.user_course_set as user_cou3_2_0_, course1_.course_id as course_i1_0_1_, course1_.course_leader as course_l2_0_1_, course1_.course_name as course_n3_0_1_, user2_.user_id as user_id1_1_2_, user2_.date_of_birth as date_of_2_1_2_, user2_.user_name as user_nam3_1_2_, user2_.user_tel as user_tel4_1_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id inner join user user2_ on usercourse0_.user_id=user2_.user_id where usercourse0_.course_id=? and usercourse0_.user_id=?
+[2021-07-28 11:17:50] - Static SQL for entity: com.anu.springunijpa.entity.Course
+[2021-07-28 11:17:50] -  Version select: select course_id from course where course_id =?
+[2021-07-28 11:17:50] -  Snapshot select: select course_.course_id, course_.course_leader as course_l2_0_, course_.course_name as course_n3_0_ from course course_ where course_.course_id=?
+[2021-07-28 11:17:50] -  Insert 0: insert into course (course_leader, course_name, course_id) values (?, ?, ?)
+[2021-07-28 11:17:50] -  Update 0: update course set course_leader=?, course_name=? where course_id=?
+[2021-07-28 11:17:50] -  Delete 0: delete from course where course_id=?
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@bc52a41]
+[2021-07-28 11:17:50] - Visiting attribute path : courseLeader
+[2021-07-28 11:17:50] - Visiting attribute path : courseName
+[2021-07-28 11:17:50] - Visiting attribute path : userCourseSet
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@651cedfb]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ef4aceb]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@13d1f898]
+[2021-07-28 11:17:50] - Building LoadPlan...
+[2021-07-28 11:17:50] - processing queryspace <gen:0>
+[2021-07-28 11:17:50] - LoadPlan(entity=com.anu.springunijpa.entity.Course)
+    - Returns
+       - EntityReturnImpl(entity=com.anu.springunijpa.entity.Course, querySpaceUid=<gen:0>, path=com.anu.springunijpa.entity.Course)
+          - CollectionAttributeFetchImpl(collection=com.anu.springunijpa.entity.Course.userCourseSet, querySpaceUid=<gen:1>, path=com.anu.springunijpa.entity.Course.userCourseSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.anu.springunijpa.entity.UserCourse, querySpaceUid=<gen:2>, path=com.anu.springunijpa.entity.Course.userCourseSet.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.anu.springunijpa.entity.Course)
+          - SQL table alias mapping - course0_
+          - alias suffix - 0_
+          - suffixed key columns - {course_i1_0_0_}
+
+[2021-07-28 11:17:50] - Static select for entity com.anu.springunijpa.entity.Course [NONE]: select course0_.course_id as course_i1_0_0_, course0_.course_leader as course_l2_0_0_, course0_.course_name as course_n3_0_0_ from course course0_ where course0_.course_id=?
+[2021-07-28 11:17:50] - Static SQL for entity: com.anu.springunijpa.entity.User
+[2021-07-28 11:17:50] -  Version select: select user_id from user where user_id =?
+[2021-07-28 11:17:50] -  Snapshot select: select user_.user_id, user_.date_of_birth as date_of_2_1_, user_.user_name as user_nam3_1_, user_.user_tel as user_tel4_1_ from user user_ where user_.user_id=?
+[2021-07-28 11:17:50] -  Insert 0: insert into user (date_of_birth, user_name, user_tel, user_id) values (?, ?, ?, ?)
+[2021-07-28 11:17:50] -  Update 0: update user set date_of_birth=?, user_name=?, user_tel=? where user_id=?
+[2021-07-28 11:17:50] -  Delete 0: delete from user where user_id=?
+[2021-07-28 11:17:50] -  Identity insert: insert into user (date_of_birth, user_name, user_tel) values (?, ?, ?)
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@63f3366a]
+[2021-07-28 11:17:50] - Visiting attribute path : dOB
+[2021-07-28 11:17:50] - Visiting attribute path : userCourseSet
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@56f84c9b]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@26679788]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@5cdda548]
+[2021-07-28 11:17:50] - Visiting attribute path : userName
+[2021-07-28 11:17:50] - Visiting attribute path : userTel
+[2021-07-28 11:17:50] - Building LoadPlan...
+[2021-07-28 11:17:50] - processing queryspace <gen:0>
+[2021-07-28 11:17:50] - LoadPlan(entity=com.anu.springunijpa.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.anu.springunijpa.entity.User, querySpaceUid=<gen:0>, path=com.anu.springunijpa.entity.User)
+          - CollectionAttributeFetchImpl(collection=com.anu.springunijpa.entity.User.userCourseSet, querySpaceUid=<gen:1>, path=com.anu.springunijpa.entity.User.userCourseSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.anu.springunijpa.entity.UserCourse, querySpaceUid=<gen:2>, path=com.anu.springunijpa.entity.User.userCourseSet.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.anu.springunijpa.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_1_0_}
+
+[2021-07-28 11:17:50] - Static select for entity com.anu.springunijpa.entity.User [NONE]: select user0_.user_id as user_id1_1_0_, user0_.date_of_birth as date_of_2_1_0_, user0_.user_name as user_nam3_1_0_, user0_.user_tel as user_tel4_1_0_ from user user0_ where user0_.user_id=?
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@56402642]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@620572db]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@1d5048d1]
+[2021-07-28 11:17:50] - Visiting attribute path : courseId
+[2021-07-28 11:17:50] - Visiting attribute path : userId
+[2021-07-28 11:17:50] - Visiting attribute path : course
+[2021-07-28 11:17:50] - Property path deemed to be circular : course
+[2021-07-28 11:17:50] - Visiting attribute path : user
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6c1bebca]
+[2021-07-28 11:17:50] - Visiting attribute path : user.dOB
+[2021-07-28 11:17:50] - Visiting attribute path : user.userCourseSet
+[2021-07-28 11:17:50] - Property path deemed to be circular : user.userCourseSet
+[2021-07-28 11:17:50] - Visiting attribute path : user.userName
+[2021-07-28 11:17:50] - Visiting attribute path : user.userTel
+[2021-07-28 11:17:50] - Visiting attribute path : userCourseSet
+[2021-07-28 11:17:50] - Building LoadPlan...
+[2021-07-28 11:17:50] - processing queryspace <gen:0>
+[2021-07-28 11:17:50] - LoadPlan(collection=com.anu.springunijpa.entity.Course.userCourseSet)
+    - Returns
+       - CollectionReturnImpl(collection=com.anu.springunijpa.entity.Course.userCourseSet, querySpaceUid=<gen:0>, path=[com.anu.springunijpa.entity.Course.userCourseSet])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.anu.springunijpa.entity.UserCourse, querySpaceUid=<gen:1>, path=[com.anu.springunijpa.entity.Course.userCourseSet].<elements>)
+             - EntityAttributeFetchImpl(entity=com.anu.springunijpa.entity.User, querySpaceUid=<gen:2>, path=[com.anu.springunijpa.entity.Course.userCourseSet].<elements>.user)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.anu.springunijpa.entity.Course.userCourseSet)
+          - SQL table alias mapping - usercourse0_
+          - alias suffix - 0_
+          - suffixed key columns - {course_i1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - course_i1_2_1_, user_id2_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.anu.springunijpa.entity.UserCourse)
+                - SQL table alias mapping - usercourse0_
+                - alias suffix - 1_
+                - suffixed key columns - {course_i1_2_1_, user_id2_2_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - usercourse0_
+                - JOIN (JoinDefinedByMetadata(user)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.anu.springunijpa.entity.User)
+                      - SQL table alias mapping - user1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {user_id1_1_2_}
+
+[2021-07-28 11:17:50] - Static select for collection com.anu.springunijpa.entity.Course.userCourseSet: select usercourse0_.course_id as course_i1_2_0_, usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, user1_.user_id as user_id1_1_2_, user1_.date_of_birth as date_of_2_1_2_, user1_.user_name as user_nam3_1_2_, user1_.user_tel as user_tel4_1_2_ from user_course usercourse0_ inner join user user1_ on usercourse0_.user_id=user1_.user_id where usercourse0_.course_id=?
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@614cd187]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6802d023]
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@e895e3e]
+[2021-07-28 11:17:50] - Visiting attribute path : courseId
+[2021-07-28 11:17:50] - Visiting attribute path : userId
+[2021-07-28 11:17:50] - Visiting attribute path : course
+[2021-07-28 11:17:50] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a41caed]
+[2021-07-28 11:17:50] - Visiting attribute path : course.courseLeader
+[2021-07-28 11:17:50] - Visiting attribute path : course.courseName
+[2021-07-28 11:17:50] - Visiting attribute path : course.userCourseSet
+[2021-07-28 11:17:50] - Property path deemed to be circular : course.userCourseSet
+[2021-07-28 11:17:50] - Visiting attribute path : user
+[2021-07-28 11:17:50] - Property path deemed to be circular : user
+[2021-07-28 11:17:50] - Visiting attribute path : userCourseSet
+[2021-07-28 11:17:50] - Building LoadPlan...
+[2021-07-28 11:17:50] - processing queryspace <gen:0>
+[2021-07-28 11:17:50] - LoadPlan(collection=com.anu.springunijpa.entity.User.userCourseSet)
+    - Returns
+       - CollectionReturnImpl(collection=com.anu.springunijpa.entity.User.userCourseSet, querySpaceUid=<gen:0>, path=[com.anu.springunijpa.entity.User.userCourseSet])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.anu.springunijpa.entity.UserCourse, querySpaceUid=<gen:1>, path=[com.anu.springunijpa.entity.User.userCourseSet].<elements>)
+             - EntityAttributeFetchImpl(entity=com.anu.springunijpa.entity.Course, querySpaceUid=<gen:2>, path=[com.anu.springunijpa.entity.User.userCourseSet].<elements>.course)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.anu.springunijpa.entity.User.userCourseSet)
+          - SQL table alias mapping - usercourse0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id2_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - course_i1_2_1_, user_id2_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.anu.springunijpa.entity.UserCourse)
+                - SQL table alias mapping - usercourse0_
+                - alias suffix - 1_
+                - suffixed key columns - {course_i1_2_1_, user_id2_2_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - usercourse0_
+                - JOIN (JoinDefinedByMetadata(course)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.anu.springunijpa.entity.Course)
+                      - SQL table alias mapping - course1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {course_i1_0_2_}
+
+[2021-07-28 11:17:50] - Static select for collection com.anu.springunijpa.entity.User.userCourseSet: select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 11:17:50] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b53e849
+[2021-07-28 11:17:50] - No alter strings for table : course
+[2021-07-28 11:17:50] - No alter strings for table : user
+[2021-07-28 11:17:50] - No alter strings for table : user_course
+[2021-07-28 11:17:50] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-28 11:17:50] - Checking 0 named HQL queries
+[2021-07-28 11:17:50] - Checking 0 named SQL queries
+[2021-07-28 11:17:50] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6d5508a5
+[2021-07-28 11:17:50] - Registering SessionFactory: d8ec2b9f-d53a-4fd4-a315-7b0e5e3a2a48 (<unnamed>)
+[2021-07-28 11:17:50] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2021-07-28 11:17:50] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 11:17:50] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46a015ce
+[2021-07-28 11:17:50] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2021-07-28 11:17:50] - Initializing JpaMetamodelMappingContext…
+[2021-07-28 11:17:50] - Finished initializing JpaMetamodelMappingContext!
+[2021-07-28 11:17:50] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 11:17:50] - Statistics initialized [enabled=false]
+[2021-07-28 11:17:50] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 11:17:50] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fdffad

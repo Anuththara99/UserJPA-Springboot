@@ -1,0 +1,141 @@
+[2021-07-28 16:09:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3855d9b2
+[2021-07-28 16:09:20] - HikariPool-1 - Start completed.
+[2021-07-28 16:09:20] - Database ->
+       name : MySQL
+    version : 8.0.16
+      major : 8
+      minor : 0
+[2021-07-28 16:09:20] - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+      major : 8
+      minor : 0
+[2021-07-28 16:09:20] - JDBC version : 4.2
+[2021-07-28 16:09:20] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2021-07-28 16:09:20] - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[2021-07-28 16:09:20] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2021-07-28 16:09:20] - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[2021-07-28 16:09:20] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2021-07-28 16:09:20] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7babed9e] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2353354a]
+[2021-07-28 16:09:20] - Binding entity from annotated class: com.anu.springunijpa.entity.Course
+[2021-07-28 16:09:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34789dfe
+[2021-07-28 16:09:20] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 16:09:20] - Import with entity name Course
+[2021-07-28 16:09:20] - Bind entity com.anu.springunijpa.entity.Course on table course
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Not known whether passed class name [com.anu.springunijpa.entity.Course] is safe
+[2021-07-28 16:09:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.Course
+[2021-07-28 16:09:20] - MetadataSourceProcessor property courseId with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseId]
+[2021-07-28 16:09:20] - building SimpleValue for courseId
+[2021-07-28 16:09:20] - Building property courseId
+[2021-07-28 16:09:20] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(course_id)]), courseId, assigned, , ...)
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_leader, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property courseLeader with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseLeader]
+[2021-07-28 16:09:20] - building SimpleValue for courseLeader
+[2021-07-28 16:09:20] - Building property courseLeader
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=course_name, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property courseName with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.Course:courseName]
+[2021-07-28 16:09:20] - building SimpleValue for courseName
+[2021-07-28 16:09:20] - Building property courseName
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=user_course_set_key, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='userCourseSet_KEY', referencedColumn='null', mappedBy='null'}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='course'}
+[2021-07-28 16:09:20] - Collection role: com.anu.springunijpa.entity.Course.userCourseSet
+[2021-07-28 16:09:20] - Building property userCourseSet
+[2021-07-28 16:09:20] - Binding entity from annotated class: com.anu.springunijpa.entity.User
+[2021-07-28 16:09:20] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 16:09:20] - Import with entity name User
+[2021-07-28 16:09:20] - Bind entity com.anu.springunijpa.entity.User on table user
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Not known whether passed class name [com.anu.springunijpa.entity.User] is safe
+[2021-07-28 16:09:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.User
+[2021-07-28 16:09:20] - MetadataSourceProcessor property userId with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userId]
+[2021-07-28 16:09:20] - building SimpleValue for userId
+[2021-07-28 16:09:20] - Building property userId
+[2021-07-28 16:09:20] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, identity, , ...)
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=date_of_birth, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property dOB with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:dOB]
+[2021-07-28 16:09:20] - building SimpleValue for dOB
+[2021-07-28 16:09:20] - Building property dOB
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_course_set_key, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='userCourseSet_KEY', referencedColumn='null', mappedBy='null'}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[2021-07-28 16:09:20] - Collection role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 16:09:20] - Building property userCourseSet
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property userName with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userName]
+[2021-07-28 16:09:20] - building SimpleValue for userName
+[2021-07-28 16:09:20] - Building property userName
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_tel, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property userTel with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.User:userTel]
+[2021-07-28 16:09:20] - building SimpleValue for userTel
+[2021-07-28 16:09:20] - Building property userTel
+[2021-07-28 16:09:20] - Binding entity from annotated class: com.anu.springunijpa.entity.UserCourse
+[2021-07-28 16:09:20] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-07-28 16:09:20] - Import with entity name UserCourse
+[2021-07-28 16:09:20] - Bind entity com.anu.springunijpa.entity.UserCourse on table user_course
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Not known whether passed class name [com.anu.springunijpa.entity.UserCourse] is safe
+[2021-07-28 16:09:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.anu.springunijpa.entity.UserCourse
+[2021-07-28 16:09:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@156a688a
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=course_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='course_id', referencedColumn='', mappedBy=''}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property courseId with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse.id:courseId]
+[2021-07-28 16:09:20] - building SimpleValue for courseId
+[2021-07-28 16:09:20] - Building property courseId
+[2021-07-28 16:09:20] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(course_id)]), courseId, foreign, Hibernate-local--foreign generator, ...)
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property userId with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse.id:userId]
+[2021-07-28 16:09:20] - building SimpleValue for userId
+[2021-07-28 16:09:20] - Building property userId
+[2021-07-28 16:09:20] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, foreign, Hibernate-local--foreign generator, ...)
+[2021-07-28 16:09:20] - Building property id
+[2021-07-28 16:09:20] - #makeIdGenerator(org.hibernate.mapping.Component([org.hibernate.mapping.Property(courseId), org.hibernate.mapping.Property(userId)]), id, assigned, , ...)
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='course_id', referencedColumn='', mappedBy=''}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=course, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Building property course
+[2021-07-28 16:09:20] - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - Building property user
+[2021-07-28 16:09:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_course), mappingColumn=user_course_set, insertable=true, updatable=true, unique=false}
+[2021-07-28 16:09:20] - MetadataSourceProcessor property userCourseSet with lazy=false
+[2021-07-28 16:09:20] - Attempting to locate auto-apply AttributeConverter for property [com.anu.springunijpa.entity.UserCourse:userCourseSet]
+[2021-07-28 16:09:20] - building SimpleValue for userCourseSet
+[2021-07-28 16:09:20] - Building property userCourseSet
+[2021-07-28 16:09:20] - Starting fillSimpleValue for courseId
+[2021-07-28 16:09:20] - Starting fillSimpleValue for courseLeader
+[2021-07-28 16:09:20] - Starting fillSimpleValue for courseName
+[2021-07-28 16:09:20] - Starting fillSimpleValue for userId
+[2021-07-28 16:09:20] - Starting fillSimpleValue for dOB
+[2021-07-28 16:09:20] - Starting fillSimpleValue for userName
+[2021-07-28 16:09:20] - Starting fillSimpleValue for userTel
+[2021-07-28 16:09:20] - Starting fillSimpleValue for courseId
+[2021-07-28 16:09:20] - Starting fillSimpleValue for userId
+[2021-07-28 16:09:20] - Starting fillSimpleValue for userCourseSet
+[2021-07-28 16:09:20] - Forcing column [course_id] to be non-null as it is part of the primary key for table [course]
+[2021-07-28 16:09:20] - Forcing column [user_id] to be non-null as it is part of the primary key for table [user]
+[2021-07-28 16:09:20] - Forcing column [course_id] to be non-null as it is part of the primary key for table [user_course]
+[2021-07-28 16:09:20] - Forcing column [user_id] to be non-null as it is part of the primary key for table [user_course]
+[2021-07-28 16:09:20] - Second pass for collection: com.anu.springunijpa.entity.Course.userCourseSet
+[2021-07-28 16:09:20] - Binding a OneToMany: com.anu.springunijpa.entity.Course.userCourseSet through a foreign key
+[2021-07-28 16:09:20] - Mapping collection: com.anu.springunijpa.entity.Course.userCourseSet -> user_course

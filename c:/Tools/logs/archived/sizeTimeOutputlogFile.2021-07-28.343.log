@@ -1,0 +1,192 @@
+[2021-07-28 10:21:32] - Executing request. operation name: 'null'. query: 'query {
+    allCourses{
+        courseId
+        courseName
+        courseLeader
+    }
+}'. variables '{}'
+[2021-07-28 10:21:32] - Parsing query: 'query {
+    allCourses{
+        courseId
+        courseName
+        courseLeader
+    }
+}'...
+[2021-07-28 10:21:32] - Validating query: 'query {
+    allCourses{
+        courseId
+        courseName
+        courseLeader
+    }
+}'
+[2021-07-28 10:21:32] - Executing '7827160d-e342-41a7-951d-8811bca2f391'. operation name: 'null'. query: 'query {
+    allCourses{
+        courseId
+        courseName
+        courseLeader
+    }
+}'. variables '{}'
+[2021-07-28 10:21:32] - Executing '7827160d-e342-41a7-951d-8811bca2f391' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-28 10:21:32] - Opened new EntityManager [SessionImpl(1679357995<open>)] for JPA transaction
+[2021-07-28 10:21:32] - Setting JDBC Connection [HikariProxyConnection@1014325247 wrapping com.mysql.cj.jdbc.ConnectionImpl@6fb0261e] read-only
+[2021-07-28 10:21:32] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 10:21:32] - begin
+[2021-07-28 10:21:32] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@38daa909]
+[2021-07-28 10:21:32] - Rendered criteria query -> select generatedAlias0 from Course as generatedAlias0
+[2021-07-28 10:21:32] - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@337d62c6
+[2021-07-28 10:21:32] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.Course as generatedAlias0
+[2021-07-28 10:21:32] - throwQueryException() : no errors
+[2021-07-28 10:21:32] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'anu'
+       |     |  |  |  \-[IDENT] Node: 'springunijpa'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Course'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-07-28 10:21:32] - select << begin [level=1, statement=select]
+[2021-07-28 10:21:32] - FromClause{level=1} : com.anu.springunijpa.entity.Course (generatedAlias0) -> course0_
+[2021-07-28 10:21:32] - Resolved : generatedAlias0 -> course0_.course_id
+[2021-07-28 10:21:32] - select : finishing up [level=1, statement=select]
+[2021-07-28 10:21:32] - processQuery() :  ( SELECT ( {select clause} course0_.course_id ) ( FromClause{level=1} course course0_ ) )
+[2021-07-28 10:21:32] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Course): [course]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.Course)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-07-28 10:21:32] - Using FROM fragment [course course0_]
+[2021-07-28 10:21:32] - select >> end [level=1, statement=select]
+[2021-07-28 10:21:32] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (course)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'course0_.course_id as course_i1_0_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.Course, tableAlias=course0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'course0_.course_leader as course_l2_0_, course0_.course_name as course_n3_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[course0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'course course0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=course,tableAlias=course0_,origin=null,columns={,className=com.anu.springunijpa.entity.Course}}
+
+[2021-07-28 10:21:32] - throwQueryException() : no errors
+[2021-07-28 10:21:32] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.Course as generatedAlias0
+[2021-07-28 10:21:32] - SQL: select course0_.course_id as course_i1_0_, course0_.course_leader as course_l2_0_, course0_.course_name as course_n3_0_ from course course0_
+[2021-07-28 10:21:32] - throwQueryException() : no errors
+[2021-07-28 10:21:32] - select course0_.course_id as course_i1_0_, course0_.course_leader as course_l2_0_, course0_.course_name as course_n3_0_ from course course0_
+[2021-07-28 10:21:32] - Result set row: 0
+[2021-07-28 10:21:32] - Result row: EntityKey[com.anu.springunijpa.entity.Course#c1]
+[2021-07-28 10:21:32] - Result set row: 1
+[2021-07-28 10:21:32] - Result row: EntityKey[com.anu.springunijpa.entity.Course#c2]
+[2021-07-28 10:21:32] - Result set row: 2
+[2021-07-28 10:21:32] - Result row: EntityKey[com.anu.springunijpa.entity.Course#c3]
+[2021-07-28 10:21:32] - Result set row: 3
+[2021-07-28 10:21:32] - Result row: EntityKey[com.anu.springunijpa.entity.Course#c4]
+[2021-07-28 10:21:32] - Result set row: 4
+[2021-07-28 10:21:32] - Result row: EntityKey[com.anu.springunijpa.entity.Course#c5]
+[2021-07-28 10:21:32] - Resolving attributes for [com.anu.springunijpa.entity.Course#c1]
+[2021-07-28 10:21:32] - Processing attribute `courseLeader` : value = Mr.Java
+[2021-07-28 10:21:32] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `courseName` : value = java
+[2021-07-28 10:21:32] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:21:32] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Done materializing entity [com.anu.springunijpa.entity.Course#c1]
+[2021-07-28 10:21:32] - Resolving attributes for [com.anu.springunijpa.entity.Course#c2]
+[2021-07-28 10:21:32] - Processing attribute `courseLeader` : value = Mr.Python
+[2021-07-28 10:21:32] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `courseName` : value = python
+[2021-07-28 10:21:32] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:21:32] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Done materializing entity [com.anu.springunijpa.entity.Course#c2]
+[2021-07-28 10:21:32] - Resolving attributes for [com.anu.springunijpa.entity.Course#c3]
+[2021-07-28 10:21:32] - Processing attribute `courseLeader` : value = Mr.React
+[2021-07-28 10:21:32] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `courseName` : value = react
+[2021-07-28 10:21:32] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:21:32] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Done materializing entity [com.anu.springunijpa.entity.Course#c3]
+[2021-07-28 10:21:32] - Resolving attributes for [com.anu.springunijpa.entity.Course#c4]
+[2021-07-28 10:21:32] - Processing attribute `courseLeader` : value = Mr.Android
+[2021-07-28 10:21:32] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `courseName` : value = android
+[2021-07-28 10:21:32] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:21:32] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Done materializing entity [com.anu.springunijpa.entity.Course#c4]
+[2021-07-28 10:21:32] - Resolving attributes for [com.anu.springunijpa.entity.Course#c5]
+[2021-07-28 10:21:32] - Processing attribute `courseLeader` : value = Mr.Flutter
+[2021-07-28 10:21:32] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `courseName` : value = flutter
+[2021-07-28 10:21:32] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:21:32] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:21:32] - Done materializing entity [com.anu.springunijpa.entity.Course#c5]
+[2021-07-28 10:21:32] - Initiating transaction commit
+[2021-07-28 10:21:32] - Committing JPA transaction on EntityManager [SessionImpl(1679357995<open>)]
+[2021-07-28 10:21:32] - committing
+[2021-07-28 10:21:32] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1014325247 wrapping com.mysql.cj.jdbc.ConnectionImpl@6fb0261e]
+[2021-07-28 10:21:32] - Closing JPA EntityManager [SessionImpl(1679357995<open>)] after transaction
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[0]/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[0]/courseId' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[0]/courseId'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[0]/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[0]/courseName' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[0]/courseName'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[0]/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[0]/courseLeader' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[0]/courseLeader'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[1]/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[1]/courseId' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[1]/courseId'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[1]/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[1]/courseName' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[1]/courseName'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[1]/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[1]/courseLeader' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[1]/courseLeader'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[2]/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[2]/courseId' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[2]/courseId'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[2]/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[2]/courseName' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[2]/courseName'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[2]/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[2]/courseLeader' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[2]/courseLeader'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[3]/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[3]/courseId' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[3]/courseId'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[3]/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[3]/courseName' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[3]/courseName'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[3]/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[3]/courseLeader' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[3]/courseLeader'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[4]/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[4]/courseId' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[4]/courseId'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[4]/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[4]/courseName' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[4]/courseName'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' fetching field '/allCourses[4]/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' field '/allCourses[4]/courseLeader' fetch returned 'java.lang.String'
+[2021-07-28 10:21:32] - '7827160d-e342-41a7-951d-8811bca2f391' completing field '/allCourses[4]/courseLeader'...
+[2021-07-28 10:21:32] - Execution '7827160d-e342-41a7-951d-8811bca2f391' completed with zero errors

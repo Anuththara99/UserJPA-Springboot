@@ -1,0 +1,291 @@
+[2021-07-28 10:21:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:21:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:22:02] - Executing request. operation name: 'null'. query: 'query {
+    allUsers{
+        userId
+        userName
+        doB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:22:02] - Parsing query: 'query {
+    allUsers{
+        userId
+        userName
+        doB
+        userTel
+    }
+}'...
+[2021-07-28 10:22:02] - Validating query: 'query {
+    allUsers{
+        userId
+        userName
+        doB
+        userTel
+    }
+}'
+[2021-07-28 10:22:02] - Query failed to validate : 'query {
+    allUsers{
+        userId
+        userName
+        doB
+        userTel
+    }
+}'
+[2021-07-28 10:22:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:22:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:22:31] - Executing request. operation name: 'null'. query: 'query {
+    allUsers{
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:22:31] - Parsing query: 'query {
+    allUsers{
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:22:31] - Validating query: 'query {
+    allUsers{
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:22:31] - Executing 'b50a3380-d54c-4371-8e1e-b1ebc1b22653'. operation name: 'null'. query: 'query {
+    allUsers{
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:22:31] - Executing 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2021-07-28 10:22:31] - Opened new EntityManager [SessionImpl(1560347737<open>)] for JPA transaction
+[2021-07-28 10:22:31] - Setting JDBC Connection [HikariProxyConnection@350891518 wrapping com.mysql.cj.jdbc.ConnectionImpl@6fb0261e] read-only
+[2021-07-28 10:22:31] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-28 10:22:31] - begin
+[2021-07-28 10:22:31] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6b6730b9]
+[2021-07-28 10:22:31] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0
+[2021-07-28 10:22:31] - parse() - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 10:22:31] - throwQueryException() : no errors
+[2021-07-28 10:22:31] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'anu'
+       |     |  |  |  \-[IDENT] Node: 'springunijpa'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'User'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2021-07-28 10:22:31] - select << begin [level=1, statement=select]
+[2021-07-28 10:22:31] - FromClause{level=1} : com.anu.springunijpa.entity.User (generatedAlias0) -> user0_
+[2021-07-28 10:22:31] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 10:22:31] - select : finishing up [level=1, statement=select]
+[2021-07-28 10:22:31] - processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) )
+[2021-07-28 10:22:31] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2021-07-28 10:22:31] - Using FROM fragment [user user0_]
+[2021-07-28 10:22:31] - select >> end [level=1, statement=select]
+[2021-07-28 10:22:31] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.anu.springunijpa.entity.User}}
+
+[2021-07-28 10:22:31] - throwQueryException() : no errors
+[2021-07-28 10:22:31] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0
+[2021-07-28 10:22:31] - SQL: select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_
+[2021-07-28 10:22:31] - throwQueryException() : no errors
+[2021-07-28 10:22:31] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_
+[2021-07-28 10:22:31] - Result set row: 0
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#1]
+[2021-07-28 10:22:31] - Result set row: 1
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:22:31] - Result set row: 2
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#3]
+[2021-07-28 10:22:31] - Result set row: 3
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:22:31] - Result set row: 4
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#5]
+[2021-07-28 10:22:31] - Result set row: 5
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#6]
+[2021-07-28 10:22:31] - Result set row: 6
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:22:31] - Result set row: 7
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#8]
+[2021-07-28 10:22:31] - Result set row: 8
+[2021-07-28 10:22:31] - Result row: EntityKey[com.anu.springunijpa.entity.User#9]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#1]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 1999-05-02
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = John
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 709709234
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#1]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Liza
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#3]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2001-12-10
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Kate
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 767097796
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#3]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2000-11-23
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Roy
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 707096111
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#5]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 1999-08-22
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Jane
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 704749234
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#5]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#6]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2002-02-10
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Sara
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#6]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2000-12-15
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Tom
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 0717879325
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#7]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#8]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 2001-01-26
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Loid
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 777893143
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#8]
+[2021-07-28 10:22:31] - Resolving attributes for [com.anu.springunijpa.entity.User#9]
+[2021-07-28 10:22:31] - Processing attribute `dOB` : value = 1999-05-23
+[2021-07-28 10:22:31] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:22:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userName` : value = Sana
+[2021-07-28 10:22:31] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Processing attribute `userTel` : value = 786753452
+[2021-07-28 10:22:31] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:22:31] - Done materializing entity [com.anu.springunijpa.entity.User#9]
+[2021-07-28 10:22:31] - Initiating transaction commit
+[2021-07-28 10:22:31] - Committing JPA transaction on EntityManager [SessionImpl(1560347737<open>)]
+[2021-07-28 10:22:31] - committing
+[2021-07-28 10:22:31] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@350891518 wrapping com.mysql.cj.jdbc.ConnectionImpl@6fb0261e]
+[2021-07-28 10:22:31] - Closing JPA EntityManager [SessionImpl(1560347737<open>)] after transaction
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[0]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[0]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[0]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[0]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[0]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[0]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[0]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[0]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[0]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[0]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[0]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[0]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[1]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[1]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[1]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[1]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[1]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[1]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[1]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[1]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[1]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[1]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[1]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[1]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[2]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[2]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[2]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[2]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[2]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[2]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[2]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[2]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[2]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[2]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[2]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[2]/userTel'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[3]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[3]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[3]/userId'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[3]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[3]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[3]/userName'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[3]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[3]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[3]/dOB'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' fetching field '/allUsers[3]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' field '/allUsers[3]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:22:31] - 'b50a3380-d54c-4371-8e1e-b1ebc1b22653' completing field '/allUsers[3]/userTel'...

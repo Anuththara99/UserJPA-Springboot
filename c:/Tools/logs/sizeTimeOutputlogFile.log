@@ -1,33 +1,6 @@
-[2021-07-28 09:41:44] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-28 09:41:44] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-[2021-07-28 09:41:59] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-[2021-07-28 09:41:59] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Wed Jul 28 08:55:40 IST 2021
-[2021-07-28 09:41:59] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-[2021-07-28 09:41:59] - Stopping beans in phase 2147483647
-[2021-07-28 09:41:59] - Bean 'webServerGracefulShutdown' completed its stop procedure
-[2021-07-28 09:41:59] - Stopping beans in phase 2147483646
-[2021-07-28 09:41:59] - Bean 'webServerStartStop' completed its stop procedure
-[2021-07-28 09:41:59] - Stopping beans in phase 0
-[2021-07-28 09:41:59] - Successfully stopped bean 'serverEndpointRegistration'
-[2021-07-28 09:41:59] - Unregistering JMX-exposed beans on shutdown
-[2021-07-28 09:41:59] - Unregistering JMX-exposed beans
-[2021-07-28 09:41:59] - Shutting down ExecutorService 'applicationTaskExecutor'
-[2021-07-28 09:41:59] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2021-07-28 09:41:59] - HHH000031: Closing
-[2021-07-28 09:41:59] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4da62e81] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1224e1b6]
-[2021-07-28 09:41:59] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
-[2021-07-28 09:41:59] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
-[2021-07-28 09:41:59] - HikariPool-1 - Shutdown initiated...
-[2021-07-28 09:41:59] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d4a7729: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c777d12: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d81c11e: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c58825d: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5816baa4: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55bf1fbb: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ff90065: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ec40a5e: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f60478c: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@eebf511: (connection evicted)
-[2021-07-28 09:41:59] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-[2021-07-28 09:41:59] - HikariPool-1 - Shutdown completed.
+[2021-07-28 16:35:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:35:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:35:52] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:35:52] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 16:36:22] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:36:22] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

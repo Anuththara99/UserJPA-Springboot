@@ -1,0 +1,124 @@
+[2021-07-28 10:23:28] - select << begin [level=1, statement=select]
+[2021-07-28 10:23:28] - FromClause{level=1} : com.anu.springunijpa.entity.User (generatedAlias0) -> user0_
+[2021-07-28 10:23:28] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 10:23:28] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 10:23:28] - getDataType() : userId -> org.hibernate.type.IntegerType@52d0f583
+[2021-07-28 10:23:28] - Resolved : generatedAlias0.userId -> user0_.user_id
+[2021-07-28 10:23:28] - Resolved : generatedAlias0 -> user0_.user_id
+[2021-07-28 10:23:28] - getDataType() : userName -> org.hibernate.type.StringType@69aabcb0
+[2021-07-28 10:23:28] - Resolved : generatedAlias0.userName -> user0_.user_name
+[2021-07-28 10:23:28] - select : finishing up [level=1, statement=select]
+[2021-07-28 10:23:28] - processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) ( where ( or ( = ( user0_.user_id user0_.user_id userId ) ? ) ( = ( user0_.user_name user0_.user_id userName ) ? ) ) ) )
+[2021-07-28 10:23:28] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-SqlNode
+          +-BinaryLogicOperatorNode
+          |  +-DotNode
+          |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |  | path: generatedAlias0.userId
+          |  |  +-IdentNode
+          |  |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+          |  |  | originalText: generatedAlias0
+          |  |  \-IdentNode
+          |  |    persister: null
+          |  |    originalText: userId
+          |  \-ParameterNode
+          \-BinaryLogicOperatorNode
+             +-DotNode
+             | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+             | path: generatedAlias0.userName
+             |  +-IdentNode
+             |  | persister: SingleTableEntityPersister(com.anu.springunijpa.entity.User)
+             |  | originalText: generatedAlias0
+             |  \-IdentNode
+             |    persister: null
+             |    originalText: userName
+             \-ParameterNode
+
+[2021-07-28 10:23:28] - Using FROM fragment [user user0_]
+[2021-07-28 10:23:28] - select >> end [level=1, statement=select]
+[2021-07-28 10:23:28] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.anu.springunijpa.entity.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[OR] SqlNode: 'or'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'user0_.user_id' {propertyName=userId,dereferenceType=PRIMITIVE,getPropertyPath=userId,path=generatedAlias0.userId,tableAlias=user0_,className=com.anu.springunijpa.entity.User,classAlias=generatedAlias0}
+          |  |  +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+          |  |  \-[IDENT] IdentNode: 'userId' {originalText=userId}
+          |  \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.IntegerType@52d0f583}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'user0_.user_name' {propertyName=userName,dereferenceType=PRIMITIVE,getPropertyPath=userName,path=generatedAlias0.userName,tableAlias=user0_,className=com.anu.springunijpa.entity.User,classAlias=generatedAlias0}
+             |  +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.anu.springunijpa.entity.User, tableAlias=user0_}
+             |  \-[IDENT] IdentNode: 'userName' {originalText=userName}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=param1, expectedType=org.hibernate.type.StringType@69aabcb0}
+
+[2021-07-28 10:23:28] - throwQueryException() : no errors
+[2021-07-28 10:23:28] - HQL: select generatedAlias0 from com.anu.springunijpa.entity.User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:23:28] - SQL: select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=?
+[2021-07-28 10:23:28] - throwQueryException() : no errors
+[2021-07-28 10:23:28] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=?
+[2021-07-28 10:23:28] - Result set row: 0
+[2021-07-28 10:23:28] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:23:28] - Result set row: 1
+[2021-07-28 10:23:28] - Result row: EntityKey[com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:23:28] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:23:28] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 10:23:28] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:23:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userName` : value = Liza
+[2021-07-28 10:23:28] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:23:28] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:23:28] - Resolving attributes for [com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:23:28] - Processing attribute `dOB` : value = 2000-11-23
+[2021-07-28 10:23:28] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:23:28] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userName` : value = Roy
+[2021-07-28 10:23:28] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Processing attribute `userTel` : value = 707096111
+[2021-07-28 10:23:28] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:23:28] - Done materializing entity [com.anu.springunijpa.entity.User#4]
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[0]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[0]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[0]/userId'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[0]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[0]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[0]/userName'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[0]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[0]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[0]/dOB'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[0]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[0]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[0]/userTel'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[1]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[1]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[1]/userId'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[1]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[1]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[1]/userName'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[1]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[1]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[1]/dOB'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' fetching field '/findByIdOrName[1]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' field '/findByIdOrName[1]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:23:28] - '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completing field '/findByIdOrName[1]/userTel'...
+[2021-07-28 10:23:28] - Execution '2ae4a2b1-874e-4d61-8980-2fb6960cb716' completed with zero errors

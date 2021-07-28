@@ -1,0 +1,128 @@
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'routerFunctionMapping'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'resourceHandlerMapping'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2021-07-28 16:08:01] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'handlerExceptionResolver'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-28 16:08:01] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'mvcViewResolver'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'viewNameTranslator'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'defaultViewResolver'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'viewResolver'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2bef51f2'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'graphQLWebsocketServlet'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'graphQLWebsocketServlet' via factory method to bean named 'invocationInputFactory'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'graphQLWebsocketServlet' via factory method to bean named 'queryInvoker'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'graphQLWebsocketServlet' via factory method to bean named 'graphQLObjectMapper'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'serverEndpointRegistration'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'serverEndpointRegistration' via factory method to bean named 'graphQLWebsocketServlet'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'serverEndpointExporter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' via constructor to bean named 'environment'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'mbeanExporter'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'objectNamingStrategy'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'objectNamingStrategy'
+[2021-07-28 16:08:01] - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2bef51f2'
+[2021-07-28 16:08:01] - Creating shared instance of singleton bean 'mbeanServer'
+[2021-07-28 16:08:01] - Found MBeanServer: com.sun.jmx.mbeanserver.JmxMBeanServer@6073f712
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
+[2021-07-28 16:08:02] - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'applicationAvailability'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari' via constructor to bean named 'dataSource'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'transactionManager'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'lifecycleProcessor'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'jdbcTemplate'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'dataSource'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'namedParameterJdbcTemplate'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'namedParameterJdbcTemplate' via factory method to bean named 'jdbcTemplate'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'scheduledBeanLazyInitializationExcludeFilter'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'taskSchedulerBuilder'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'transactionTemplate'
+[2021-07-28 16:08:02] - Autowiring by type from bean name 'transactionTemplate' via factory method to bean named 'transactionManager'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'multipartResolver'
+[2021-07-28 16:08:02] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration'
+[2021-07-28 16:08:02] - Registering ServerEndpointConfig: ServerEndpointRegistration for path '/subscriptions': class graphql.servlet.GraphQLWebsocketServlet
+[2021-07-28 16:08:02] - Registering beans for JMX exposure on startup
+[2021-07-28 16:08:02] - Autodetecting user-defined JMX MBeans
+[2021-07-28 16:08:02] - Bean with name 'dataSource' has been autodetected for JMX exposure
+[2021-07-28 16:08:02] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[2021-07-28 16:08:02] - Starting beans in phase 2147483646
+[2021-07-28 16:08:02] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-07-28 16:08:02] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2021-07-28 16:08:02] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 16:08:02] - Unregistering JMX-exposed beans
+[2021-07-28 16:08:02] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 16:08:02] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 16:08:02] - HHH000031: Closing
+[2021-07-28 16:08:02] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3bac86a3] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2d07aacc]
+[2021-07-28 16:08:02] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 16:08:02] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 16:08:02] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 16:08:02] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@639c7f9c: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47c04b2a: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66d2be5e: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@474c6ed9: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@629ca43d: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54bfa560: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c38f69c: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48d0e533: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@12d072cc: (connection evicted)
+[2021-07-28 16:08:02] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@258a05b7: (connection evicted)

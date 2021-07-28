@@ -1,0 +1,131 @@
+[2021-07-28 10:24:26] - Executing request. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"lool"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:26] - Parsing query: 'query {
+    findByIdOrName(userId:2,userName:"lool"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'...
+[2021-07-28 10:24:26] - Validating query: 'query {
+    findByIdOrName(userId:2,userName:"lool"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'
+[2021-07-28 10:24:26] - Executing 'b5b0b92a-7785-43ab-8c85-26c02114eebc'. operation name: 'null'. query: 'query {
+    findByIdOrName(userId:2,userName:"lool"){
+        userId
+        userName
+        dOB
+        userTel
+    }
+}'. variables '{}'
+[2021-07-28 10:24:26] - Executing 'b5b0b92a-7785-43ab-8c85-26c02114eebc' query operation: 'QUERY' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' fetching field '/findByIdOrName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:26] - Creating new EntityManager for shared EntityManager invocation
+[2021-07-28 10:24:26] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where ( generatedAlias0.userId=:param0 ) or ( generatedAlias0.userName=:param1 )
+[2021-07-28 10:24:26] - select user0_.user_id as user_id1_1_, user0_.date_of_birth as date_of_2_1_, user0_.user_name as user_nam3_1_, user0_.user_tel as user_tel4_1_ from user user0_ where user0_.user_id=? or user0_.user_name=?
+[2021-07-28 10:24:26] - Result set row: 0
+[2021-07-28 10:24:26] - Result row: EntityKey[com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:26] - Resolving attributes for [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:26] - Processing attribute `dOB` : value = 2002-03-10
+[2021-07-28 10:24:26] - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:26] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
+[2021-07-28 10:24:26] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:26] - Processing attribute `userName` : value = Liza
+[2021-07-28 10:24:26] - Attribute (`userName`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:26] - Processing attribute `userTel` : value = 726098756
+[2021-07-28 10:24:26] - Attribute (`userTel`)  - enhanced for lazy-loading? - false
+[2021-07-28 10:24:26] - Done materializing entity [com.anu.springunijpa.entity.User#2]
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' field '/findByIdOrName' fetch returned 'java.util.ArrayList'
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completing field '/findByIdOrName'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' fetching field '/findByIdOrName[0]/userId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' field '/findByIdOrName[0]/userId' fetch returned 'java.lang.Integer'
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completing field '/findByIdOrName[0]/userId'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' fetching field '/findByIdOrName[0]/userName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' field '/findByIdOrName[0]/userName' fetch returned 'java.lang.String'
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completing field '/findByIdOrName[0]/userName'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' fetching field '/findByIdOrName[0]/dOB' using data fetcher 'com.coxautodev.graphql.tools.PropertyFieldResolverDataFetcher'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' field '/findByIdOrName[0]/dOB' fetch returned 'java.time.LocalDate'
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completing field '/findByIdOrName[0]/dOB'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' fetching field '/findByIdOrName[0]/userTel' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' field '/findByIdOrName[0]/userTel' fetch returned 'java.lang.String'
+[2021-07-28 10:24:26] - 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completing field '/findByIdOrName[0]/userTel'...
+[2021-07-28 10:24:26] - Execution 'b5b0b92a-7785-43ab-8c85-26c02114eebc' completed with zero errors
+[2021-07-28 10:24:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:24:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:24:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:24:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:25:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:25:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:25:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:25:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:26:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:26:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:26:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:26:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:27:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:27:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:27:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:27:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:28:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:28:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:28:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:28:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:29:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:29:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:29:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:29:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:30:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:30:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:30:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:30:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:31:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:31:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:31:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:31:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:32:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:32:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:32:56] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:32:56] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:33:26] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:33:26] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 10:33:28] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-28 10:33:28] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@363042d7, started on Wed Jul 28 10:21:25 IST 2021
+[2021-07-28 10:33:28] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-28 10:33:28] - Stopping beans in phase 2147483647
+[2021-07-28 10:33:28] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-28 10:33:28] - Stopping beans in phase 2147483646
+[2021-07-28 10:33:28] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-28 10:33:28] - Stopping beans in phase 0
+[2021-07-28 10:33:28] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-28 10:33:28] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 10:33:28] - Unregistering JMX-exposed beans
+[2021-07-28 10:33:28] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 10:33:28] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 10:33:28] - HHH000031: Closing
+[2021-07-28 10:33:28] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1ef2c56e] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2f99d8c]
+[2021-07-28 10:33:28] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 10:33:28] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 10:33:28] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 10:33:28] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fb0261e: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51906be6: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70829e92: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e774b18: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74cc82a1: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@50aa04c1: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e691a11: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52bbd7c0: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18891d75: (connection evicted)
+[2021-07-28 10:33:28] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a2b146b: (connection evicted)
