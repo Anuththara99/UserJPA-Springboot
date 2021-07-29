@@ -1,0 +1,93 @@
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2021-07-29 11:33:40] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-07-29 11:33:40] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-29 11:33:40] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-07-29 11:33:40] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-07-29 11:33:40] - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4d3ca6c7]
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[2021-07-29 11:33:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'errorPageCustomizer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'dispatcherServlet'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'multipartConfigElement'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[2021-07-29 11:33:41] - Code archive: /home/anuththara/.m2/repository/org/springframework/boot/spring-boot/2.5.2/spring-boot-2.5.2.jar
+[2021-07-29 11:33:41] - Code archive: /home/anuththara/.m2/repository/org/springframework/boot/spring-boot/2.5.2/spring-boot-2.5.2.jar
+[2021-07-29 11:33:41] - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[2021-07-29 11:33:41] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-29 11:33:41] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-29 11:33:41] - Starting service [Tomcat]
+[2021-07-29 11:33:41] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-29 11:33:41] - Initializing Spring embedded WebApplicationContext
+[2021-07-29 11:33:41] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2021-07-29 11:33:41] - Root WebApplicationContext: initialization completed in 3809 ms
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphQLServletRegistrationBean'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphql.servlet-com.oembedler.moon.graphql.boot.GraphQLServletProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphQLHttpServlet'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'invocationInputFactory'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphQLSchemaProvider'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphQLSchema'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'graphQLLocalDate'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'schemaParser'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'courseMutationResolver'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'courseRepository'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'dataSource'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-29 11:33:41] - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-29 11:33:41] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@546ccad7'
+[2021-07-29 11:33:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'

@@ -1,76 +1,33 @@
-[2021-07-29 10:05:09] - Executing request. operation name: 'null'. query: 'mutation deleteCourse($courseId:String){
-    deleteCourse(courseId:$courseId)
-       
-
-}'. variables '{courseId=c8}'
-[2021-07-29 10:05:09] - Parsing query: 'mutation deleteCourse($courseId:String){
-    deleteCourse(courseId:$courseId)
-       
-
-}'...
-[2021-07-29 10:05:09] - Validating query: 'mutation deleteCourse($courseId:String){
-    deleteCourse(courseId:$courseId)
-       
-
-}'
-[2021-07-29 10:05:09] - Query failed to validate : 'mutation deleteCourse($courseId:String){
-    deleteCourse(courseId:$courseId)
-       
-
-}'
-[2021-07-29 10:05:31] - Executing request. operation name: 'null'. query: 'mutation deleteCourse($courseId:ID){
-    deleteCourse(courseId:$courseId)
-       
-
-}'. variables '{courseId=c8}'
-[2021-07-29 10:05:31] - Parsing query: 'mutation deleteCourse($courseId:ID){
-    deleteCourse(courseId:$courseId)
-       
-
-}'...
-[2021-07-29 10:05:31] - Validating query: 'mutation deleteCourse($courseId:ID){
-    deleteCourse(courseId:$courseId)
-       
-
-}'
-[2021-07-29 10:05:31] - Executing 'f1492803-7739-45af-b8fd-3b599a4ac9fe'. operation name: 'null'. query: 'mutation deleteCourse($courseId:ID){
-    deleteCourse(courseId:$courseId)
-       
-
-}'. variables '{courseId=c8}'
-[2021-07-29 10:05:31] - Executing 'f1492803-7739-45af-b8fd-3b599a4ac9fe' query operation: 'MUTATION' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
-[2021-07-29 10:05:31] - 'f1492803-7739-45af-b8fd-3b599a4ac9fe' fetching field '/deleteCourse' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
-[2021-07-29 10:05:31] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-[2021-07-29 10:05:31] - Opened new EntityManager [SessionImpl(747186728<open>)] for JPA transaction
-[2021-07-29 10:05:31] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-[2021-07-29 10:05:31] - begin
-[2021-07-29 10:05:31] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@30aada27]
-[2021-07-29 10:05:31] - select course0_.course_id as course_i1_0_0_, course0_.course_leader as course_l2_0_0_, course0_.course_name as course_n3_0_0_ from course course0_ where course0_.course_id=?
-[2021-07-29 10:05:31] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
-[2021-07-29 10:05:31] - Resolving attributes for [com.anu.springunijpa.entity.Course#c8]
-[2021-07-29 10:05:31] - Processing attribute `courseLeader` : value = Mr.C++
-[2021-07-29 10:05:31] - Attribute (`courseLeader`)  - enhanced for lazy-loading? - false
-[2021-07-29 10:05:31] - Processing attribute `courseName` : value = C++
-[2021-07-29 10:05:31] - Attribute (`courseName`)  - enhanced for lazy-loading? - false
-[2021-07-29 10:05:31] - Processing attribute `userCourseSet` : value = NOT NULL COLLECTION
-[2021-07-29 10:05:31] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
-[2021-07-29 10:05:31] - Done materializing entity [com.anu.springunijpa.entity.Course#c8]
-[2021-07-29 10:05:31] - Done entity load : com.anu.springunijpa.entity.Course#c8
-[2021-07-29 10:05:31] - Initiating transaction commit
-[2021-07-29 10:05:31] - Committing JPA transaction on EntityManager [SessionImpl(747186728<open>)]
-[2021-07-29 10:05:31] - committing
-[2021-07-29 10:05:31] - Processing flush-time cascades
-[2021-07-29 10:05:31] - Dirty checking collections
-[2021-07-29 10:05:31] - Collection dereferenced: [com.anu.springunijpa.entity.Course.userCourseSet#c8]
-[2021-07-29 10:05:31] - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
-[2021-07-29 10:05:31] - Flushed: 0 (re)creations, 0 updates, 1 removals to 1 collections
-[2021-07-29 10:05:31] - Listing entities:
-[2021-07-29 10:05:31] - com.anu.springunijpa.entity.Course{courseName=C++, userCourseSet=<uninitialized>, courseLeader=Mr.C++, courseId=c8}
-[2021-07-29 10:05:31] - delete from course where course_id=?
-[2021-07-29 10:05:31] - Closing JPA EntityManager [SessionImpl(747186728<open>)] after transaction
-[2021-07-29 10:05:31] - HHH000420: Closing un-released batch
-[2021-07-29 10:05:31] - 'f1492803-7739-45af-b8fd-3b599a4ac9fe' field '/deleteCourse' fetch returned 'java.lang.String'
-[2021-07-29 10:05:31] - 'f1492803-7739-45af-b8fd-3b599a4ac9fe' completing field '/deleteCourse'...
-[2021-07-29 10:05:31] - Execution 'f1492803-7739-45af-b8fd-3b599a4ac9fe' completed with zero errors
-[2021-07-29 10:05:32] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-29 10:05:32] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 11:34:13] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 11:34:13] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 11:34:17] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-29 11:34:17] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ef6ae06, started on Thu Jul 29 11:33:37 IST 2021
+[2021-07-29 11:34:17] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-29 11:34:17] - Stopping beans in phase 2147483647
+[2021-07-29 11:34:17] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-29 11:34:17] - Stopping beans in phase 2147483646
+[2021-07-29 11:34:17] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-29 11:34:17] - Stopping beans in phase 0
+[2021-07-29 11:34:17] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-29 11:34:17] - Unregistering JMX-exposed beans on shutdown
+[2021-07-29 11:34:17] - Unregistering JMX-exposed beans
+[2021-07-29 11:34:17] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-29 11:34:17] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-29 11:34:17] - HHH000031: Closing
+[2021-07-29 11:34:17] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1ff108cc] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2520aa05]
+[2021-07-29 11:34:17] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-29 11:34:17] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-29 11:34:17] - HikariPool-1 - Shutdown initiated...
+[2021-07-29 11:34:17] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c5406b: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@226cd7ed: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37e2299: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ce2dab6: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7305d5e: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5177ac94: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67a7ed39: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a2aecd6: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65de3d86: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9d87c38: (connection evicted)
+[2021-07-29 11:34:17] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-29 11:34:17] - HikariPool-1 - Shutdown completed.
