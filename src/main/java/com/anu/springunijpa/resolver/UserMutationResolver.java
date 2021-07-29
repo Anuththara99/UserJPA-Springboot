@@ -29,6 +29,15 @@ public class UserMutationResolver implements GraphQLMutationResolver {
         String name =userInput.getUserName();
         LocalDate date = userInput.getdOB();
         String tel= userInput.getUserTel();
+
+        ObjectMapper mapper = new ObjectMapper();
+        JavaTimeModule javaTimeModule = new JavaTimeModule();
+        javaTimeModule.addDeserializer(LocalDate.class, new LocalDateDeserializer(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+        javaTimeModule.addSerializer(LocalDate.class, new LocalDateSerializer(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+        mapper.registerModule(javaTimeModule);
+
+        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+
         user.setUserId(id);
         user.setUserName(name);
         user.setdOB(date);
