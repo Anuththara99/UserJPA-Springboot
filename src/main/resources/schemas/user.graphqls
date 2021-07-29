@@ -38,8 +38,19 @@ input UserInput{
 
 }
 
+input CourseInput{
+    #id of the course
+    courseId :ID
+    #course name of the course
+    courseName : String
+    #leader name of the course
+    courseLeader: String
+}
+
+
 type Mutation{
     createUser(userInput:UserInput): User
+    createCourse(courseInput:CourseInput): Course
 }
 type User{
     #id of the user

@@ -1,0 +1,104 @@
+[2021-07-29 09:27:16] - Executing 'bb1505ae-0d19-43b7-8c29-07cf11873445' query operation: 'MUTATION' using 'graphql.execution.AsyncExecutionStrategy' execution strategy
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' fetching field '/createCourse' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-29 09:27:16] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-07-29 09:27:16] - Opened new EntityManager [SessionImpl(391509369<open>)] for JPA transaction
+[2021-07-29 09:27:16] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-07-29 09:27:16] - begin
+[2021-07-29 09:27:16] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5861119f]
+[2021-07-29 09:27:16] - Loading entity: [com.anu.springunijpa.entity.Course#c7]
+[2021-07-29 09:27:16] - select course0_.course_id as course_i1_0_0_, course0_.course_leader as course_l2_0_0_, course0_.course_name as course_n3_0_0_ from course course0_ where course0_.course_id=?
+[2021-07-29 09:27:16] - Done entity load
+[2021-07-29 09:27:16] - Generated identifier: c7, using strategy: org.hibernate.id.Assigned
+[2021-07-29 09:27:16] - Initiating transaction commit
+[2021-07-29 09:27:16] - Committing JPA transaction on EntityManager [SessionImpl(391509369<open>)]
+[2021-07-29 09:27:16] - committing
+[2021-07-29 09:27:16] - Processing flush-time cascades
+[2021-07-29 09:27:16] - Dirty checking collections
+[2021-07-29 09:27:16] - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[2021-07-29 09:27:16] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-07-29 09:27:16] - Listing entities:
+[2021-07-29 09:27:16] - com.anu.springunijpa.entity.Course{courseName=C, userCourseSet=null, courseLeader=Mr.C, courseId=c7}
+[2021-07-29 09:27:16] - insert into course (course_leader, course_name, course_id) values (?, ?, ?)
+[2021-07-29 09:27:16] - Closing JPA EntityManager [SessionImpl(391509369<open>)] after transaction
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' field '/createCourse' fetch returned 'com.anu.springunijpa.entity.Course'
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' completing field '/createCourse'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' fetching field '/createCourse/courseId' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' field '/createCourse/courseId' fetch returned 'java.lang.String'
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' completing field '/createCourse/courseId'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' fetching field '/createCourse/courseName' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' field '/createCourse/courseName' fetch returned 'java.lang.String'
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' completing field '/createCourse/courseName'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' fetching field '/createCourse/courseLeader' using data fetcher 'com.coxautodev.graphql.tools.MethodFieldResolverDataFetcher'...
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' field '/createCourse/courseLeader' fetch returned 'java.lang.String'
+[2021-07-29 09:27:16] - 'bb1505ae-0d19-43b7-8c29-07cf11873445' completing field '/createCourse/courseLeader'...
+[2021-07-29 09:27:16] - Execution 'bb1505ae-0d19-43b7-8c29-07cf11873445' completed with zero errors
+[2021-07-29 09:27:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:27:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:27:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:27:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:28:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:28:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:28:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:28:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:29:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:29:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:29:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:29:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:30:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:30:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:30:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:30:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:31:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:31:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:31:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:31:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:32:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:32:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:32:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:32:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 09:33:16] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-29 09:33:16] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66fdec9, started on Thu Jul 29 09:21:48 IST 2021
+[2021-07-29 09:33:16] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-29 09:33:16] - Stopping beans in phase 2147483647
+[2021-07-29 09:33:16] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-29 09:33:16] - Stopping beans in phase 2147483646
+[2021-07-29 09:33:16] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-29 09:33:16] - Stopping beans in phase 0
+[2021-07-29 09:33:16] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-29 09:33:16] - Unregistering JMX-exposed beans on shutdown
+[2021-07-29 09:33:16] - Unregistering JMX-exposed beans
+[2021-07-29 09:33:16] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-29 09:33:16] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-29 09:33:16] - HHH000031: Closing
+[2021-07-29 09:33:16] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@2a1eb886] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@48106381]
+[2021-07-29 09:33:16] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-29 09:33:16] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-29 09:33:16] - HikariPool-1 - Shutdown initiated...
+[2021-07-29 09:33:16] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@41f964f9: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2372b880: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2604df4: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34c2f097: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62eb335: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@223699ee: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56492cd0: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10745bb3: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bb5871a: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10563c6b: (connection evicted)
+[2021-07-29 09:33:16] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-29 09:33:16] - HikariPool-1 - Shutdown completed.
+[2021-07-29 09:33:25] - Starting SpringUniJpaApplication using Java 16.0.1 on anuththara-VivoBook-ASUSLaptop-X509JB-X509JB with PID 7883 (/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes started by anuththara in /home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot)
+[2021-07-29 09:33:25] - Running with Spring Boot v2.5.2, Spring v5.3.8
+[2021-07-29 09:33:25] - No active profile set, falling back to default profiles: default
+[2021-07-29 09:33:25] - Loading source class com.anu.springunijpa.SpringUniJpaApplication
+[2021-07-29 09:33:25] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ebaa6cb
+[2021-07-29 09:33:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-29 09:33:25] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/CourseController.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/controller/UserController.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/exception/GlobalExceptionHandler.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/CourseMutationResolver.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/CourseResolver.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/GraphQLLocalDate.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserMutationResolver.class]
+[2021-07-29 09:33:25] - Identified candidate component class: file [/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/com/anu/springunijpa/resolver/UserResolver.class]

@@ -1,0 +1,61 @@
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-28 18:40:14] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-28 18:40:14] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-28 18:40:14] - Done loading collection
+[2021-07-28 18:40:14] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-28 18:40:14] - Completed 200 OK
+[2021-07-28 18:40:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:40:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:40:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:40:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:41:25] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:41:25] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:41:55] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:41:55] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-28 18:42:01] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-07-28 18:42:01] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b14724, started on Wed Jul 28 18:38:52 IST 2021
+[2021-07-28 18:42:01] - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[2021-07-28 18:42:01] - Stopping beans in phase 2147483647
+[2021-07-28 18:42:01] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-07-28 18:42:01] - Stopping beans in phase 2147483646
+[2021-07-28 18:42:01] - Bean 'webServerStartStop' completed its stop procedure
+[2021-07-28 18:42:01] - Stopping beans in phase 0
+[2021-07-28 18:42:01] - Successfully stopped bean 'serverEndpointRegistration'
+[2021-07-28 18:42:01] - Unregistering JMX-exposed beans on shutdown
+[2021-07-28 18:42:01] - Unregistering JMX-exposed beans
+[2021-07-28 18:42:01] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-07-28 18:42:01] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-28 18:42:01] - HHH000031: Closing
+[2021-07-28 18:42:01] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3a4913aa] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6f6c8d45]
+[2021-07-28 18:42:01] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-07-28 18:42:01] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-07-28 18:42:01] - HikariPool-1 - Shutdown initiated...
+[2021-07-28 18:42:01] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c16528d: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fbd4770: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3eafb204: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51a4c81b: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ae1681a: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37ad09dd: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7979817d: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55783f23: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64ec8076: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32d91a86: (connection evicted)
+[2021-07-28 18:42:01] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-07-28 18:42:01] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,116 @@
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 5
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=5}]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=5}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c5
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 5
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=5}]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#5]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=6}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c2
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 6
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=6}]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=6}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c5
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 6
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c5, userId=6}]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#6]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c1
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 7
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c1, userId=7}]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c3
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 7
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=7}]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#7]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-29 08:46:13] - Found row of collection: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c2
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 8
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c2, userId=8}]
+[2021-07-29 08:46:13] - Resolving attributes for [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-29 08:46:13] - Processing attribute `course` : value = c3
+[2021-07-29 08:46:13] - Attribute (`course`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `user` : value = 8
+[2021-07-29 08:46:13] - Attribute (`user`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Processing attribute `userCourseSet` : value = null
+[2021-07-29 08:46:13] - Attribute (`userCourseSet`)  - enhanced for lazy-loading? - false
+[2021-07-29 08:46:13] - Done materializing entity [com.anu.springunijpa.entity.UserCourse#component[courseId,userId]{courseId=c3, userId=8}]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#8]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#9]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#11]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Loading collection: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-29 08:46:13] - select usercourse0_.user_id as user_id2_2_0_, usercourse0_.course_id as course_i1_2_0_, usercourse0_.course_id as course_i1_2_1_, usercourse0_.user_id as user_id2_2_1_, usercourse0_.user_course_set as user_cou3_2_1_, course1_.course_id as course_i1_0_2_, course1_.course_leader as course_l2_0_2_, course1_.course_name as course_n3_0_2_ from user_course usercourse0_ inner join course course1_ on usercourse0_.course_id=course1_.course_id where usercourse0_.user_id=?
+[2021-07-29 08:46:13] - Preparing collection initializer : [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-29 08:46:13] - 1 collections were found in result set for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Collection fully initialized: [com.anu.springunijpa.entity.User.userCourseSet#12]
+[2021-07-29 08:46:13] - 1 collections initialized for role: com.anu.springunijpa.entity.User.userCourseSet
+[2021-07-29 08:46:13] - Done loading collection
+[2021-07-29 08:46:13] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-07-29 08:46:13] - Completed 200 OK

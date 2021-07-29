@@ -1,0 +1,108 @@
+[2021-07-29 08:43:43] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-07-29 08:43:43] - Creating shared instance of singleton bean 'multipartConfigElement'
+[2021-07-29 08:43:43] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2021-07-29 08:43:43] - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-07-29 08:43:43] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-07-29 08:43:43] - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[2021-07-29 08:43:44] - Code archive: /home/anuththara/.m2/repository/org/springframework/boot/spring-boot/2.5.2/spring-boot-2.5.2.jar
+[2021-07-29 08:43:44] - Code archive: /home/anuththara/.m2/repository/org/springframework/boot/spring-boot/2.5.2/spring-boot-2.5.2.jar
+[2021-07-29 08:43:44] - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[2021-07-29 08:43:44] - Tomcat initialized with port(s): 8080 (http)
+[2021-07-29 08:43:44] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-07-29 08:43:44] - Starting service [Tomcat]
+[2021-07-29 08:43:44] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+[2021-07-29 08:43:44] - Initializing Spring embedded WebApplicationContext
+[2021-07-29 08:43:44] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2021-07-29 08:43:44] - Root WebApplicationContext: initialization completed in 18026 ms
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphQLServletRegistrationBean'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'com.oembedler.moon.graphql.boot.GraphQLWebAutoConfiguration'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphql.servlet-com.oembedler.moon.graphql.boot.GraphQLServletProperties'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphQLHttpServlet'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'invocationInputFactory'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphQLSchemaProvider'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphQLSchema'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'com.oembedler.moon.graphql.boot.GraphQLJavaToolsAutoConfiguration'
+[2021-07-29 08:43:44] - Creating shared instance of singleton bean 'graphQLLocalDate'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'schemaParser'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'courseResolver'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'courseRepository'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'dataSource'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-07-29 08:43:45] - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@78a287ed'
+[2021-07-29 08:43:45] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-07-29 08:43:45] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-07-29 08:43:46] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2021-07-29 08:43:46] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-07-29 08:43:46] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-07-29 08:43:47] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-07-29 08:43:48] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@251a69d7
+
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/anuththara/Documents/hSenid/Practice/springboot/spring-uni-jpa/UserJPA-Springboot/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.anu.springunijpa.entity.Course
+		com.anu.springunijpa.entity.User
+		com.anu.springunijpa.entity.UserCourse
+		com.anu.springunijpa.entity.UserCourseKey]
+	Mapping files names []
+	Properties []
+[2021-07-29 08:43:49] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-07-29 08:43:49] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-07-29 08:43:49] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-07-29 08:43:53] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-29 08:43:53] - HHH000206: hibernate.properties not found
+[2021-07-29 08:43:58] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-07-29 08:43:58] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-07-29 08:43:58] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-07-29 08:43:59] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-29 08:44:00] - Adding type registration boolean -> org.hibernate.type.BooleanType@4b97b3d2
+[2021-07-29 08:44:00] - Adding type registration boolean -> org.hibernate.type.BooleanType@4b97b3d2
+[2021-07-29 08:44:00] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4b97b3d2
+[2021-07-29 08:44:00] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7f97bc14
+[2021-07-29 08:44:00] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3b9ac754
+[2021-07-29 08:44:00] - Adding type registration yes_no -> org.hibernate.type.YesNoType@267f9765
+[2021-07-29 08:44:00] - Adding type registration byte -> org.hibernate.type.ByteType@32a72c4
+[2021-07-29 08:44:00] - Adding type registration byte -> org.hibernate.type.ByteType@32a72c4
+[2021-07-29 08:44:00] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@32a72c4
+[2021-07-29 08:44:00] - Adding type registration character -> org.hibernate.type.CharacterType@7a1a3468
+[2021-07-29 08:44:00] - Adding type registration char -> org.hibernate.type.CharacterType@7a1a3468
+[2021-07-29 08:44:00] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7a1a3468
+[2021-07-29 08:44:00] - Adding type registration short -> org.hibernate.type.ShortType@58dad04a
+[2021-07-29 08:44:00] - Adding type registration short -> org.hibernate.type.ShortType@58dad04a
+[2021-07-29 08:44:00] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@58dad04a
+[2021-07-29 08:44:00] - Adding type registration integer -> org.hibernate.type.IntegerType@467045c4
