@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.time.LocalDate;
 
-
+@Configuration
 public class LocalDateDeserializer extends StdDeserializer<LocalDate> {
     private static final long serialVersionUID = 1L;
 
