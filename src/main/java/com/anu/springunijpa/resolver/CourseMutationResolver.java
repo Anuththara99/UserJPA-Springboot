@@ -36,4 +36,9 @@ public class CourseMutationResolver implements GraphQLMutationResolver {
         course.setCourseLeader(leader);
         return courseRepository.save(course);
     }
+
+    public String deleteCourse(String courseId){
+        courseRepository.deleteById(courseId);
+        return "Successfully Deleted !!" ;
+    }
 }
