@@ -1,2 +1,5 @@
-[2021-07-29 11:53:39] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2021-07-29 11:53:39] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-07-29 11:56:40] - 'f7c15722-b5c3-40e1-8273-da35b6fbe2ea' completing field '/createUser'...
+[2021-07-29 11:56:41] - Execution 'f7c15722-b5c3-40e1-8273-da35b6fbe2ea' completed with '1' errors
+[2021-07-29 11:56:41] - Error executing query (ExceptionWhileDataFetching): Exception while fetching data (/createUser) : Java 8 date/time type `java.time.LocalDate` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: java.util.LinkedHashMap["dOB"])
+[2021-07-29 11:57:06] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-07-29 11:57:06] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
